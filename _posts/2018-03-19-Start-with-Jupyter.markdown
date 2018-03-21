@@ -5,7 +5,7 @@ date:   2018-03-19 03:22:48 +0100
 categories: python
 ---
 
-You want to learn how to use *Jupyter*, the best way to developp in python ? Here is what you can do  
+You want to learn how to use *Jupyter*, the best way to develop in python ? Here is what you can do  
 Tested Configuration:  
 `MacOS:  Sierra 10.12`  
 `Anaconda: 5.1`  
@@ -52,19 +52,23 @@ Now if you come back to the __Files__ tab, you see your new file. I named it _te
 
 # 3. Edit your Notebook
 
-Code VS Markdown: there is a cell type on the rigth. It lets you choose between commenting your code (using Markdown) or writing python code (selecting code).  
+Code VS Markdown: there is a cell type on the right. It lets you choose between commenting your code (using Markdown) or writing python code (selecting code).  
 
 ![screenshot]( https://ibin.co/3vW6mNLaqDLe.png){:class="img-responsive"}
 
 Let's practise with commenting `First line of comment` on top of a python code that returns the string `printed out`  
-How to validate one cell: type __Shift + Enter__  
+How to validate one cell: type __\<Shift\> + \<Enter\>__  
 
 
 ![screenshot]( https://ibin.co/3vW80Ya8aNhE.png){:class="img-responsive"}  
 
 Note: type Esc to exit the edit mode of a cell  
 
-Note: All key shortcuts, simply go to _Help → Keyboard Shortcuts_
+Note: All key shortcuts, simply go to _Help → Keyboard Shortcuts_  
+My favorites:  
+ * Insert Cell: \<Esc\> + \<b\>
+ * Delete Cell: \<Esc\> + \<d\> + \<d\>
+ * Copy & paste Cell: Select a cell + \<Esc\> + \<c\> + \<v\>
 
 
 # 4. Commit your script
