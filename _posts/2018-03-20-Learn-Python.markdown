@@ -19,6 +19,7 @@ It is highly recommended to swith to the Jupyter Notebook, since it enables inte
 
 
 
+
 ## Python objects & Python variables
 
  * Everything in Python is an **object**
@@ -675,6 +676,27 @@ dict1['fav_foods'][2]
 A **function** is a Python object that **performs an action** or / and **return another object**.   
 You can pass **arguments** to it: these arguments are treated like variables.
 
+
+```python
+# This is how to define a function
+def a_fct(arg1):
+    print(arg1)
+
+#and this shorthand
+def the_same_fct(arg1):
+    print(arg1)
+```
+
+
+```python
+a_fct('this is arg1')
+the_same_fct('this is arg1')
+```
+
+    this is arg1
+    this is arg1
+
+
 ## Python built-in functions
 
 Here is a small sample of them:
@@ -766,7 +788,7 @@ sorted([3, 'cats', 'zebras', 5, 'California', 'ants', 'mice'])
 
     TypeError                                 Traceback (most recent call last)
 
-    <ipython-input-100-8ebd0f4060aa> in <module>()
+    <ipython-input-79-8ebd0f4060aa> in <module>()
           1 # Return a bug for mixed type 'str' and 'int' :  you cannot mix those
     ----> 2 sorted([3, 'cats', 'zebras', 5, 'California', 'ants', 'mice'])
 
@@ -859,7 +881,7 @@ repr(set1)
 
 
 
-    "{False, 3, 5, 6, 'dog', 'cat'}"
+    "{False, 3, 5, 6, 'cat', 'dog'}"
 
 
 
@@ -1675,7 +1697,7 @@ int(a_string)
 
     ValueError                                Traceback (most recent call last)
 
-    <ipython-input-151-1d971295ef76> in <module>()
+    <ipython-input-133-1d971295ef76> in <module>()
           1 # will fail because this conversion can't be done
     ----> 2 int(a_string)
 
@@ -1683,7 +1705,134 @@ int(a_string)
     ValueError: invalid literal for int() with base 10: 'string'
 
 
-## Classes: Creating your own objects
+## Classes: Always CamelCase
+
+Definition and Instanciation
+
+
+```python
+# Define a new class called `MyClass`
+class MyClass:
+    """A simple example class"""
+    i = 12345
+
+    def f(self):
+        return 'hello world'
+```
+
+
+```python
+# gets i attribute from `MyClass`
+MyClass.i
+```
+
+
+
+
+    12345
+
+
+
+
+```python
+# gets another attribute from `MyClass`
+MyClass.__doc__
+```
+
+
+
+
+    'A simple example class'
+
+
+
+Now, we will create an __instance__ of a MyClass and assigns this object to the local variable a_variable that has all attributes of its constructor
+
+
+```python
+a_variable = MyClass()
+a_variable.i
+```
+
+
+
+
+    12345
+
+
+
+Many classes like to create objects with instances customized to a specific initial state.   
+Therefore a class may define a special method named __init__(), like this:
+
+
+```python
+class MyClassWithInit:
+     def __init__(self, init_number):
+         self.init_number = init_number
+
+x = MyClassWithInit(3.0)
+x.init_number
+```
+
+
+
+
+    3.0
+
+
+
+Pay attention: if you define a list shared among the class you may end with something like this
+
+
+```python
+class Dog:
+    tricks = []             # Shared
+
+    def add_trick(self, trick):
+        self.tricks.append(trick)
+
+d = Dog()
+e = Dog()
+
+d.add_trick('roll over')
+e.add_trick('play dead')
+
+d.tricks
+```
+
+
+
+
+    ['roll over', 'play dead']
+
+
+
+Solution: pass the tricks list in the init, so that it isn't shared among all Dog Classes
+
+
+```python
+class DogUnique:
+    def __init__(self):
+        self.tricks = []   # unique to each instance
+
+    def add_trick(self, trick):
+        self.tricks.append(trick)
+
+d_unique = DogUnique()
+e_unique = DogUnique()
+
+d_unique.add_trick('roll over')
+e_unique.add_trick('play dead')
+
+d_unique.tricks                
+```
+
+
+
+
+    ['roll over']
+
+
 
 
 ```python
@@ -1726,7 +1875,7 @@ print(d)
 print(type(d))
 ```
 
-    <__main__.Thing object at 0x10c976c88>
+    <__main__.Thing object at 0x10a0d0b38>
     <class '__main__.Thing'>
     {}
     <class '__main__.DictThing'>
@@ -1761,6 +1910,171 @@ print(d.my_property)
 ```
 
     I am a "DictThing"
+
+
+### Remarks on Classes
+
+Data attributes override method attributes with the same name
+Capitalizing method names is good practise
+Prefixing data attribute names with an underscore is good practise
+Warning: Clients may mess up invariants data maintained by the methods, by stamping on their data attributes
+
+__Often, the first argument of a method is called self__. This is nothing more than a convention: the name self has absolutely no special meaning to Python. Note, however, that by not following the convention your code may be less readable to other Python programmers, and it is also conceivable that a class browser program might be written that relies upon such a convention.
+
+
+```python
+# Multiple Inheritance
+class DerivedClassName(dict, object):
+    def __init__(self,name):
+        self.name = name
+```
+
+
+```python
+dir(dict)
+```
+
+
+
+
+    ['__class__',
+     '__contains__',
+     '__delattr__',
+     '__delitem__',
+     '__dir__',
+     '__doc__',
+     '__eq__',
+     '__format__',
+     '__ge__',
+     '__getattribute__',
+     '__getitem__',
+     '__gt__',
+     '__hash__',
+     '__init__',
+     '__init_subclass__',
+     '__iter__',
+     '__le__',
+     '__len__',
+     '__lt__',
+     '__ne__',
+     '__new__',
+     '__reduce__',
+     '__reduce_ex__',
+     '__repr__',
+     '__setattr__',
+     '__setitem__',
+     '__sizeof__',
+     '__str__',
+     '__subclasshook__',
+     'clear',
+     'copy',
+     'fromkeys',
+     'get',
+     'items',
+     'keys',
+     'pop',
+     'popitem',
+     'setdefault',
+     'update',
+     'values']
+
+
+
+
+```python
+dir(DerivedClassName)
+```
+
+
+
+
+    ['__class__',
+     '__contains__',
+     '__delattr__',
+     '__delitem__',
+     '__dict__',
+     '__dir__',
+     '__doc__',
+     '__eq__',
+     '__format__',
+     '__ge__',
+     '__getattribute__',
+     '__getitem__',
+     '__gt__',
+     '__hash__',
+     '__init__',
+     '__init_subclass__',
+     '__iter__',
+     '__le__',
+     '__len__',
+     '__lt__',
+     '__module__',
+     '__ne__',
+     '__new__',
+     '__reduce__',
+     '__reduce_ex__',
+     '__repr__',
+     '__setattr__',
+     '__setitem__',
+     '__sizeof__',
+     '__str__',
+     '__subclasshook__',
+     '__weakref__',
+     'clear',
+     'copy',
+     'fromkeys',
+     'get',
+     'items',
+     'keys',
+     'pop',
+     'popitem',
+     'setdefault',
+     'update',
+     'values']
+
+
+
+## Scope of variables
+
+**nothing = local: ** inside the function only  
+**nonlocal: **        inside the upper function/class  
+**global: **          inside the hole module  
+
+
+```python
+spam = 'nothing'
+def scope_test():
+    def do_local():
+        spam = "local spam"
+
+    def do_nonlocal():
+        nonlocal spam
+        spam = "nonlocal spam"
+
+    def do_global():
+        global spam
+        spam = "global spam"
+
+    spam = "initial spam"
+    do_local()
+    print("After do_local:", spam)
+    do_nonlocal()
+    print("After do_nonlocal:", spam)
+    do_global()
+    print("After do_global:", spam)
+
+print("Spam at the begining:", spam, "\n")
+scope_test()
+print("\nIn global scope:", spam)
+```
+
+    Spam at the begining: nothing
+
+    After do_local: initial spam
+    After do_nonlocal: nonlocal spam
+    After do_global: nonlocal spam
+
+    In global scope: global spam
 
 
 ## Modules
@@ -1822,10 +2136,6 @@ f.close()
 print(f.closed)
 ```
 
-    False
-    True
-
-
 
 ```python
 # using a with automatically closes at the end -> Good Practise !
@@ -1835,13 +2145,6 @@ with open('workingfile', 'r') as f:
 #is the connection closed ?
 f.closed
 ```
-
-
-
-
-    True
-
-
 
 #### Writing
 
@@ -1863,9 +2166,6 @@ with open('workingfile', 'r') as f:
         print(line, end='')
 ```
 
-    This is a test line
-     and a second line
-
 Useful functions:
  *  **f.tell()**   the file object’s current position
  *  **f.seek()**   to change the file object’s position
@@ -1885,13 +2185,6 @@ json.dumps(a_json)
 ```
 
 
-
-
-    '{"one": "1", "two": "2", "three": "3"}'
-
-
-
-
 ```python
 # write your json into the file workingfile
 with open('workingfile', 'w') as f:
@@ -1906,8 +2199,6 @@ with open('workingfile', 'r') as f:
         print(line, end='')
 ```
 
-    {"one": "1", "two": "2", "three": "3"}
-
 
 ```python
 # and retrieve the JSON
@@ -1916,11 +2207,89 @@ with open('workingfile', 'r') as f:
 the_json
 ```
 
+## Errors
+
+#### Handle errors
+
+
+```python
+# Handle an error
+try:
+    3 / 0
+except:
+    print('cannot divide, for any error it may be')
+else:
+    print('divided')
+```
+
+    cannot divide, for any error it may be
 
 
 
-    {'one': '1', 'three': '3', 'two': '2'}
+```python
+try:
+    3 / 1
+except (RuntimeError, TypeError, NameError):
+    print('the error was of kind RuntimeError, TypeError, NameError')
+except (ZeroDivisionError):
+    print('the error was of kind ZeroDivisionError')
+else:
+    print('no errors, that\'s good')
+```
 
+    no errors, that's good
+
+
+
+```python
+try:
+    3 / 0
+except (RuntimeError, TypeError, NameError):
+    print('the error was of kind RuntimeError, TypeError, NameError')
+except (ZeroDivisionError):
+    print('the error was of kind ZeroDivisionError')
+else:
+    print('no errors, that\' good')
+```
+
+    the error was of kind ZeroDivisionError
+
+
+#### Whatever ending result
+
+
+```python
+try:
+    3 / 0
+except:
+    print('the error was raised here')
+else:
+    print('no errors, that\' good')
+finally:
+    print('Always printed!')
+```
+
+    the error was raised here
+    Always printed!
+
+
+#### Volunatry error
+
+
+```python
+raise NameError('HiThere')
+```
+
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    <ipython-input-155-72c183edb298> in <module>()
+    ----> 1 raise NameError('HiThere')
+
+
+    NameError: HiThere
 
 
 ## Good Practise
