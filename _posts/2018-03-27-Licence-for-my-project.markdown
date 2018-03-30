@@ -38,11 +38,18 @@ There are two families:
 # Licences, what do I do
 
 To make it simple, if you contribute to
- * a copyleft project   -> use the same copyleft licence
- * a permissive project -> use any copyleft or permissive licence
+ * a copyleft project   -> use the same copyleft licence (or another compatible copyleft)
+ * a permissive project -> use any copyleft or permissive licence (you choose)
 
 If you create from scratch
  * Choose copyleft or permissive (copyleft will ensure children projects stay as open as yours, permissive allows anything)
+
+# Example
+
+I fork a bootstrap theme, which is MIT licenced. That's permissive. So what licence will I choose ?  
+ * Easy way: use MIT as well  
+ * More complex: use a copyleft licence, like GNU GPLv3.  
+   However, you have to mention which part of your project is inherited from the MIT one, and which part is the newest part covered by GNU GPLv3.
 
 ## Ressource
 
