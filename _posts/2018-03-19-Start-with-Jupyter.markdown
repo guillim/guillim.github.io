@@ -89,7 +89,29 @@ Easy: go to _File_ → _Download as_
 ![screenshot]( https://ibin.co/3vWGfZVwRFmv.png){:class="img-responsive"}  
 
 
+# 5. Change the Root folder
 
+ If you come back to the Files tab, you see every folder. And you can modify what you want, so some mistakes may happen... like deleting the folder "Documents" simply using the Jupyter.      
+ That's why we will change the default Folder ```/``` to a specific folder like this ```/Users/username/the/path/you/want/```
+
+
+1. In a Terminal run:  ```jupyter notebook --generate-config```  
+![screenshot]( https://ibin.co/3we29GHWQdre.png){:class="img-responsive"}  
+
+
+2. This writes a file called __jupyter_notebook_config__ that we need to open with the command  
+```sudo nano /Users/username/.jupyter/jupyter_notebook_config.py```
+
+3. And replace the following line:  
+```#c.NotebookApp.notebook_dir = '' ```  
+by  
+```c.NotebookApp.notebook_dir = '/Users/username/the/path/you/want/'```  
+![exemaple](https://ibin.co/3we8KfJZa4Xn.png){:class="img-responsive"}  
+
+And now it looks like this:
+![empty](https://ibin.co/3we8ZL7Nmvd9.png){:class="img-responsive"}  
+
+Now your safe ! Enjoy
 
 [Anaconda]: https://www.anaconda.com/download/#macos
 [commit]: https://en.wikipedia.org/wiki/Commit_(version_control)
