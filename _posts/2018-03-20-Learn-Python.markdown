@@ -13,6 +13,7 @@ Tested Configuration:
 
 #  Note
 
+[guide]: https://anaconda.org/guillim/learning-python3/notebook
 [comment]: <> https://gist.githubusercontent.com/kenjyco/69eeb503125035f21a9d/raw/learning-python3.ipynb
 The guide we will follow is available as a [Jupyter Notebook][guide]  
 It is highly recommended to swith to the Jupyter Notebook, since it enables interactions with Python and therefore will show your the Result of the code.
