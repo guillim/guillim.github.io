@@ -2317,5 +2317,6 @@ raise NameError('HiThere')
 - https://docs.python.org/3/tutorial/index.html
 - https://docs.python.org/3/tutorial/introduction.html
 - https://daringfireball.net/projects/markdown/syntax
+- https://pyformat.info/
 
 <hr>
