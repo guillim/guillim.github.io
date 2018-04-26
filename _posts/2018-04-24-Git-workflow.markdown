@@ -27,7 +27,7 @@ If you are alone (probably on some side-project) then this workflow may slow you
 
 # Summary  
 
-![global schema](https://imagebin.ca/v/3zhcT2rdUXvP){:class="img-responsive"}  
+![global schema](https://ibin.co/3zhcT2rdUXvP.png){:class="img-responsive"}  
 
 
 
@@ -39,6 +39,8 @@ The central repo, usually refered to as _origin_, holds two main branches:
 
 When the code in the origin/develop branch reaches a stable point and is ready to be released,  
 we merge it into origin/master with a **release number**
+
+![global schema](https://ibin.co/3ziiRg0hRhxp.png){:class="img-responsive"}  
 
 
 # Explanations: Temporary branches
@@ -144,7 +146,7 @@ _The --no-ff flag causes the merge to always create a new commit object, even if
 
 
 It is important when you have to revert a whole feature (= a group of commits). It is a true headache without the --no-ff! see this illustration:  
-![noff]( https://imagebin.ca/v/3zi9C9NXkwd8){:class="img-responsive"}   
+![noff]( https://ibin.co/w800/3ziga9jDc3JQ.png){:class="img-responsive"}   
 
 
 
@@ -154,5 +156,5 @@ It is important when you have to revert a whole feature (= a group of commits). 
 * [Atlassian Guide book][atlassian]
 * [nvie blogpost][nvie]  
 
-[nvie]: http://nvie.com/about/
+[nvie]: http://nvie.com/posts/a-successful-git-branching-model/
 [atlassian]: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
