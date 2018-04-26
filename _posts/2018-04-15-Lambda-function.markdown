@@ -5,7 +5,7 @@ date:   2018-04-15 03:22:48 +0100
 categories: python
 ---
 
-You heard about **Lambda function** in python, but you don't know what it is, and when tu use them ? Here is a short explanation.  
+You heard about **Lambda function** in python, but you don't know what it is, and when to use them ? Here is a short explanation.  
 
 ##  What is a Lambda function
 
