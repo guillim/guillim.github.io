@@ -30,9 +30,8 @@ If you are alone (probably on some side-project) then this workflow may slow you
 ![global schema](https://imagebin.ca/v/3zhcT2rdUXvP){:class="img-responsive"}  
 
 
-# Explanations  
 
-## master VS develop
+# Explanations: master VS develop
 The central repo, usually refered to as _origin_, holds two main branches:  
 
 *  **master** (production-ready)  
@@ -42,14 +41,14 @@ When the code in the origin/develop branch reaches a stable point and is ready t
 we merge it into origin/master with a **release number**
 
 
-## temporary branches
+# Explanations: Temporary branches
 
-*  Release  
-*  Hotfix  
-*  Feature  
+1.  Release  
+2.  Hotfix  
+3.  Feature  
 
 
-#### Release branches
+## 1. Release branches
 
 
 ###### WHY
@@ -59,7 +58,7 @@ minor bug fixes & preparing meta-data for a release (version number, build dates
 release-\*
 ###### REPOS
 origin repo  
-######CODE
+###### CODE
 * create branch:  
 ```bash
 git checkout -b release-1.2 develop
@@ -73,35 +72,34 @@ Here, _bump-version.sh_ is a fictional script that changes some files to reflect
 git commit -a -m "Bumped version number to 1.2"
 ```
 
-* merge with origin/master:  
+* merge with origin/master
 ```bash
 git checkout master
 git merge --no-ff release-1.2
 git tag -a 1.2  
 ```  
-AND merge with origin/develop
+* merge with origin/develop as well
 ```bash  
 git checkout develop
 Switched to branch 'develop'
 $ git merge --no-ff release-1.2
 ```  
 
-Note about hot fixes:  
-This new branch may exist there for a while. During that time, bug fixes may be applied in this branch (rather than on the develop branch).  
-But adding large new features here is strictly prohibited (They must be merged into develop).   
+Possible action on release branches:  
+This new branch may exist there for a while. During that time, **bug fixes may be applied** in this branch (rather than on the develop branch).  
+But adding **large new features here is strictly prohibited** (They must be merged into develop).   
 
 
+## 2. Hotfix branches
 
-
-#### Hotfix branches
-
-
-WHY: fix immediatly a critical bug in a production version
-NAMES : hotfix-\*   
-REPOS : origin repo
-CODE:
-
-* create branch:
+###### WHY
+Fix immediatly a critical bug in a production version
+###### NAMES
+hotfix-\*
+###### REPOS
+origin repo  
+###### CODE
+* create branch  
 ```bash
 git checkout -b hotfix-1.2.1 master
 ./bump-version.sh 1.2.1
@@ -111,26 +109,25 @@ git commit -a -m "Bumped version number to 1.2.1"
 * commit your fix and merge your code and delete the branch
 ```bash
 git commit -m "Fixed severe production problem"
-
 git checkout master
 git merge --no-ff hotfix-1.2.1
 git tag -a 1.2.1
-
 git checkout develop
 git merge --no-ff hotfix-1.2.1
 ```
 
 One exception: when a release branch currently exists, the hotfix changes need to be merged into that release branch, instead of develop.
 
-#### Feature branches
+## 3. Feature branches
 
-
-
-WHY: develop new features
-NAMES : anything except master, develop, release-\*, or hotfix-\*   
-REPOS : developer repos  
-CODE:
-* create branch:
+###### WHY
+Develop new features
+###### NAMES
+anything except master, develop, release-\*, or hotfix-\*
+###### REPOS
+the developer repo  
+###### CODE
+* create branch
 ```bash
 git checkout -b myfeature develop
 ```
@@ -154,10 +151,9 @@ see this illustration:
 Why is this important: Reverting a whole feature (i.e. a group of commits), is a true headache without the --no-ff !
 
 
-
-
+# Reference:
 * [Atlassian Guide book][atlassian]
-
+* [nvie blogpost][nvie]  
 
 [nvie]: http://nvie.com/about/
 [atlassian]: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
