@@ -82,7 +82,7 @@ git tag -a 1.2
 ```bash  
 git checkout develop
 Switched to branch 'develop'
-$ git merge --no-ff release-1.2
+git merge --no-ff release-1.2
 ```  
 
 Possible action on release branches:  
@@ -106,7 +106,7 @@ git checkout -b hotfix-1.2.1 master
 git commit -a -m "Bumped version number to 1.2.1"
 ```
 
-* commit your fix and merge your code and delete the branch
+* commit your fix, merge, and delete the hotfix branch
 ```bash
 git commit -m "Fixed severe production problem"
 git checkout master
@@ -140,15 +140,14 @@ git push origin develop
 ```
 
 Note about --no-ff:  
-_The --no-ff flag causes the merge to always create a new commit object, even if the merge could be performed with a fast-forward. This avoids losing information about the historical existence of a feature branch and groups together all commits that together added the feature
-Other reference_  
-[nvie][nvie]  
+_The --no-ff flag causes the merge to always create a new commit object, even if the merge could be performed with a fast-forward. This avoids losing information about the historical existence of a feature branch and groups together all commits that together added the feature_
 
-see this illustration:  
+
+It is important when you have to revert a whole feature (= a group of commits). It is a true headache without the --no-ff! see this illustration:  
 ![noff]( https://imagebin.ca/v/3zi9C9NXkwd8){:class="img-responsive"}   
 
 
-Why is this important: Reverting a whole feature (i.e. a group of commits), is a true headache without the --no-ff !
+
 
 
 # Reference:
