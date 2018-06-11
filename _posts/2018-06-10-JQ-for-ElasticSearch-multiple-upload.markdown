@@ -75,9 +75,9 @@ You have a JSON object like this:
 And you want to upload every **"features"** in your ElasticSearch database. However, the recommended format for bulk insert is like this:  
 ``` es
 POST _bulk
-{ "index" : { "_index" : "featureIndex", "_type" : "_doc"} }
+{ "index" : { "_index" : "featureindex", "_type" : "_doc"} }
 {"type":"Feature","properties":{"code":"91016"},"geometry":{"type":"Polygon","coordinates":[[[1.95923,48.30858],[1.96002,48.30808],[1.95923,48.30858]]]}}
-{ "index" : { "_index" : "featureIndex", "_type" : "_doc"} }
+{ "index" : { "_index" : "featureindex", "_type" : "_doc"} }
 {"type":"Feature","properties":{"code":"91021"},"geometry":{"type":"Polygon","coordinates":[[[2.23497,48.58895],[2.23514,48.589],[2.23497,48.58895]]]}}
 ```
 
@@ -96,7 +96,7 @@ cd ~/Downloads #in this example, the JSON is called "communes.json" and stored i
 ```  
 And Run this command:  
 ``` bash
-jq -c '.features[] | { index: { _index: "featureIndex", _type: "_doc" } }, .' communes.json > communes2.json
+jq -c '.features[] | { index: { _index: "featureindex", _type: "_doc" } }, .' communes.json > communes2.json
 ```
 
 
