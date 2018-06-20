@@ -70,7 +70,11 @@ mlr --icsv  --ojson head -n 2 sample.csv
 ```  
 Note: use `--ojson --jvstack --jlistwrap` to have an array of json
 
-
+``` bash
+#get the number of rows:
+mlr --csv stats1 -a count -f name sample.csv
+```  
+Note: `stats1` can help you do much more statistics if necessary
 
 ``` bash
 #filter:
