@@ -1,0 +1,8 @@
+day,month,year,date,week,dayofweek,holiday_bank,name
+1,1,1980,1980-01-01T00:00:00.000Z,1,2,false,julius
+1,1,1981,1981-01-01T00:00:00.000Z,1,4,false,mark
+1,1,1982,1982-01-01T00:00:00.000Z,53,5,false,anemone
+1,1,1983,1983-01-01T00:00:00.000Z,52,6,false,charles
+1,1,1984,1984-01-01T00:00:00.000Z,52,7,false,guillaume
+1,1,1985,1985-01-01T00:00:00.000Z,1,2,false,jim
+1,1,1986,1986-01-01T00:00:00.000Z,1,3,false,liu
