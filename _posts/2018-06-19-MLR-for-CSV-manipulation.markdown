@@ -118,6 +118,25 @@ We now have
 
 
 
+## Some command I often use
+``` bash
+# sort
+mlr --csv sort -f colomn1 sample.csv > sampleSorted.csv
+
+# Check how many unique values for one specific column
+mlr --csv count-distinct -f colomn1 -n sample.csv
+
+#same thing (Check how many unique values) but you don't know the name of the first column
+mlr count-distinct -f 1 -n sample.csv
+
+#Remove duplicates
+mlr --csv uniq -c -g column1 sample.csv > sampleNoDuplicates.csv
+#remove -c if you don't want the additional column 'count' that tells you how many rows where grouped by for this unique row
+
+```
+
+
+
 
 [miller]: https://johnkerl.org/miller/doc/
 [jqComparison]:https://www.quora.com/Is-there-a-tool-like-jq-for-CSV-files
