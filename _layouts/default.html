@@ -24,6 +24,29 @@
     <section class="main-content">
       {{ content }}
 
+
+      {% if page.comments %}
+      <div id="disqus_thread"></div>
+      <script>
+      var disqus_config = function () {
+      this.page.url = {{ page.url }};
+      this.page.identifier = {{ page.id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+
+      (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-guillim-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      {% endif %}
+
+      
+
       <footer class="site-footer">
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">Blog</a> maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
       </footer>
@@ -41,28 +64,6 @@
       </script>
     {% endif %}
 
-
-
-
-    {% if page.comments %}
-    <div id="disqus_thread"></div>
-    <script>
-    var disqus_config = function () {
-    this.page.url = {{ page.url }};
-    this.page.identifier = {{ page.id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-
-    (function() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://https-guillim-github-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-    {% endif %}
 
 
 
