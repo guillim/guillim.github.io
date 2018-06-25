@@ -71,7 +71,11 @@ mlr --icsv  --ojson head -n 2 sample.csv
 ```  
 Note: use `--ojson --jvstack --jlistwrap` to have an array of json
 
-
+``` bash
+#get the number of rows:
+mlr --csv stats1 -a count -f name sample.csv
+```  
+Note: `stats1` can help you do much more statistics if necessary
 
 ``` bash
 #filter:
@@ -112,6 +116,25 @@ mlr --icsv  --opprint  put '$nextyear = $year + 1; $wtfcolumn = $day . "_" . $ye
 
 We now have
 ![global schema](https://ibin.co/45w1j87zG8MM.png){:class="img-responsive"}  
+
+
+
+## Some command I often use
+``` bash
+# sort
+mlr --csv sort -f colomn1 sample.csv > sampleSorted.csv
+
+# Check how many unique values for one specific column
+mlr --csv count-distinct -f colomn1 -n sample.csv
+
+#same thing (Check how many unique values) but you don't know the name of the first column
+mlr count-distinct -f 1 -n sample.csv
+
+#Remove duplicates
+mlr --csv uniq -c -g column1 sample.csv > sampleNoDuplicates.csv
+#remove -c if you don't want the additional column 'count' that tells you how many rows where grouped by for this unique row
+
+```
 
 
 
