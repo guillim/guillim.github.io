@@ -3,6 +3,7 @@ layout: default
 title:  "Terminal docker autocomplete"
 date:   2018-02-19 03:22:48 +0100
 categories: terminal
+comments: true
 ---
 
 You want to get **docker** autocomplete in your **terminal**  ? Here is what you can do  

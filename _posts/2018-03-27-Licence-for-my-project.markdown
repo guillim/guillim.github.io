@@ -3,6 +3,7 @@ layout: default
 title:  "Licence for my project"
 date:   2018-03-27 03:22:48 +0100
 categories: licence
+comments: true
 ---
 
 You have an open-source project, and would like to publish it on github. You read everywhere **MIT licence** on github, but you don't know if it suits your project ? Here is a short summary of what can be done for open source projects  

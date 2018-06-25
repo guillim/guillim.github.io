@@ -3,6 +3,7 @@ layout: default
 title:  "gem from everywhere"
 date:   2018-02-11 03:22:48 +0100
 categories: gem
+comments: true
 ---
 
 You want to make the *gem* command available from any folder on your MacOS ? Here is what you can do  

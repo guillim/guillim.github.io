@@ -3,6 +3,7 @@ layout: default
 title:  "npm CLI package creation"
 date:   2018-05-01 03:22:48 +0100
 categories: npm
+comments: true
 ---
 
 Feeling inspired to create a NodeJS command-line script to solve a specific issue? Do you want to ship your command-line as an installable package?

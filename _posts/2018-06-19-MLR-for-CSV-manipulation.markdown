@@ -1,8 +1,9 @@
 ---
 layout: default
 title:  "MLR for CSV manipulation"
-date:   2018-06-10 03:22:48 +0100
+date:   2018-06-19 03:22:48 +0100
 categories: terminal
+comments: true
 ---
 
 Your **CSV** is too big to be opened with Excel, or you need to manipulate your CSV in command line ?  

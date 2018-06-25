@@ -3,6 +3,7 @@ layout: default
 title:  "Learn Python"
 date:   2018-03-20 03:22:48 +0100
 categories: python
+comments: true
 ---
 
 You want to learn **Python 3** ? Here is what you can do  

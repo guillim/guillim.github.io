@@ -3,6 +3,7 @@ layout: default
 title:  "Set up Github Pages with your own domain, and SSL"
 date:   2018-02-14 03:22:48 +0100
 categories: github
+comments: true
 ---
 
 You want to set up **your own domain** on github pages using **SSL** ? Here is what you can do  

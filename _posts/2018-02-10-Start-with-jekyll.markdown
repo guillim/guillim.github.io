@@ -3,6 +3,7 @@ layout: default
 title:  "Start with Jekyll"
 date:   2018-02-10 03:22:48 +0100
 categories: jekyll
+comments: true
 ---
 
 You want to get started with Jekyll  on MacOS ? Here is what you can do  

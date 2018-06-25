@@ -3,6 +3,7 @@ layout: default
 title:  "Terminal colors and nice layout"
 date:   2018-02-12 03:22:48 +0100
 categories: terminal
+comments: true
 ---
 
 You want to make your MacOS *terminal* colorful and good looking ? Here is what you can do  
@@ -82,6 +83,25 @@ First you need to install coreutils by typing
 `brew install coreutils`  
 Then type `micro ~/.bash_profile`   
 And finally write this at the end of the file `alias getsize='du -hs * | gsort -h'`  
+
+
+# 6. Increase search history
+
+Your terminal **logs every command line you type**. To see your history, type in your terminal: `history`  
+A very useful keyboard shortcut in a terminal is **Ctrl + R**: It will open a reverse search history. For commands you don't use often, this is a quick way to retrieve it. However, by default it is limited to 500 entries only (type ` echo $HISTSIZE` to see it)
+
+So to increase this, in your terminal type:
+
+``` bash
+sudo nano ~/.bash_profile
+```
+
+And add at the end of the file
+``` bash
+HISTFILESIZE=1000000000
+HISTSIZE=1000000
+```
+
 
 
 [micro]: https://github.com/zyedidia/micro

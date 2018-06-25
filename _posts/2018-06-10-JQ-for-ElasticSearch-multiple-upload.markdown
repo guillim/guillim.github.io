@@ -3,6 +3,7 @@ layout: default
 title:  "JQ for ElasticSearch multiple upload"
 date:   2018-06-10 03:22:48 +0100
 categories: terminal
+comments: true
 ---
 
 You want to upload many documents in your **ElasticSearch** database, using **_bulk**, but you need to format your input to the accepted format ? Here is what you can do  

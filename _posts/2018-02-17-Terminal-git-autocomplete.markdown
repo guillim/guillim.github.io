@@ -3,6 +3,7 @@ layout: default
 title:  "Terminal git autocomplete"
 date:   2018-02-17 03:22:48 +0100
 categories: terminal
+comments: true
 ---
 
 You want to get **git** autocomplete in your **terminal**  ? Here is what you can do  

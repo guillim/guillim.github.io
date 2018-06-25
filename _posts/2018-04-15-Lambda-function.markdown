@@ -3,6 +3,7 @@ layout: default
 title:  "Lambda function in python"
 date:   2018-04-15 03:22:48 +0100
 categories: python
+comments: true
 ---
 
 You heard about **Lambda function** in python, but you don't know what it is, and when to use them ? Here is a short explanation.  

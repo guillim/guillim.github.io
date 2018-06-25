@@ -3,6 +3,7 @@ layout: default
 title:  "Start with Jupyter"
 date:   2018-03-19 03:22:48 +0100
 categories: python
+comments: true
 ---
 
 You want to learn how to use *Jupyter*, the best way to develop in python ? Here is what you can do  

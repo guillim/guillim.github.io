@@ -3,6 +3,7 @@ layout: default
 title:  "Git workflow, made simple"
 date:   2018-04-24 03:22:48 +0100
 categories: git
+comments: true
 ---
 
 You already use git, and you heard about the **git workflow**, but you never used it before ? Here is a short explanation. You can read a more complete explanation [here][nvie]
