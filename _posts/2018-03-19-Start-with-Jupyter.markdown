@@ -90,7 +90,7 @@ Easy: go to _File_ → _Download as_
 ![screenshot]( https://ibin.co/3vWGfZVwRFmv.png){:class="img-responsive"}  
 
 
-# 5. Change the Root folder
+# 6. Change the Root folder
 
  If you come back to the Files tab, you see every folder. And you can modify what you want, so some mistakes may happen... like deleting the folder "Documents" simply using the Jupyter.      
  That's why we will change the default Folder ```/``` to a specific folder like this ```/Users/username/the/path/you/want/```
@@ -113,6 +113,13 @@ And now it looks like this:
 ![empty](https://ibin.co/3we8ZL7Nmvd9.png){:class="img-responsive"}  
 
 Now your safe ! Enjoy
+
+# 7. Quick notes
+
+* If you want to use a Bash command into the notebook use ```!```. So for instance to change directory:
+ ```cd ..```
+
+
 
 [Anaconda]: https://www.anaconda.com/download/#macos
 [commit]: https://en.wikipedia.org/wiki/Commit_(version_control)
