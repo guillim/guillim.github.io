@@ -117,7 +117,7 @@ Now your safe ! Enjoy
 # 7. Quick notes
 
 * If you want to use a Bash command into the notebook use ```!```. So for instance to change directory:
- ```cd ..```
+ ```!cd ..``` or  ```!ls```
 
 
 
