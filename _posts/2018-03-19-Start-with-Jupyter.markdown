@@ -118,7 +118,7 @@ Now your safe ! Enjoy
 
 * If you want to use a Bash command into the notebook use ```!```. So for instance to change directory:
  ```!cd ..``` or  ```!ls```
-* If you want to get help from Jupyter, use ```?```. For instante, to get help on print:
+* If you want to get help from Jupyter, use ```?```. For instance, to get help on pprint:
 ```?pprint```
 
 
