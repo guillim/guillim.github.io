@@ -38,5 +38,15 @@ So a good example of a use of a Lambda function is inside _map_ definitions:
       numbers = [1, 2, 3]  
       squared_numbers = list(map(lambda x: x**2, numbers))  
 
+## Tips
+
+You can define your Lambda function before, and it can takes parameters:
+
+      def lambdaFunction(a, b):
+          return a + b
+      
+      otherParameter = 3
+      
+      squared_numbers = list(map(lambda x: lambdaFunction(x,otherParameter), numbers))  
 
 [dan]: https://dbader.org/blog/python-lambda-functions
