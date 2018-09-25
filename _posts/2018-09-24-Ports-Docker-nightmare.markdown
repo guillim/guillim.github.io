@@ -70,10 +70,10 @@ We look at the container that will be built. Here we define the port on which it
 
 ```
 ports:  
-    - 8081:3000  
+    - 8081:8000  
 ```  
 
-The main part ! Here you tell your container to bind the IP 8081 to the IP 3000 inside it. Without this, your app is running perfectly inside the container but no one can see it. Because it isn't _exposed_ to the rest of the network, containers...
+The main part ! Here you tell your container to bind the IP 8081 to the IP 8000 inside it. Without this, your app is running perfectly inside the container but no one can see it. Because it isn't _exposed_ to the rest of the network, containers...
 
 Tip: when you want to check inside the container when it isn't exposed yet to the network, here is a useful command:
 
