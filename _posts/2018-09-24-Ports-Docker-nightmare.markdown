@@ -40,7 +40,7 @@ _Note: It is a simplyfied version of [this repo][repo]_
 I simply encaplusate the app in a Docker.  
 
 What is looks like now:  
-![screenshot](https://ibin.co/4Gq65T1kJcMp.png){:class="img-responsive"}  
+![screenshot](https://ibin.co/4GvI3khqhbLk.png){:class="img-responsive"}  
 
 And it works ! But there has been a bit of trouble on the way ! Ports can be defined at many places and it isn't clear which one is which.
 
