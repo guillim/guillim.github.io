@@ -78,7 +78,7 @@ The main part ! Here you tell your container to bind the IP 8081 to the IP 8000 
 Tip: when you want to check inside the container when it isn't exposed yet to the network, here is a useful command:
 
 ```bash
-docker exec -it 86168b927131 bash -c 'curl http://localhost:8081'
+docker exec -it 86168b927131 bash -c 'curl http://localhost:8000'
 ```
 
 # Ressources
