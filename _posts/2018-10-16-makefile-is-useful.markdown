@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Makefile is useful"
-date:   2018-09-24 19:22:48 +0100
+date:   2018-10-16 19:22:48 +0100
 categories: docker
 comments: true
 ---
