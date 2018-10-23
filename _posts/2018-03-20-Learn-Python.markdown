@@ -2218,8 +2218,8 @@ the_json
 # Handle an error
 try:
     3 / 0
-except:
-    print('cannot divide, for any error it may be')
+except Exception as e:
+    print('cannot divide, for any error it may be',e)
 else:
     print('divided')
 ```
@@ -2263,7 +2263,7 @@ else:
 ```python
 try:
     3 / 0
-except:
+except Exception as e:
     print('the error was raised here')
 else:
     print('no errors, that\' good')
