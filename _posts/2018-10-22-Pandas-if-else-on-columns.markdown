@@ -62,6 +62,6 @@ Because Pandas is a vector library, the column computation is 100 times faster !
 
 Original answer from  [stackoverflow]([https://stackoverflow.com/questions/19913659/pandas-conditional-creation-of-a-series-dataframe-column])
 
-Create a [dataframe]([https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html])
+Create a [dataframe](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)
 
 Dig into [Pandas]([https://pandas.pydata.org/pandas-docs/stable/cookbook.html])
