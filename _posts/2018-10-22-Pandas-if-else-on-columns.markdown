@@ -56,7 +56,13 @@ choices = ['high','low','null']
 df['column_2'] = np.select(conditions, choices, default='null')
 ```
 
-Because Pandas is a vector library, the column computation is 100 times faster !
+This is 100 times faster !
+
+
+### Why
+It's musch faster form 2 reasons:
+* Pandas is a vector library, so columns processing is way more optimised than "row by row"
+* Numpy is designed for large matrices and its mathematical functions are very optimised
 
 # Ressources
 
