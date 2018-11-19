@@ -30,7 +30,7 @@ And when you go to [http://localhost:8000/status][http://localhost:8000/status]
 The answer is "connected"
 
 What is looks like:  
-![screenshot](https://ibin.co/4Gq2OIbmT3jR.png){:class="img-responsive"}  
+![screenshot](https://ibin.co/4Gq2OIbmT3jR.png)
 
 
 _Note: It is a simplyfied version of [this repo][repo]_  
@@ -40,9 +40,11 @@ _Note: It is a simplyfied version of [this repo][repo]_
 I simply encaplusate the app in a Docker.  
 
 What is looks like now:  
-![screenshot](https://ibin.co/4Gq65T1kJcMp.png){:class="img-responsive"}  
+![screenshot](https://ibin.co/4GvI3khqhbLk.png)
 
-And it works ! But there has been a bit of trouble on the way ! Ports can be defined at many places and it isn't clear which one is which.
+And it works ! Easy to check: [http://localhost:8081/status][http://localhost:8081/status].  
+
+But there has been a bit of trouble on the way ! Ports can be defined at many places and it isn't clear which one is which.
 
 _Note: Makefile is simply to avoid to type in the terminal every time the docker componse commands_
 
@@ -68,15 +70,15 @@ We look at the container that will be built. Here we define the port on which it
 
 ```
 ports:  
-    - 8081:3000  
+    - 8081:8000  
 ```  
 
-The main part ! Here you tell your container to bind the IP 8081 to the IP 3000 inside it. Without this, your app is running perfectly inside the container but no one can see it. Because it isn't _exposed_ to the rest of the network, containers...
+The main part ! Here you tell your container to bind the IP 8081 to the IP 8000 inside it. Without this, your app is running perfectly inside the container but no one can see it. Because it isn't _exposed_ to the rest of the network, containers...
 
 Tip: when you want to check inside the container when it isn't exposed yet to the network, here is a useful command:
 
 ```bash
-docker exec -it 86168b927131 bash -c 'curl http://localhost:8081'
+docker exec -it 86168b927131 bash -c 'curl http://localhost:8000'
 ```
 
 # Ressources
