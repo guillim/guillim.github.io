@@ -58,3 +58,21 @@ I recommend the official doc, and also some videos like this [Youtube Tutorial][
 [gem]:   https://github.com/guillim/2018/02/12/gem-from-everywhere.html
 [url]: http://127.0.0.1:4000/
 [youtube]: https://www.youtube.com/watch?v=iWowJBRMtpc
+[here]: https://stackoverflow.com/questions/9854225/bundler-could-not-find-compatible-versions-for-gem-bundler
+
+### TroubleShooting
+If you see something like:
+```
+Bundler could not find compatible versions for gem "bundler":
+  In Gemfile:
+    bundler (~> 1.12)
+
+  Current Bundler version:
+    bundler (2.0.1)
+This Gemfile requires a different version of Bundler.
+Perhaps you need to update Bundler by running `gem install bundler`?
+```
+It is probably because you have installed `bundler` globally as well as locally. 
+
+Solution: try to remove one of them by typing `gem uninstall bundler` and try again. More info [here][here]
+
