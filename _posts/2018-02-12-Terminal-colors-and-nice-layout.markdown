@@ -107,10 +107,16 @@ HISTSIZE=1000000
 ### this is not terminal related - more a MacOS tip
 
 MacOS comes with a preview tool called "Quicklook" but it sucks for CSV files.  
-I recommend [this plugin][plugin] to fullfill this need. The instructions [here][csv] are very easy.
+I recommend [this plugin][plugin] to fullfill this need. The instructions [here][csv] are very easy.  
+
+
+Other plugins (for JSON...) are available [here][link]  
+
+
 
 [micro]: https://github.com/zyedidia/micro
 [shortcuts]: https://github.com/zyedidia/micro/blob/master/runtime/help/keybindings.md
 [gist]: https://gist.githubusercontent.com/guillim/1a000d46c178e22fa91256ab87570610/raw/febad47295b043b747c81a8b365a018f882b16f1/.bash_prompt
 [plugin]:https://github.com/p2/quicklook-csv/releases/download/1.3/QuickLookCSV-1.3.dmg
 [csv]:https://github.com/p2/quicklook-csv
+[link]:http://www.quicklookplugins.com/
