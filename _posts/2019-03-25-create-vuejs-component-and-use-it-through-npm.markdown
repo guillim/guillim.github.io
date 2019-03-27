@@ -120,7 +120,7 @@ npm run serve
 ```
 As you see, npm will get into **package.json** to know what to do with `serve`. In our case, this will trigger `vue-cli-service serve`  
 ![result4](/assets/img/createvuejscomponent/4.png)   
-Now go to your browser and reach the adress mentionned above ` http://localhost:8080/`
+Now go to your browser and reach the adress mentionned above `http://localhost:8080/`  
 You should see this:
 ![result5](/assets/img/createvuejscomponent/5.png)   
 This is our development environment.  
