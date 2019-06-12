@@ -161,6 +161,8 @@ DATABASES = {
     }
 }
 ```
+
+To know more about the database: [docker & postgres](https://github.com/docker-library/docs/blob/master/postgres/README.md)
 # 7. Run
 
 Simply run your docker project using
