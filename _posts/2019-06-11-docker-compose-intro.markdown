@@ -125,7 +125,11 @@ Finally, the docker-compose.yml file describes which **ports** these services ex
 * service `web` mounts the folder `/docker_folder` to the image folder `/code` (ex: modify the code on the fly)
 * service `web` mounts the ports 8000 [container] to 8000 [image] (simple)
 
-
+Note: we don't have any access to the database, exept through the docker network. It means only the service `web` can access the database, because this docker network is restricted to `db` and `web` (type `docker network inspect testdjango_default`). Even you, if you want to use a GUI in order to manipulate the Postgres data, you will need to add a line in the `db` configuration:   
+```    
+    expose:
+      - 5432
+```
 
 # 5. Create a Django project
 
@@ -195,6 +199,30 @@ Everyone could use .yaml but some Windows developer are afraid of using more tha
 #### file ownership
 After runnig `sudo docker-compose run web django-admin startproject composeexample .` several files were created. Running `ls -l` will show who is owning the files. You may need to change their ownership back to you (espcially Linux users) using `sudo chown -R $USER:$USER .`
 
+#### Other docker-compose.yaml proposition
+This can be interesting for two reasons:
+```yaml
+version: '3'
+
+services:
+  db:
+    image: postgres
+    environment:
+      PGDATA: /var/lib/postgresql/data/django_test_pgdata
+      POSTGRES_USER: yourusername
+      POSTGRES_PASSWORD: yourpassword
+      POSTGRES_DB: test
+    volumes:
+      - /usr/local/var/postgres/data/django_test_pgdata:/var/lib/postgresql/data/django_test_pgdata
+    ports:
+      - "8002:5432"
+
+  web:
+    [SAME CONFIG]
+```
+First you may have port `5432` already in use on another Postgres container, or because you already run postgres on your laptop.
+
+Second,
 
 # Ressources:
 
