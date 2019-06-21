@@ -222,7 +222,15 @@ services:
 ```
 First you may have port `5432` already in use on another Postgres container, or because you already run postgres on your laptop.
 
-Second,
+Second, you have control on the data. instead of staying inside your postgres container (and beiing deleted when the container stops) you can have persistent data.
+
+#### Run only one docker
+
+If you want to launch only the database for instance, you can write down:  
+`docker-compose run --service-ports postgres`
+
+With `--service-ports` meaning you attach the docker to the host network (usually what you want when you don't launch docker together)
+
 
 # Ressources:
 
