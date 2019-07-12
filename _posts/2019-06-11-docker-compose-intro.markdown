@@ -233,7 +233,7 @@ With `--service-ports` meaning you attach the docker to the host network (usuall
 
 #### if you have Volumes  
  
-Let's say you have decided to inculde the volume option, like so (probably to cache your node_module folder, avoiding to re-download it every time):
+Let's say you have decided to inculde the volume option, like so (probably to cache your node_modules folder):
 ```yaml
 version: '3'
 
