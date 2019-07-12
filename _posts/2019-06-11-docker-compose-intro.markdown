@@ -231,6 +231,24 @@ If you want to launch only the database for instance, you can write down:
 
 With `--service-ports` meaning you attach the docker to the host network (usually what you want when you don't launch docker together)
 
+#### if you have Volumes  
+ 
+Let's say you have decided to inculde the volume option, like so (probably to cache your node_module folder, avoiding to re-download it every time):
+```yaml
+version: '3'
+
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000    
+    volumes:
+      - node_modules:/code/node_modules
+    ports:
+      - "8000:8000"
+```
+      
+Then, if you need to "clean the cache" (because you want to reinstall the dependancies for instance), use this command: `docker-compose down --volumes`
+
 
 # Ressources:
 
