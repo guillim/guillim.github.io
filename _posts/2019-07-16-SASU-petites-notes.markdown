@@ -37,17 +37,14 @@ Sans comparaison, le micro-entrepreuneur est le grand gagnat. Ensuite vient l'EI
 
 ## Fiscalité
 
-- dividendes  
-N'existe pas pour les micro-entrepreuneurs. Et pas du tout interessant pour les EI. Clairement c'est la SASU qui l'emporte haut la main concernant les dividendes
-
 Pour résumer un bilan simple:  
 ```js
 + CA  
-- cotisation sociales (75%)  
+- cotisation sociales (75%) | parfois appelés charges sociales
 - rémuneration, selon ce que je veux me payer comme salaire chaque mois  
-- frais eventuels  
+- frais eventuels | parfois appelés charges d'exploitation  
 
-=> RESULTAT  
+=> RESULTAT  (si positif, on parle de benefice)
 
 - impot societé (15%, 28%, 33% ??)
 
@@ -58,12 +55,44 @@ Pour résumer un bilan simple:
 = 0 euros (ou plus pour laisser de la tréso dans la boîte)
 ```
 
-- Cotisation sociales  
-Les plus importantes cotisations sont pour la SASU: 75%. c'est le prix a payer pour avoir une couverture sociale proche de celle des "employés classiques"  
-Note: Elles ne sont que de 40% pour les EI
+#### Cotisation sociales  
+Les plus importantes cotisations sont pour la SASU: 75%. c'est le prix a payer pour avoir une couverture sociale proche de celle des "employés classiques" (Elles ne sont que de 40% pour les EI)  
+
+_En SASU, vous avez le statut social d’assimilé salarié. A ce titre, vous serez affilié au **régime général** de la sécurité sociale et vous cotiserez à la retraite des cadres_
+
+Si pas de rémunération, pas de cotisation: et donc pas de protection sociale. Il est donc important de se rémunérer un minimum (1500€ brut par trimestre pour la validation de ses **trimestres de retraite**).
+
+
+#### Rémunération
+La rémunération est **libre**: on choisi le montant. (1000€ sur un mois, puis 2000€ le mois suivant, no pb). _"Cela ne pose pas de problème dans la mesure où il n’y a aucun lien de subordination entre vous et votre société, donc pas de contrat de travail."_   
+
+Le taux de charges sociales au régime général est d’en moyenne **75%** du salaire net. _Ex: pour avoir 1000€ de salaire, la SASU devra payer 750€ de charges sociales => super brut de 1750 €_
+
+Fiscalement, la rémunération est imposée à **l’impôt sur le revenu** après **abattement de 10%**: _Ex : Je me verse 10 000€ de rémunération, 9 000€ subiront le barème progressif de l’impôt sur le revenu_
+
+il exite un **decalage** dans le temps pour les declarations:
+_Votre salaire de mandataire social est à déclarer mensuellement sur fiche de paie et vous aurez à payer chaque mois les charges sociales dues au titre du mois précédent. Le 15 Janvier, je paie donc mes cotisations sur mon salaire de décembre._
+
+#### IS
+- 15% sur la partie du résultat entre 0 et 38120€
+- 28% sur la partie du résultat entre 38120 et 500 000€
+- 31% sur la partie du résultat au dessus de 500 000 €
+
+NB: À horizon 2022, il n’existera plus que deux taux :
+15% entre 0 et 38 120€, et 25% sur le reste du résultat.
+
+#### Dividendes  
+N'existe pas pour les micro-entrepreuneurs. Et pas du tout interessant pour les EI. Clairement c'est la SASU qui l'emporte haut la main concernant les dividendes
+
+Conseil: choisir impôt sur le revenu de vos dividendes selon le barème progressif est intéressant si vous avez une **faible imposition** du foyer fiscal ( généralement, un taux marginal à 14%)
+
+_17.2% de CSG-CRDS sur les dividendes distribuées, auxquels s’ajoutent les 12.8% d’impôt sur le revenu prélevés sur vos dividendes, ce qui correspond à un total de 30% de “Flat tax”_
+
+![screenshot](/assets/img/sasu_breakdown.png)
 
 
 Pour aller plus loin, je vous recommande les deux liens dans les ressources.  
+
 
 # 2. Étapes
 
