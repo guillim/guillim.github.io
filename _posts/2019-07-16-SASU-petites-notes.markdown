@@ -135,15 +135,20 @@ En terme de comptabilité, il me fallait un service qui soit intégré à Qonto,
 ###### outil seul VS Expert comptable
 Ensuite on a le choix de prendre un outil seul, ou d'un outil avec un expert comptable qui passe derrière. Ce qui est sûr c'est que l'expert comptable est (quasi ?) indispensable pour le Bilan. L'avantage des outils, c'est que les données comptables sont organisées => bilan plus rapide, et donc moins cher.
 
-Lebonexpertcomptable: recomandé par un ami & full online (avec QuickBooks + ReceiptBank)
-
-Autre options:
-- comptaStart (49 / mois) préparer doc mais a vous envoyer
-- tiime  recommandé par un ami, et je l'utilisais avec ma precedente SAS
+Outils:
+- **Tiime** (gratuit) recommandé par un ami, et je l'utilisais avec ma precedente SAS
+se décline aussi en _Tiime Receipt_ (gestion automatique des notes de frais et réconciliation bancaire) et _Tiime Invoice_ (gestion des devis -> facture)
 - Dougs (69 HT / mois) on me l'a recommandé sur Comet
 - zephyr (50 HT / mois)
-- quickbooks: outil seulment.. mais a-t-on besoin d'un expert comptable en plus pour une SASU ?
-- ReceiptBank : dematerialisation des reçu (comme pour Time Receipt)
+- quickbooks: suivi comptable
+- ReceiptBank : dematerialisation des notes de frais (= Time Receipt)
+
+Cabinet d'expert comptables:
+- [Lebonexpertcomptable](https://www.lebonexpertcomptable.com/): recomandé par un ami & full online (avec QuickBooks + ReceiptBank)  A APPELER
+- [l-expert-comptable](https://www.l-expert-comptable.com/): utilisent les outils Tiime Receipt (Réconciliation automatique des notes de frais avec les lignes bancaires) et Tiime pour dematerialiser. Sont 100% online (à la différence de Novaa qui privilégie le physique) CALLED
+- [comptaStart](https://www.legalstart.fr/comptastart/) (49 / mois)   
+01 76 39 00 60  A APPELER
+- Novaa A APPELER
 
 
 Moi ce que je souhaite:
