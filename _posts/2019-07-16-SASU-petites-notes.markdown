@@ -13,7 +13,7 @@ Disclaimer: Ces notes n'engagent que moi
 # 1. Pourquoi j'ai choisi SASU
 
 ## Estimer son CA
-Pour des petits chiffre d'affaire, le statut de Micro-entrepreuneur fait largement l'affaire. La fiscalité (22,5% voir même mieux avec l'[ACCRE](https://www.entreprises.cci-paris-idf.fr/web/formalites/accre)) est la meilleure de toutes les autres structure de freelance, et la comptabilité est la plus facile de toutes. Par contre, au-dela de 33.200 euros environ, il faut commencer à inclure la TVA (elle est déductible donc fiscalement ça reste interessant) ce qui complique la comptabilité, et c'est limité à 70.000 euros
+Pour des petits chiffre d'affaire, le statut de Micro-entrepreuneur fait largement l'affaire. La fiscalité (22,5% voir même mieux avec l'[ACCRE](https://www.entreprises.cci-paris-idf.fr/web/formalites/accre)) est la meilleure de toutes les autres structure de freelance, et la comptabilité est la plus facile de toutes. Par contre, au-dela de 33.200 € environ, il faut commencer à inclure la TVA (elle est déductible donc fiscalement ça reste interessant) ce qui complique la comptabilité, et c'est limité à 70.000 €
 
 ## C'est pour du court / moyen terme ?
 Pour un projet court terme, je choisis la micro-entreprise. Mais dès qu'il s'agit de structurer un peu son activité pour viser le moyen / long terme, avec le besoin de se professionaliser, alors la SASU est plus adaptée.
@@ -52,7 +52,7 @@ Pour résumer un bilan simple:
 
 - dividendes possible (17.2% CSG + IR apres 40% d'abbatement OU flat tax 30%)
 
-= 0 euros (ou plus pour laisser de la tréso dans la boîte)
+= 0 € (ou plus pour laisser de la tréso dans la boîte)
 ```
 
 #### Cotisation sociales  
@@ -112,65 +112,84 @@ Cout: 53,38 € (Greffe) + 158 € (annonce légale)
 => 129 eurso
 
 [Capitaine Contrat](https://www.captaincontrat.com/) (solution utilisée pour ma précédete SAS) Raison du choix: recomandation par Meriadec Buschmuller et Benoit Guigal.  
-=> 129 euros  
+=> 129 €  
 
 COÛT total dans mon cas, via LegalStart: (260 + 160 HT /one shot, soit 432,04 TTC)
 
 Note: possibilité de passer ça en charge de l'entreprise.
 
-# 3. Banque / Compta
+# 3. Banque
 
-## Banque
-Je veux avoir tout en ligne, rien en papier. c'est pour ça que j'ai choisi Qonto comme banque (Autre option: Shine). Ces deux options coutent entre 8 et 9 euros / mois.  
+Je veux avoir tout en ligne, rien en papier. J'avais identifié 2 options:
 
-## Comptabilité
+- Qonto (que j'ai choisi)
+- Shine  
 
-### Faire soi-méme
+Ces deux options coûtent entre 8 et 9 € /mois.  
+
+
+# 4. Comptabilité
+
+## Faire soi-méme ou Déléguer
 Je ne souhaite pas le faire moi-même: trop long, trop chiant, un peu risqué aussi (oublier des formalités coûte cher... 1500€ si on ne publie pas ses comptes)
 
-### Déléguer
 
-En terme de comptabilité, il me fallait un service qui soit intégré à Qonto, donc devait faire parti de cette liste: [partenaires Qonto](https://support.qonto.eu/hc/fr/articles/360000310489-Quelles-apps-peuvent-automatiquement-r%C3%A9cup%C3%A9rer-mes-transactions-)
+En terme de comptabilité, il me fallait un service qui soit intégré à Qonto (pour automatiser les tâches), donc devait faire parti de cette liste: [partenaires Qonto](https://support.qonto.eu/hc/fr/articles/360000310489-Quelles-apps-peuvent-automatiquement-r%C3%A9cup%C3%A9rer-mes-transactions-)
 
-###### outil seul VS Expert comptable
-Ensuite on a le choix de prendre un outil seul, ou d'un outil avec un expert comptable qui passe derrière. Ce qui est sûr c'est que l'expert comptable est (quasi ?) indispensable pour le Bilan. L'avantage des outils, c'est que les données comptables sont organisées => bilan plus rapide, et donc moins cher.
+### Outil seul VS Outil + Expert comptable
 
-Outils:
-- **Tiime** (gratuit) recommandé par un ami, et je l'utilisais avec ma precedente SAS
-se décline aussi en _Tiime Receipt_ (gestion automatique des notes de frais et réconciliation bancaire) et _Tiime Invoice_ (gestion des devis -> facture)
+Ensuite on a le choix de prendre un outil seul, ou d'un outil avec un expert comptable qui passe derrière. On peut aussi prendre juste un expert comptable qui fait tout, mais ça coute plus cher, et lui prend plus de temps inutilement... Ce qui est sûr c'est que l'expert comptable est (quasi) indispensable pour le Bilan. Le gros avantage des outils, c'est de prémacher les travail de l'expert comptable   
+=> données comptables déjà organisées => bilan plus rapide =>  moins cher
+
+Outils de comptabilité:
+- Tiime (gratuit)   
+Recommandé par un ami, et je l'utilisais avec ma precedente SAS
 - Dougs (69 HT / mois) on me l'a recommandé sur Comet
 - zephyr (50 HT / mois)
 - quickbooks: suivi comptable
-- ReceiptBank : dematerialisation des notes de frais (= Time Receipt)
+- [comptaStart](https://www.legalstart.fr/comptastart/) (49 / mois)
+
+Outils de note de frais:
+- Tiime Receipt: gestion automatique des notes de frais et réconciliation bancaire
+- ReceiptBank : dematerialisation des notes de frais
+- ComptaStart
+
+Outils de Facturation:
+- Tiime Invoice: gestion des devis -> facture
+- ComptaStart
+
+Il se désigne deux solutions intégrées: Tiime & ComptaStart. Les deux sont intégrées avec Qonto. J'ai choisi Tiime par recomandation, sans grande conviction
+
 
 Cabinet d'expert comptables:
 - [Lebonexpertcomptable](https://www.lebonexpertcomptable.com/): recomandé par un ami & full online (avec QuickBooks + ReceiptBank)  A APPELER
 - [l-expert-comptable](https://www.l-expert-comptable.com/): utilisent les outils Tiime Receipt (Réconciliation automatique des notes de frais avec les lignes bancaires) et Tiime pour dematerialiser. Sont 100% online (à la différence de Novaa qui privilégie le physique) CALLED
-- [comptaStart](https://www.legalstart.fr/comptastart/) (49 / mois)   
-01 76 39 00 60  A APPELER
 - Novaa A APPELER
+- ComptaStart peut faire de la mise en relation avec un expert comptable. (entre 300€ et 500€)
 
 
 Moi ce que je souhaite:
-- Tableau de bord
 - Synchronisation bancaire + Réconciliation automatiquement
 - Déclarations TVA préparées automatiquement + rappels
 - Notes de frais en ligne "valeur probante"
 - Gestion de la paie assistée
 - Bilan de fin d’année assisté
 
-# Obligations courantes
+# 5. Obligations courantes | formalités
 
-#### formalité obligatoire
 - **Assemblée générale annuelle**  
 Chaque année, vous devez organiser une assemblée générale et suivre un certain formalisme : rédaction d'un rapport du Président, d'un procès verbal, etc...
-- **approbation des comptes**  
+- **Approbation des comptes**  
 L'assemblée générale annuelle aboutit à la validation des comptes de la société. Il est ensuite obligatoire d'effectuer une formalité d'enregistrement des comptes auprès du Greffe.
-- **mise à jour des statuts** (si besoin de les modifier bien sur)
 - **Registres obligatoires**  
 registres qui doivent être tenus au siège social... le registre des décisions et le registre de mouvement de titres
 
-#### FAQ issus de LegalStart:
+Optionel:
+- **Mise à jour des statuts** (uniquement si besoin de les modifier bien sur)
+
+Note: un service "Conformité" existe chez LegalStart. Ils s'assurent que ces 3 obligations sont respectées (279€ /an)
+
+# FAQ de LegalStart:
 - Qu’est-ce que l’approbation des comptes?  
 C’est le fait de soumettre les comptes de la société aux associés. Une fois approuvés, les comptes doivent être déposés au greffe. Peu de gens le savent mais cette démarche n’est pas automatiquement couvert par l’expert-comptable, qui a pour rôle de tenir et de clôturer vos comptes, mais pas d'organiser l'approbation et le dépôt des comptes, pourtant obligatoire. C’est une formalité complémentaire de son travail, facturée en moyenne entre 300€ et 800€ par les experts-comptables.
 
