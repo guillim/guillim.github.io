@@ -142,11 +142,11 @@ Ensuite on a le choix de prendre un outil seul, ou d'un outil avec un expert com
 => données comptables déjà organisées => bilan plus rapide =>  moins cher
 
 Outils de comptabilité:
-- Tiime (gratuit)   
+- [Tiime](https://www.tiime.fr/) (gratuit)   [plus de 10 ans, bons retours]
 Recommandé par un ami, et je l'utilisais avec ma precedente SAS
-- Dougs (69 HT / mois) on me l'a recommandé sur Comet
-- zephyr (50 HT / mois)
-- quickbooks: suivi comptable
+- [Dougs](https://www.dougs.fr/tarifs/) (69 HT / mois) on me l'a recommandé sur Comet
+- [zephyr](https://www.zefyr.net/) (50 HT / mois)
+- [quickbooks](https://quickbooks.intuit.com/fr/): suivi comptable
 - [comptaStart](https://www.legalstart.fr/comptastart/) (49 / mois)
 
 Outils de note de frais:
@@ -163,9 +163,13 @@ Il se désigne deux solutions intégrées: Tiime & ComptaStart. Les deux sont in
 
 Cabinet d'expert comptables:
 - [Lebonexpertcomptable](https://www.lebonexpertcomptable.com/): recomandé par un ami & full online (avec QuickBooks + ReceiptBank)  A APPELER
-- [l-expert-comptable](https://www.l-expert-comptable.com/): utilisent les outils Tiime Receipt (Réconciliation automatique des notes de frais avec les lignes bancaires) et Tiime pour dematerialiser. Sont 100% online (à la différence de Novaa qui privilégie le physique) CALLED
-- Novaa A APPELER
-- ComptaStart peut faire de la mise en relation avec un expert comptable. (entre 300€ et 500€)
+- [l-expert-comptable](https://www.l-expert-comptable.com/): utilisent Tiime + Receipt + Invoice => 100% online à la différence de Novaa qui privilégie le physique à Paris  
+(100€ /mois)  
+Un peu plus de détail: ils sont specialisés dans les freelance sans salariés (pas de contrat de travail, de gestion du temps des salariés, du chomage, des congés payés...).   
+Le tarif comprend tout: comptabilité, TVA, frais, conseil gratuit d'un comptable (lui-même en contact avec un expert comptable au besoin), dépôt du bilan.
+- [Novaa](https://www.novaa-expertise.com/) A APPELER
+- [ComptaStart](https://www.legalstart.fr/comptastart/) peut faire de la mise en relation avec un expert comptable. (entre 300€ et 500€)
+- [incityz](https://www.incityz.com/): Quand on a besoin de salariés. utilisent Tiime
 
 
 Moi ce que je souhaite:
@@ -180,14 +184,14 @@ Moi ce que je souhaite:
 - **Assemblée générale annuelle**  
 Chaque année, vous devez organiser une assemblée générale et suivre un certain formalisme : rédaction d'un rapport du Président, d'un procès verbal, etc...
 - **Approbation des comptes**  
-L'assemblée générale annuelle aboutit à la validation des comptes de la société. Il est ensuite obligatoire d'effectuer une formalité d'enregistrement des comptes auprès du Greffe.
+L'assemblée générale annuelle aboutit à la validation des comptes de la société. Il est ensuite obligatoire d'effectuer une formalité d'enregistrement des comptes auprès du Greffe. (environ 40€ /an de frais de greffe)
 - **Registres obligatoires**  
 registres qui doivent être tenus au siège social... le registre des décisions et le registre de mouvement de titres
 
 Optionel:
 - **Mise à jour des statuts** (uniquement si besoin de les modifier bien sur)
 
-Note: un service "Conformité" existe chez LegalStart. Ils s'assurent que ces 3 obligations sont respectées (279€ /an)
+Note: un service "Conformité" existe chez LegalStart. Ils s'assurent que ces 3 obligations sont respectées (279€ /an)... chelou pour le prix car selon l-expert-comptable, le dépôt auprès des greffes ne coûte que 40€...
 
 # FAQ de LegalStart:
 - Qu’est-ce que l’approbation des comptes?  
