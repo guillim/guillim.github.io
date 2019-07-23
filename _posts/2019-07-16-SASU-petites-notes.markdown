@@ -166,7 +166,7 @@ Cabinet d'expert comptables:
 - [l-expert-comptable](https://www.l-expert-comptable.com/): utilisent Tiime + Receipt + Invoice => 100% online à la différence de Novaa qui privilégie le physique à Paris  
 (100€ /mois)  
 Un peu plus de détail: ils sont specialisés dans les freelance sans salariés (pas de contrat de travail, de gestion du temps des salariés, du chomage, des congés payés...).   
-Le tarif comprend tout: comptabilité, TVA, frais, conseil gratuit d'un comptable (lui-même en contact avec un expert comptable au besoin), dépôt du bilan.
+Le tarif comprend tout: comptabilité, TVA, frais, conseil gratuit d'un comptable (lui-même en contact avec un expert comptable au besoin), dépôt du bilan. 10 bonnes recommandations via COMET
 - [Novaa](https://www.novaa-expertise.com/) A APPELER
 - [ComptaStart](https://www.legalstart.fr/comptastart/) peut faire de la mise en relation avec un expert comptable. (entre 300€ et 500€)
 - [incityz](https://www.incityz.com/): Quand on a besoin de salariés. utilisent Tiime
