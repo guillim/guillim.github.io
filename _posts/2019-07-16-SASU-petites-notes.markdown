@@ -166,10 +166,12 @@ Cabinet d'expert comptables:
 - [l-expert-comptable](https://www.l-expert-comptable.com/): utilisent Tiime + Receipt + Invoice => 100% online à la différence de Novaa qui privilégie le physique à Paris  
 (100€ /mois)  
 Un peu plus de détail: ils sont specialisés dans les freelance sans salariés (pas de contrat de travail, de gestion du temps des salariés, du chomage, des congés payés...).   
-Le tarif comprend tout: comptabilité, TVA, frais, conseil gratuit d'un comptable (lui-même en contact avec un expert comptable au besoin), dépôt du bilan. 10 bonnes recommandations via COMET
+Le tarif comprend tout: comptabilité, TVA, frais, conseil gratuit d'un comptable (lui-même en contact avec un expert comptable au besoin), dépôt du bilan.
 - [Novaa](https://www.novaa-expertise.com/) A APPELER
 - [ComptaStart](https://www.legalstart.fr/comptastart/) peut faire de la mise en relation avec un expert comptable. (entre 300€ et 500€)
-- [incityz](https://www.incityz.com/): Quand on a besoin de salariés. utilisent Tiime
+- [incityz](https://www.incityz.com/): Quand on a besoin de salariés. utilisent Tiime aussi. (100€/mois + 500€ pour le bilan)
+possibilité de RDV physique à Paris. Sinon font les mêmes prestastions que l-expert-comptable  
+Pour les salariés: les prévenir 72h avant le début du contrat, avec les infos (25€ /mois par salarié + 90€ de début pour rediger contrat etc... qu'on peut aussi faire soi-même)
 
 
 Moi ce que je souhaite:
@@ -192,6 +194,13 @@ Optionel:
 - **Mise à jour des statuts** (uniquement si besoin de les modifier bien sur)
 
 Note: un service "Conformité" existe chez LegalStart. Ils s'assurent que ces 3 obligations sont respectées (279€ /an)... chelou pour le prix car selon l-expert-comptable, le dépôt auprès des greffes ne coûte que 40€...
+
+# 6. Avoir un salarié
+
+C'est tout à fait possible en SASU. Vérifiez simplement que votre cabinet comptable est capable de gérer des salariés. En effet l'édition des fiches de paie nécessite de déclarer les cotisations sociales => certains cabinets ne veulent pas le faire.
+
+### Note sur les stagiaires:  
+Un stagiaire payé au minimum légal ne cotise à aucune cotisation sociale. Il n'a donc pas besoin de fiche de paie avec les déclarations sociales qui vont avec. La gratification est donc possible, même pour les cabinets qui n'éditent pas de fiches de paie.
 
 # FAQ de LegalStart:
 - Qu’est-ce que l’approbation des comptes?  
