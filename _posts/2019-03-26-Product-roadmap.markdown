@@ -213,3 +213,4 @@ At least once a month. Transparency is the key to get your team with you. And do
 # Ressources:
 
 [OpenClassroom - Bruno Correia](https://openclassrooms.com/en/courses/5778386-construisez-votre-roadmap-produit/5778393-decouvrez-linteret-dune-roadmap)  
+["15min summary"](/assets/files/product_roadmap.mov)  
