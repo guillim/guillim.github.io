@@ -282,10 +282,22 @@ server {
 Don't forget to stop and start nginx again, and then go to [http://mywebsite.com][http://mywebsite.com] !
 
 
+# Other notes
+
+Make sure the Nginx configuration is correct:  
+```bash
+sudo nginx -t
+```
+Should return  
+```bash
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+```
+
 # Ressources
 
-Blog: [coderwall][coderwall]
-
+Blog: [coderwall][coderwall]  
+Reverse-proxy & https setup: [scaleway](https://www.scaleway.com/en/docs/how-to-configure-nginx-reverse-proxy/#targetText=Nginx%20HTTPs%20Reverse%20Proxy%20Overview,response%20back%20to%20the%20client.)  
 
 
 [Jekyll project]: https://guillim.github.io/jekyll/2018/02/10/Start-with-jekyll.html
