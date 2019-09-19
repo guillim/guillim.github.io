@@ -130,10 +130,15 @@ $SECONDS
 
 ## Conditions
 
-There are two identical ways for testing an expression:
-[ XXXX ]
-test XXXX
+There are two identical ways for testing an expression:  
+`[ XXXX ]`  
+`test XXXX`  
 They both return **0 for true**, and **1 for false**
+
+Well, there is a third way for testing, more bulletproof:  
+`[[ XXXX ]]` **recommended version** read more about it [here](https://unix.stackexchange.com/questions/248164/bash-if-syntax-confusion)  
+
+
 
 Note: in bash,  we don't use **if** with **=**. use eq, lt etc... instead
 
