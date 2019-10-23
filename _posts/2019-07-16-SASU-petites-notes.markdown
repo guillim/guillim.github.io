@@ -219,4 +219,5 @@ Une modification statutaire s’impose dans certaines situations courantes : tra
 # Ressources:
 
 Livre blanc par Comet: ["Choisir son statut"](/assets/files/Choisir_son_statut.pdf)  
-Résumé par Novaa: ["Statuts Freelance"](/assets/files/Statuts_Freelance_Novaa.pdf)
+Résumé par Novaa: ["Statuts Freelance"](/assets/files/Statuts_Freelance_Novaa.pdf)  
+Onboarding sur la comptabilité: ["Webinar par l-expert-comptable"](https://youtu.be/l3pflCQQhoo)
