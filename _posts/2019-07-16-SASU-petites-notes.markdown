@@ -195,12 +195,27 @@ Optionel:
 
 Note: un service "Conformité" existe chez LegalStart. Ils s'assurent que ces 3 obligations sont respectées (279€ /an)... chelou pour le prix car selon l-expert-comptable, le dépôt auprès des greffes ne coûte que 40€...
 
+Note: avec l-expert-comptable, la préparation du bilan est envoyé mi-novembre. Cela permet de s'assurer que le bilan est conforme avec ce qui est prévu, et aussi d'optimiser le versement de dividende par exemple. Puis le bilan définitif est produit courant décembre. Ensuite l-expert-comptable se charge de l'envoyer au greffe (l'administration publique laisse 4 mois à partir de la cloture des comptes, souvent le 31 décembre, pour l'envoyer, donc jusqu'au 30 avril)
 # 6. Avoir un salarié
 
 C'est tout à fait possible en SASU. Vérifiez simplement que votre cabinet comptable est capable de gérer des salariés. En effet l'édition des fiches de paie nécessite de déclarer les cotisations sociales => certains cabinets ne veulent pas le faire.
 
 ### Note sur les stagiaires:  
 Un stagiaire payé au minimum légal ne cotise à aucune cotisation sociale. Il n'a donc pas besoin de fiche de paie avec les déclarations sociales qui vont avec. La gratification est donc possible, même pour les cabinets qui n'éditent pas de fiches de paie.
+
+# 7. Les frais qui peuvent être pris en charge
+
+La principale règle à ce sujet est: _les frais doivent être dans l'interêt professionel de la société_
+Il faut impérativement avoir une facture au nom de la société.
+
+Examples de ce qui passe au nom de la sociétié:
+- Environ 80% des frais de télécommunication (forfait internet...)
+- un petit % du loyer personnel, correspondant à la zone de travail accordé au travail à domicile
+- idem pour les frais d'électricité
+- véhicule de fonction, à voir plus en détail sur des sites spécialisés.
+
+Note intéressante:
+Les frais durant les 6 mois précédent la création de la société peuvent être passé en charge, donc les frais de création d'entreprise passent sans problèmes.
 
 # FAQ de LegalStart:
 - Qu’est-ce que l’approbation des comptes?  
