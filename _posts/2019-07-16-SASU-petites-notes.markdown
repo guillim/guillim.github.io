@@ -58,35 +58,35 @@ Pour résumer un bilan simple :
 #### Cotisations sociales  
 Les plus importantes cotisations sont pour la SASU : 75 %. c'est le prix à payer pour avoir une couverture sociale proche de celle des "employés classiques" (Elles ne sont que de 40% pour les EI)  
 
-_En SASU, vous avez le statut social d’assimilé salarié. À ce titre, vous serez affilié au **régime général** de la sécurité sociale et vous cotiserez à la retraite des cadres_
+_En SASU, vous avez le statut social d’assimilé salarié. À ce titre, vous serez affilié au **régime général** de la sécurité sociale et vous cotiserez à la retraite des cadres_
 
-Si pas de rémunération, pas de cotisation: et donc pas de protection sociale. Il est donc important de se rémunérer un minimum (1500€ brut par trimestre pour la validation de ses **trimestres de retraite**).
+Si pas de rémunération, pas de cotisation: et donc pas de protection sociale. Il est donc important de se rémunérer un minimum (1500€ brut par trimestre pour la validation de ses **trimestres de retraite**).
 
 
 #### Rémunération
-La rémunération est **libre**: on choisi le montant. (1000€ sur un mois, puis 2000€ le mois suivant, no pb). _"Cela ne pose pas de problème dans la mesure où il n’y a aucun lien de subordination entre vous et votre société, donc pas de contrat de travail."_   
+La rémunération est **libre**: on choisi le montant. (1000€ sur un mois, puis 2000€ le mois suivant, no pb). _"Cela ne pose pas de problème dans la mesure où il n’y a aucun lien de subordination entre vous et votre société, donc pas de contrat de travail."_   
 
-Le taux de charges sociales au régime général est d’en moyenne **75%** du salaire net. _Ex: pour avoir 1000€ de salaire, la SASU devra payer 750€ de charges sociales => super brut de 1750 €_
+Le taux de charges sociales au régime général est d’en moyenne **75%** du salaire net. _Ex: pour avoir 1000€ de salaire, la SASU devra payer 750€ de charges sociales => super brut de 1750 €_
 
-Fiscalement, la rémunération est imposée à **l’impôt sur le revenu** après **abattement de 10%**: _Ex : Je me verse 10 000€ de rémunération, 9 000€ subiront le barème progressif de l’impôt sur le revenu_
+Fiscalement, la rémunération est imposée à **l’impôt sur le revenu** après **abattement de 10%**: _Ex : Je me verse 10 000€ de rémunération, 9 000€ subiront le barème progressif de l’impôt sur le revenu_
 
 il existe un **decalage** dans le temps pour les déclarations:
-_Votre salaire de mandataire social est à déclarer mensuellement sur fiche de paie et vous aurez à payer chaque mois les charges sociales dues au titre du mois précédent. Le 15 Janvier, je paie donc mes cotisations sur mon salaire de décembre._
+_Votre salaire de mandataire social est à déclarer mensuellement sur fiche de paie et vous aurez à payer chaque mois les charges sociales dues au titre du mois précédent. Le 15 Janvier, je paie donc mes cotisations sur mon salaire de décembre._
 
 #### IS
-- 15% sur la partie du résultat entre 0 et 38120€
-- 28% sur la partie du résultat entre 38120 et 500 000€
-- 31% sur la partie du résultat au dessus de 500 000 €
+- 15% sur la partie du résultat entre 0 et 38120€
+- 28% sur la partie du résultat entre 38120 et 500 000€
+- 31% sur la partie du résultat au dessus de 500 000 €
 
-NB: À horizon 2022, il n’existera plus que deux taux :
-15% entre 0 et 38 120€, et 25% sur le reste du résultat.
+NB: À horizon 2022, il n’existera plus que deux taux :
+15% entre 0 et 38 120€, et 25% sur le reste du résultat.
 
 #### Dividendes  
 N'existe pas pour les micro-entrepreneurs. Et pas du tout intéressant pour les EI. Clairement c'est la SASU qui l'emporte haut la main concernant les dividendes
 
-Conseil: choisir impôt sur le revenu de vos dividendes selon le barème progressif est intéressant si vous avez une **faible imposition** du foyer fiscal ( généralement, un taux marginal à 14%)
+Conseil: choisir impôt sur le revenu de vos dividendes selon le barème progressif est intéressant si vous avez une **faible imposition** du foyer fiscal ( généralement, un taux marginal à 14%)
 
-_17.2% de CSG-CRDS sur les dividendes distribuées, auxquels s’ajoutent les 12.8% d’impôt sur le revenu prélevé sur vos dividendes, ce qui correspond à un total de 30% de “Flat tax”_
+_17.2% de CSG-CRDS sur les dividendes distribuées, auxquels s’ajoutent les 12.8% d’impôt sur le revenu prélevé sur vos dividendes, ce qui correspond à un total de 30% de “Flat tax”_
 
 ![screenshot](/assets/img/sasu_breakdown.png)
 
@@ -98,7 +98,7 @@ Pour aller plus loin, je vous recommande les deux liens dans les ressources.
 
 ## Faire soi-même
 Dans l'ordre:
-- Récolter pleins d'information (capital, dénomination, adresse, objet social...)
+- Récolter pleins d'information (capital, dénomination, adresse, objet social...)
 - Faire un dépôt de capital à la banque
 - Envoi du dossier au Greffe
 - Publication annonce légale
@@ -235,4 +235,5 @@ Une modification statutaire s’impose dans certaines situations courantes : tra
 
 Livre blanc par Comet: ["Choisir son statut"](/assets/files/Choisir_son_statut.pdf)  
 Résumé par Novaa: ["Statuts Freelance"](/assets/files/Statuts_Freelance_Novaa.pdf)  
-Onboarding sur la comptabilité: ["Webinar par l-expert-comptable"](https://youtu.be/l3pflCQQhoo)
+Onboarding sur la comptabilité: ["Webinar par l-expert-comptable"](https://youtu.be/l3pflCQQhoo)  
+Définition diverses [Kbis, Siren, TVA, RCS, ACCRE](https://cdn2.hubspot.net/hubfs/4059422/LEC/Contenus%20Premiums/Créateur/décodeur-identifiant-entreprise.pdf)
