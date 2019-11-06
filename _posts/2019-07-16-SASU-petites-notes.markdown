@@ -181,6 +181,37 @@ Moi ce que je souhaite:
 - Gestion de la paie assistée
 - Bilan de fin d’année assisté
 
+
+## Comprendre les prélèvements qui vont avoir lieu sur le compte pro :  
+
+#### Liste des prélèvements obligatoires
+- URSSAF
+- Retraite
+- Impôt sur le revenu (à la source)
+- TVA
+- Assurance prévoyance
+- CFE  
+
+#### Quand est-ce que ça se passe ?  
+Pour s'y retrouver, voici les dates approximatives des prélèvements :   
+
+Ces prélèvements arrivent si on se paie un salaire, le __15 du mois suivant__   
+- URSSAF
+- Retraite [était trimestriel avant 2020]
+- Impôt sur le revenu (à la source)
+
+Ex: Je décide de me verser 3000€ net en Octobre. Alors je paierai 1700€ à l'URSSAF, 450€ pour la retraite, et 400€ d'impôt sur le revenu le 15 Novembre.
+
+Ces prélèvements arrivent, peu importe si on se paie un salaire ou non  
+- TVA le __30 avril de l'année suivante__ (__20% du CA__, la différence entre le HT et le TTC)
+- assurance prévoyance __#trimestriel__ (__1,5% du montant des salaires brut__)
+- CFE __en décembre de l'année en cours__ (__500€__ environ, gratuit la première année)
+
+#### Comment savoir combien il me reste pour me payer un salaire ce mois-ci ?
+Pour faire simple, il suffit d'attendre que l'ensemble des prélèvements liés au salaire du mois précédent passent, donc après le 15 du mois. Ensuite, il faut regarder son compte pro et retirer les 20% de TVA. Quand c'est fait, on a une bonne idée de ce qu'il reste de trésorerie pour se verser un salaire. Ne pas oublier de provisionner pour la CFE, l'assurance prévoyance, et les dettes de l'entreprise le cas échéant.  
+
+Par exemple, je facture 5000€ sur mon début d'année. Je fais en sorte de me payer 1000€ de salaire net d'impôt en juin. Cela va me couter environ 1900€ (1000 de salaire net, 570€ d'URSSAF, 150€ de retraite, 120€ d'impôt) donc le 15 juillet, il me restera en banque environ 3100€. Il faut que je garde de côté 500€ de CFE, 75€ d'assurance prévoyance, et 1000€ de TVA. Donc je peux utiliser 3100 - 1575 = 1525€ pour me verser un salaire. Un salaire de 800€ net d'impôt devrait me revenir à environ 1500€ donc c'est possible !
+
 # 5. Obligations courantes | formalités
 
 - **Assemblée générale annuelle**  
