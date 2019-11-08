@@ -191,6 +191,7 @@ Moi ce que je souhaite:
 - TVA
 - Assurance prévoyance
 - CFE  
+- Impôt sur les sociétés (IS)  
 
 #### Quand est-ce que ça se passe ?  
 Pour s'y retrouver, voici les dates approximatives des prélèvements :   
@@ -206,6 +207,7 @@ Ces prélèvements arrivent, peu importe si on se paie un salaire ou non
 - TVA le __30 avril de l'année suivante__ (__20% du CA__, la différence entre le HT et le TTC)
 - assurance prévoyance __#trimestriel__ (__1,5% du montant des salaires brut__)
 - CFE __en décembre de l'année en cours__ (__500€__ environ, gratuit la première année)
+- IS __le 15 mai de l'année suivante__ (ratio dépend du bénéfice). Note: si l'année passée l'IS > 3000€ alors des accomptes devront être versés trimestriellement, 15 mars - 15 juin - 15 septembre - 15 décembre - à hauteur de l'IS / 4
 
 #### Comment savoir combien il me reste pour me payer un salaire ce mois-ci ?
 Pour faire simple, il suffit d'attendre que l'ensemble des prélèvements liés au salaire du mois précédent passent, donc après le 15 du mois. Ensuite, il faut regarder son compte pro et retirer les 20% de TVA. Quand c'est fait, on a une bonne idée de ce qu'il reste de trésorerie pour se verser un salaire. Ne pas oublier de provisionner pour la CFE, l'assurance prévoyance, et les dettes de l'entreprise le cas échéant.  
@@ -245,8 +247,15 @@ Examples de ce qui passe au nom de la sociétié:
 - idem pour les frais d'électricité
 - véhicule de fonction, à voir plus en détail sur des sites spécialisés.
 
-Note intéressante:
-Les frais durant les 6 mois précédent la création de la société peuvent être passé en charge, donc les frais de création d'entreprise passent sans problèmes.
+Notes intéressantes :  
+- Les frais durant les 6 mois précédent la création de la société peuvent être passé en charge, donc les frais de création d'entreprise passent sans problèmes.  
+- En dessous de 500€ il n'y a pas besoin de provisionner un achat, comme un téléphone d'occasion par exemple. Ce sont des charges courantes.  
+- Si le vélo est le moyen de transport principal, il peut être passé en charge  
+
+Certains dispositifs sont considérés comme des frais, alors que c'est un forme de rémunération (il faut utiliser la carte pro) :  
+- carte cadeau (160€ / an)   
+- chèque vacance (450€ / an) sur le site [ancv](https://www.ancv.com/)  
+- chèque CESU __préfinancé__ (1830€ / an) sur le site [domiserve](https://www.domiserve.com/) ou sur l'un des 3 autres organismes agréés pour les chèque préfinancés  
 
 # FAQ de LegalStart:
 - Qu’est-ce que l’approbation des comptes?  
