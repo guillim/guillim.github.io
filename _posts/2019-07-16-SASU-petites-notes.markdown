@@ -196,16 +196,20 @@ Moi ce que je souhaite:
 #### Quand est-ce que ça se passe ?  
 Pour s'y retrouver, voici les dates approximatives des prélèvements :   
 
-Ces prélèvements arrivent si on se paie un salaire, le __15 du mois suivant__   
+###### si on se paie un salaire :  
+Ces prélèvements arrivent le __15 du mois suivant__   
 - URSSAF
 - Retraite [était trimestriel avant 2020]
 - Impôt sur le revenu (à la source)
 
+Ce prélèvement arrive le __15 du mois suivant la fin du trimestre__   
+- assurance prévoyance __#trimestriel__ (__1,5% du montant des salaires brut__)
+
 Ex: Je décide de me verser 3000€ net en Octobre. Alors je paierai 1700€ à l'URSSAF, 450€ pour la retraite, et 400€ d'impôt sur le revenu le 15 Novembre.
 
+###### peu importe si on se paie un salaire :  
 Ces prélèvements arrivent, peu importe si on se paie un salaire ou non  
 - TVA le __30 avril de l'année suivante__ (__20% du CA__, la différence entre le HT et le TTC)
-- assurance prévoyance __#trimestriel__ (__1,5% du montant des salaires brut__)
 - CFE __en décembre de l'année en cours__ (__500€__ environ, gratuit la première année)
 - IS __le 15 mai de l'année suivante__ (ratio dépend du bénéfice). Note: si l'année passée l'IS > 3000€ alors des accomptes devront être versés trimestriellement, 15 mars - 15 juin - 15 septembre - 15 décembre - à hauteur de l'IS / 4
 
