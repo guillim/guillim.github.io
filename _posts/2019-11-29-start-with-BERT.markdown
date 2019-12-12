@@ -65,3 +65,5 @@ Blog towardsdatascience: [bert-for-dummies - how to load BERT and fine-tune it f
 LSTM: [wikipedia](https://en.wikipedia.org/wiki/Long_short-term_memory)
 
 Blog towardsdatascience: [fastai](https://towardsdatascience.com/fastai-with-transformers-bert-roberta-xlnet-xlm-distilbert-4f41ee18ecb2)
+
+Comic about Machine learning: [google](/assets/img/bd-ia-google.png)
