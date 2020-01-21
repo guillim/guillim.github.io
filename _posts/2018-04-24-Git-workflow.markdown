@@ -15,6 +15,7 @@ _"elegant mental model that is easy to comprehend and allows team members to dev
 Pros:
 * fits any project   
 * avoid complex git conflicts  
+* best method if working with others
 
 Cons:
 * more complex than the simple monobranch _pull push_
