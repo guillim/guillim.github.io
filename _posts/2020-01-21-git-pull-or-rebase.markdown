@@ -46,7 +46,11 @@ _And that’s all you really need to know to start rebasing your branches. If yo
 
 _On the other hand, if you want to preserve the complete history of your project and avoid the risk of re-writing public commits, you can stick with git merge. Either option is perfectly valid, but at least now you have the option of leveraging the benefits of git rebase._   
 
-
+So when rebasing a _feature_ branch (that you, and only you are working on) on top of a public _master_ branch, it looks like :
+```bash
+git checkout feature
+git rebase master
+```
 
 # Reference:
 * [stackoverflow](https://stackoverflow.com/questions/36148602/git-pull-vs-git-rebase/36148845#36148845)
