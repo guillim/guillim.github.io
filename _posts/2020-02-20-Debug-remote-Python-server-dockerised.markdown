@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "ÂÂMÂ"
+title:  "How to debug a Python server running inside a remote docker container"
 date:   2020-02-20 03:22:48 +0100
 categories: python, docker, django
 comments: true
@@ -66,3 +66,7 @@ In [1]:
 ```
 
 That's it, you are using python now. Time to debug !
+
+# Reference
+
+More about the [Django shell and ipython](https://stackoverflow.com/questions/47170049/run-django-shell-in-ipython)
