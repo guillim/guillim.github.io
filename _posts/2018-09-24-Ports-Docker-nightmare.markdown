@@ -64,7 +64,7 @@ Here you define as variable, so that the rest of the project knows on which port
 ```
 EXPOSE 8081  
 ```  
-We look at the container that will be built. Here we define the port on which it will be accessible on the docker network. What it means if that if other container want to talk to him, they will have to do it on this  port.  
+We look at the container that will be built. Here we define the port on which it will be accessible on the docker network. What it means if that if other container want to talk to him, they will have to do it on this  port. Use ```docker port``` to inspect where the port is forwarded on the host.  
 
 3- docker-compose-backend.yml:   
 
@@ -84,13 +84,13 @@ docker exec -it 86168b927131 bash -c 'curl http://localhost:8000'
 # Ressources
 
 Port VS Expose: [StackOverFlow issue][po]   
-
 A similar configuration, but more complex: [github][similar]   
-
 A guy that struggled as well, and has good tips: [answer 8/8, by dundych][dund]  
+Exposing ports : [exposing]  
 
+
+[exposing]: https://runnable.com/docker/binding-docker-ports
 [dund]: https://forums.docker.com/t/how-can-i-navigate-to-container-website-from-host-browser/25035/8
-
 [similar]: https://github.com/asishrs/node-express-docker
 [po]: https://stackoverflow.com/questions/40801772/what-is-the-difference-between-docker-compose-ports-vs-expose
 [repo]: https://github.com/guillim/nodejs-API-starterkit
