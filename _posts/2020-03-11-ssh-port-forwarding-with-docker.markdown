@@ -51,6 +51,8 @@ ssh -L 127.0.0.1:4000:192.11.11.12:5000 root@82.11.11.11
 ### useful SSH options  
 `-N` : no remote command to execute  
 `-f` : run in the background
+`-4` : force IPV4 (maybe useeful if you have 'Cannot assign requested address')  
+`-6` : if you need to force IPV6 (you shouldn't need it)
 
 # Reference
 
