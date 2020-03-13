@@ -50,13 +50,14 @@ ssh -L 127.0.0.1:4000:192.11.11.12:5000 root@82.11.11.11
 
 ### useful SSH options  
 `-N` : no remote command to execute  
-`-f` : run in the background
+`-f` : run in the background  
 `-4` : force IPV4 (maybe useeful if you have 'Cannot assign requested address')  
-`-6` : if you need to force IPV6 (you shouldn't need it)
+`-6` : if you need to force IPV6 (you shouldn't need it)  
 
 # Reference
 
 ssh : [ssh example](https://www.ssh.com/ssh/tunneling/example)  
 french version : [ example](https://www.supinfo.com/articles/single/567-port-forwarding-avec-ssh)  
 Basics and Tips : [hackertarget](https://hackertarget.com/ssh-examples-tunnels/)  
-ssh options : [explainshell](https://explainshell.com/explain?cmd=ssh+-L+-N+-f+-l)
+ssh options : [explainshell](https://explainshell.com/explain?cmd=ssh+-L+-N+-f+-l)  
+ssh [ipv4 VS ipv6](https://www.linux.com/tutorials/7remote-sessions-over-ipv6-ssh-scp-and-rsync/)  
