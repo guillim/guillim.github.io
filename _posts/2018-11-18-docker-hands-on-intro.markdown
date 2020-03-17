@@ -168,6 +168,9 @@ RUN echo ${envVar}
 ```
 And you will see it appear while building the image
 
+#### Summary  
+![vsupalov.com](https://d33wubrfki0l68.cloudfront.net/ed9cab66953fd3a80af63675cf3fefade4572c01/00a3b/images/docker-env-vars/docker_environment_build_args_overview.png)  
+
 # 6. Interact with a running container
 
 ## run -it
@@ -288,3 +291,5 @@ But the best way to save space is using ```docker prune```
 [ARG vs ENV](https://stackoverflow.com/questions/41916386/arg-or-env-which-one-to-use-in-this-case)  
 
 [Volumes](https://stackoverflow.com/questions/34809646/what-is-the-purpose-of-volume-in-dockerfile)
+
+[Arg, Env, .env](https://vsupalov.com/docker-arg-env-variable-guide/)
