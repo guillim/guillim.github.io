@@ -48,6 +48,15 @@ see this [ssh example](https://www.supinfo.com/articles/single/567-port-forwardi
 ssh -L 127.0.0.1:4000:192.11.11.12:5000 root@82.11.11.11
 ```  
 
+### 5. Troubleshooting  
+If you encounter this issue : `bind [127.0.0.1]:5000: Address already in use` it can be that another process is already using your port. It can be because your SSH port is already runnging in the background, maybe as a zombie process ! You can kill it using this command (change port 5000 if needed) :
+
+```bash
+ lsof -ti:5000 | xargs kill -9
+```  
+
+
+
 ### useful SSH options  
 `-N` : no remote command to execute  
 `-f` : run in the background  
@@ -61,3 +70,4 @@ french version : [ example](https://www.supinfo.com/articles/single/567-port-for
 Basics and Tips : [hackertarget](https://hackertarget.com/ssh-examples-tunnels/)  
 ssh options : [explainshell](https://explainshell.com/explain?cmd=ssh+-L+-N+-f+-l)  
 ssh IPs : [ipv4 VS ipv6](https://www.linux.com/tutorials/7remote-sessions-over-ipv6-ssh-scp-and-rsync/)  
+troublshooting : [Address already in use](https://askubuntu.com/questions/447820/ssh-l-error-bind-address-already-in-use)
