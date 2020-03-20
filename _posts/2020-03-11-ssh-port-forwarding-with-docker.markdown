@@ -52,10 +52,10 @@ ssh -L 127.0.0.1:4000:192.11.11.12:5000 root@82.11.11.11
 If you encounter this issue : `bind [127.0.0.1]:5000: Address already in use` it can be that another process is already using your port. It can be because your SSH port is already runnging in the background, maybe as a zombie process ! You can kill it using this command (change port 5000 if needed) :
 
 ```bash
- lsof -ti:5000 | xargs kill -9
-```  
+ lsof -ti:5000 | xargs kill -9 
+```   
 
-
+Note : `-t` option tells `lsof` to produce _"terse output"_ => only PID, so that the output may be piped to kill  
 
 ### useful SSH options  
 `-N` : no remote command to execute  
