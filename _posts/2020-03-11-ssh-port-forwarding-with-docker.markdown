@@ -63,6 +63,32 @@ Note : `-t` option tells `lsof` to produce _"terse output"_ => only PID, so that
 `-4` : force IPV4 (maybe useeful if you have 'Cannot assign requested address')  
 `-6` : if you need to force IPV6 (you shouldn't need it)  
 
+## Local port forwarding with Docker
+You can set up from your docker container to use SSH tunneling. Here is a Dockerfile example :  
+
+```bash
+FROM ubuntu:18.04
+RUN apt-get update
+RUN apt-get install openssh-client
+SHELL ["/bin/bash", "-c"]
+
+RUN mkdir work
+COPY .ssh/* /work/.ssh/
+
+# here are some default values (can be overwritten by an env.txt for instance)
+ENV SSHKEY=id_rsa
+ENV TUNNEL_HOST=127.0.0.1
+ENV LOCAL_PORT=4001
+ENV REMOTE_HOST=86.12.34.12
+ENV REMOTE_PORT=27017
+
+ENTRYPOINT ssh -4 -q -o StrictHostKeyChecking=no -i  /work/.ssh/$SSHKEY \
+-L *:$LOCAL_PORT:$REMOTE_HOST:$REMOTE_PORT \
+-fN \
+$TUNNEL_HOST \
+&& bash
+```
+
 # Reference
 
 ssh : [ssh example](https://www.ssh.com/ssh/tunneling/example)  
