@@ -81,13 +81,20 @@ Tip: when you want to check inside the container when it isn't exposed yet to th
 docker exec -it 86168b927131 bash -c 'curl http://localhost:8000'
 ```
 
+# 4.  Connect to _localhost_ of the host machine :
+Let's say you are inside your docker container, running an app on port 8000. This docker container lives on a server that we call the host machine. On the host machine, you have a SQL database running on port 5432. Now the question is, how to connect your app inside the container to the database on the host machine ?  
+
+- on Linux : instead of connecting to _localhost:5432_ use the magic IP adress _172.17.0.1:5432_.  
+- on Mac : instead of connecting to _localhost:5432_ use the magic adress _host.docker.internal:5432_.  
+
+
 # Ressources
 
 Port VS Expose: [StackOverFlow issue][po]   
 A similar configuration, but more complex: [github][similar]   
 A guy that struggled as well, and has good tips: [answer 8/8, by dundych][dund]  
 Exposing ports : [exposing]  
-
+localhost forwarding : [host.docker.internal VS 172.17.0.1](https://stackoverflow.com/questions/48546124/what-is-linux-equivalent-of-host-docker-internal)  
 
 [exposing]: https://runnable.com/docker/binding-docker-ports
 [dund]: https://forums.docker.com/t/how-can-i-navigate-to-container-website-from-host-browser/25035/8
@@ -97,3 +104,4 @@ Exposing ports : [exposing]
 [http://localhost:8000/status]: http://localhost:8000/status
 [http://localhost:8000]: http://localhost:8000
 [http://localhost:8081]: http://localhost:8081
+
