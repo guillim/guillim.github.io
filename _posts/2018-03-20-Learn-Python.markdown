@@ -1578,6 +1578,13 @@ for x in range(0, 3):
     iteration number 1
     iteration number 2
 
+### Note :
+if you need the index, use this code as explained [here](https://stackoverflow.com/questions/522563/accessing-the-index-in-for-loops)  
+
+```python
+for index, val in enumerate( range(0, 3) ):
+    print(index, val)
+```
 
 ## for Else
 
