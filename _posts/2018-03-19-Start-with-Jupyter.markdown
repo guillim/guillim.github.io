@@ -70,6 +70,7 @@ My favorites:
  * Insert Cell: \<Esc\> + \<b\>
  * Delete Cell: \<Esc\> + \<d\> + \<d\>
  * Copy & paste Cell: Select a cell + \<Esc\> + \<c\> + \<v\>
+ * Split Cell: \<Ctrl\> + \<Shift\> + \<-\>
 
 
 # 4. Commit your script
