@@ -87,6 +87,8 @@ Let's say you are inside your docker container, running an app on port 8000. Thi
 - on Linux : instead of connecting to _localhost:5432_ use the magic IP adress _172.17.0.1:5432_.  
 - on Mac : instead of connecting to _localhost:5432_ use the magic adress _host.docker.internal:5432_.  
 
+One more thing :
+In case your SQL database cannot accept connection from 172.17.0.1 because of its configuration file like pg_hba.conf. Then you will need to create a docker network of bridge type, and add the two containers into it. Then, replace 172.17.0.1 by the SQL container name.
 
 # Ressources
 
