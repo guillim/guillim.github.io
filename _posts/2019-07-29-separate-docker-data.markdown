@@ -188,8 +188,8 @@ services:
       POSTGRES_USER: yourusername
       POSTGRES_PASSWORD: yourpassword
       POSTGRES_DB: test
-      volumes:
-        - /usr/local/var/postgres/data/test_pgdata:/var/lib/postgresql/data/test_pgdata
+    volumes:
+      - /usr/local/var/postgres/data/test_pgdata:/var/lib/postgresql/data/test_pgdata
     ports:
       - 5432:5432
 ```
