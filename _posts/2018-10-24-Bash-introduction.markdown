@@ -142,15 +142,16 @@ Well, there is a third way for testing, more bulletproof:
 
 Note: in bash,  we don't use **if** with **=**. use eq, lt etc... instead
 
+Note: the spaces inside the brackets are important => this is a wrong way [[XXXXXXX]] 
 
 ```bash
-$ [ 2 = 2 ]
+$ [[ 2 = 2 ]]
 $ echo $?
 ```
 returns 0
 
 ```bash
-$ [ 2 = 3 ]
+$ [[ 2 = 3 ]]
 $ echo $?
 ```
 returns 1
@@ -178,8 +179,8 @@ returns 1
 
 #### Use conditions with if / else
 ```bash
-if condition
-    then instruction(s)
+if [[ condition ]]
+then instruction(s)
 else instruction(s)
 fi
 ```
@@ -212,9 +213,19 @@ echo "hello siva" >> read.txt
 cat read.txt  
 ```
 
+## Check for an existing file
+```bash
+if [[ -f "README.md" ]]
+then
+    echo 'yes the README file exists'
+else
+    echo 'no it does not'
+fi
+```
+Note: to check the existence of a directory, change the option from `f` to `d` like so : `if [[ -d "myfolder" ]]`  
+
 # Ressources
 
-
-More about ps1, ps2 ... [thegeek]([https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/?utm_source=twitterfeed&utm_medium=twitter])
-
-More about [testing]([https://fr.wikibooks.org/wiki/Programmation_Bash/Tests])
+More about ps1, ps2 ... [thegeek]([https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/?utm_source=twitterfeed&utm_medium=twitter])  
+More about [testing]([https://fr.wikibooks.org/wiki/Programmation_Bash/Tests])  
+More about checking if a file exist: [linuxize](https://linuxize.com/post/bash-check-if-file-exists/)
