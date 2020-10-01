@@ -79,11 +79,13 @@ __My dog is cute. He likes playing.__
 After the tokenization, this sentence turns out to be  
 __[CLS] my dog is cute [SEP] he likes play ##ing [SEP]__  
 
-You basically understand that tokeninsation consists in removings uppercase letters, adding specific anchors instaed of ponctuation, and grabbing the root meaning of words.
+You basically understand that tokeninsation consists in removings uppercase letters, adding specific anchors instead of ponctuation, and grabbing the root meaning of words.
+
+While BERT uses WordPiece algorithm for tokenization, some newer model use [SentencePiece](https://arxiv.org/abs/1808.06226). The difference is whole-word masking and not sub-word masking.
 
 ### Embedding
 
-Embedding is a vectorisation. There are many algorithm for Embedding, and I believe (but not 100% sure) that BERT use [WordPiece embeddings](https://arxiv.org/pdf/1609.08144.pdf)
+Embedding is a vectorisation. There are many algorithm for Embedding, and BERT use [WordPiece embeddings](https://arxiv.org/pdf/1609.08144.pdf).
 
 if you read Google's paper, you'll see this schema :
 ![archi](/assets/img/bert/BERT-embedding.png)
@@ -91,7 +93,16 @@ _The input embeddings are the sum of the token embeddings, the segmentation embe
 
 Each word gets transformed into a vector of size 512 (size that can be changed in BERT children)
 
-You can see we have 10 columns, because the tokenized sentence has 10 tokens. In real life, the number of columns is equal to the longest sentence number of tokens.
+You can see we have 10 columns, because the tokenized sentence has 10 tokens. In real life, the number of columns is equal to the longest sentence number of tokens. I read that for BERT, maximum number of columns was 512 - to be confirmed.
+
+
+# Fine tuning
+
+Now that we have BERT, what do we do ?
+
+![finetuning](/assets/img/bert/BERT-finetuning.png)
+
+
 
 # Reference
 Fine-tuning tasks : [question-answering | SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)  
@@ -102,5 +113,6 @@ Google 2018 paper : [BERT](https://arxiv.org/abs/1810.04805)
 Nice illustration of transformers : [jalammar](http://jalammar.github.io/illustrated-transformer/)  
 BERT faq : [yashuseth blog](https://yashuseth.blog/2019/06/12/bert-explained-faqs-understand-bert-working/)  
 WordPiece Tokenisation : [stackoverflow](https://stackoverflow.com/questions/55382596/how-is-wordpiece-tokenization-helpful-to-effectively-deal-with-rare-words-proble/55416944#55416944)  
+Another Tokenisation : [SentencePiece](https://arxiv.org/abs/1808.06226)  
 Bias : [Gender Bias in BERT](https://arxiv.org/pdf/2009.05021.pdf)  
 More on [word embedding](https://medium.com/deeper-learning/glossary-of-deep-learning-word-embedding-f90c3cec34ca)  
