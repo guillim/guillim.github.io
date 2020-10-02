@@ -60,9 +60,9 @@ If you want to learn more about MLM, or how the text is actually represented bef
 
 # What is the BERT architecture
 
-1. **Embedding** layer:  creates the embedding representation of an input word. Think of it as the word vectorisation.
-2. Intermediate layers, **the Transformer Blocks**: representations of the same word. (Every layer does some multi-headed attention computation on the word representation of the previous layer to create a new intermediate representation)
-3. **Final output**
+1. **Embedding** layer | __E__:  creates the embedding representation of an input word. Think of it as the word vectorisation.
+2. Intermediate layers, **the Transformer Blocks** | __Trm__: representations of the same word. (Every layer does some multi-headed attention computation on the word representation of the previous layer to create a new intermediate representation)
+3. **Final output** | __T__
 
 In the origianl paper, there were 2 similar architecture
 - base – 12 layers, 12 attention heads, and 110 million parameters
@@ -95,6 +95,19 @@ Each word gets transformed into a vector of size 512 (size that can be changed i
 
 You can see we have 10 columns, because the tokenized sentence has 10 tokens. In real life, the number of columns is equal to the longest sentence number of tokens. I read that for BERT, maximum number of columns was 512 - to be confirmed.
 
+### Transformer block
+
+This part is quite long and difficult. Best sources of information are these :
+- Google 2017 paper : [Attention Is All You Need](https://arxiv.org/abs/1706.03762)  
+- The Annotated Transformer : [harvardNLP](https://nlp.seas.harvard.edu/2018/04/03/attention.html)  
+- Google 2018 paper : [BERT](https://arxiv.org/abs/1810.04805)  
+- Nice illustration of transformers : [jalammar](http://jalammar.github.io/illustrated-transformer/)  
+
+If you don't have time for these papers, here what you need to remember.
+
+First what we call _Transformer_ usually reference to the model, composed as you now understand of an Embedding layer, many Tranformer blocks in the middle, and the output layer.  
+
+
 
 # Fine tuning
 
@@ -102,6 +115,13 @@ Now that we have BERT, what do we do ?
 
 ![finetuning](/assets/img/bert/BERT-finetuning.png)
 
+_Figure 1: Overall pre-training and fine-tuning procedures for BERT. Apart from output layers, the same architectures are used in both pre-training and fine-tuning. The same pre-trained model parameters are used to initialize
+models for different down-stream tasks. During fine-tuning, all parameters are fine-tuned. [CLS] is a special
+symbol added in front of every input example, and [SEP] is a special separator token (e.g. separating questions/answers)._
+
+From this statement, we understand that BERT is sort of a big Matrix, and parameters inside this Matrix will be modified by an additional training, called the "Fine tuning" process. After BERT is fine-tuned, the output changes from _"finding the word hidden by [MASK]"_ to a specific task like question-answering, in this case _"finding the span answering the question"_.
+
+Note that every parameter from this Matrix will change, not only the one from the last transformer layer.
 
 
 # Reference
@@ -109,6 +129,7 @@ Fine-tuning tasks : [question-answering | SQuAD](https://rajpurkar.github.io/SQu
 Fine-tuning tasks : [sentiment-analysis | CLS](https://webis.de/data/webis-cls-10.html)  
 LePetit experiments : [medium](https://medium.com/illuin/lepetit-a-pre-training-efficient-and-lightning-fast-french-language-model-96495ad726b3)  
 Google 2017 paper : [Attention Is All You Need](https://arxiv.org/abs/1706.03762)  
+The Annotated Transformer : [harvardNLP](https://nlp.seas.harvard.edu/2018/04/03/attention.html)  
 Google 2018 paper : [BERT](https://arxiv.org/abs/1810.04805)  
 Nice illustration of transformers : [jalammar](http://jalammar.github.io/illustrated-transformer/)  
 BERT faq : [yashuseth blog](https://yashuseth.blog/2019/06/12/bert-explained-faqs-understand-bert-working/)  
