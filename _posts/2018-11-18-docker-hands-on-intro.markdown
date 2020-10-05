@@ -274,7 +274,17 @@ touch newFile
 You will see it on your real machine as well !
 
 
+# 11. Important folder and files
 
+Containers will have these folders :  
+`/dev` (devices) none by default. You'll have to use the --privileged option to gain access  
+`/proc` (processes)  
+`/sys` virtual file system
+
+And files :  
+`/etc/resolv.conf` with DNS configuration of the container  
+`/etc/hostname` container name  
+`/etc/hosts` IP adress of the container + loopback adresses defintion
 
 # Random notes
 
@@ -293,3 +303,5 @@ But the best way to save space is using ```docker prune```
 [Volumes](https://stackoverflow.com/questions/34809646/what-is-the-purpose-of-volume-in-dockerfile)
 
 [Arg, Env, .env](https://vsupalov.com/docker-arg-env-variable-guide/)
+
+[Security recommendations](https://www.ssi.gouv.fr/uploads/2020/10/docker_fiche_technique.pdf)
