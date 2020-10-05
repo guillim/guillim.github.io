@@ -277,7 +277,7 @@ You will see it on your real machine as well !
 # 11. Important folder and files
 
 Containers will have these folders :  
-`/dev` (devices) none by default. You'll have to use the --privileged option to gain access  
+`/dev` (devices) none by default. You'll have to use the --privileged option to gain access -> for security reason, better keep the default conf. But the option --device can bring one specific device access if really necessary  
 `/proc` (processes)  
 `/sys` virtual file system
 
