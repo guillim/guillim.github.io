@@ -101,9 +101,18 @@ Note: if you want to keep the old files, you can put the new text files in anoth
 for f in *.txt; do sed 's/Microsoft windows/Ubuntu/' "$f" > ../new_directory/"$f" ; done
 ```
 
+# Dig Further
+
+I would recommend to look at `tr` for deleting or replacing characters in text files.
+
+Also for Json manupulation, I would recommend jq. It can be useful for text replacing of just one property. Good complement for many json manipulation, like this:
+```bash
+for file in *.json; do jq -c '.prop = (.prop | sub("Microsoft";"Ubuntu"; "g") )' file
+```
 
 # Reference
 A French blog with good examples : [buzut.net](https://buzut.net/apprendre-commande-sed-linux/)  
 Regex manual [regexr](https://regexr.com/)  
 Find & replace in mulitple files [`grep -RiIl --exclude-dir=tests 'search' | xargs sed 's/search/replace/g'
-`](https://www.internalpointers.com/post/linux-find-and-replace-text-multiple-files)
+`](https://www.internalpointers.com/post/linux-find-and-replace-text-multiple-files)  
+tr [linux-france.org](http://www.linux-france.org/article/man-fr/man1/tr-1.html)  
