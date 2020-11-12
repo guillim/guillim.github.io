@@ -38,22 +38,21 @@ Sans comparaison, le micro-entrepreneur est le grand gagnant. Ensuite vient l'EI
 ## Fiscalité
 
 Pour résumer un bilan simple :  
-```js
-+ CA  
-- rémuneration, selon ce que je veux me payer comme salaire chaque mois  
-- cotisation sociales (75%) | parfois appelés charges sociales
-- frais eventuels | parfois appelés charges d'exploitation  
 
-=> RESULTAT  (si positif, on parle de bénéfice)
-
-- impôt societé (15% puis 28%)
-
-=> BENEF NET  
-
-- dividendes possible (17.2% CSG + IR apres 40% d'abbatement OU flat tax 30%)
-
-= 0 € (ou plus pour laisser de la tréso dans la boîte)
-```
+| CA                     |                                                                                     | + | 100.000 |
+|------------------------|-------------------------------------------------------------------------------------|---|---------|
+| Charges d'exploitation | les frais: logiciels, tel pro, ordi                                                 | - | 8.000   |
+| Salaires               | Brut, avant l'impôt sur le revenu (dont Charges salariales)<br>(selon ce que je veux me verser chaque mois en brut)   | - | 40.000  |
+| Charges patronnales    |                                                                                     | - | 15.000  |
+|                        |                                                                                     |   |         |
+| Résultat net           | c'est la somme des lignes précédentes                                               | + | 37.000  |
+| IS                     | 15% entre 0 et 38.000<br>28% au-dessus                                              | - | 5.500   |
+| Résultat net d'impôt   | c'est la somme des lignes précédentes. Si positif = bénéfice                        | + | 31.500  |
+|                        |                                                                                     |   |         |
+| Dividendes             | On choisit, on peut aussi tout garder<br>en réserve pour faire un fond de roulement | - | 30.000  |
+| Réserve                |                                                                                     | - | 1.500   |
+|                        |                                                                                     |   |         |
+|                        | La somme doit être nulle                                                            |   | 0       |
 
 #### Cotisations sociales  
 Les plus importantes cotisations sont pour la SASU : 75 %. c'est le prix à payer pour avoir une couverture sociale proche de celle des "employés classiques" (Elles ne sont que de 40% pour les EI)  
@@ -83,8 +82,10 @@ NB: À horizon 2022, il n’existera plus que deux taux :
 #### Dividendes  
 N'existe pas pour les micro-entrepreneurs. Et pas du tout intéressant pour les EI. Clairement c'est la SASU qui l'emporte haut la main concernant les dividendes
 
-Conseil: choisir impôt sur le revenu de vos dividendes selon le barème progressif est intéressant si vous avez une **faible imposition** du foyer fiscal ( généralement, un taux marginal à 14%)
+Conseil: choisir impôt sur le revenu de vos dividendes selon le barème progressif est intéressant si vous avez une **faible imposition** du foyer fiscal ( généralement, un taux marginal à 14%). En effet, les dividendes possibles se calculent comme ça:   
 
+_17.2% CSG + IR apres 40% d'abbatement_  
+Ou  
 _17.2% de CSG-CRDS sur les dividendes distribués, auxquels s’ajoutent les 12.8% d’impôt sur le revenu prélevé sur vos dividendes, ce qui correspond à un total de 30% de “Flat tax”_
 
 ![screenshot](/assets/img/sasu_breakdown.png)
