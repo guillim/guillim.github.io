@@ -46,7 +46,7 @@ Pour résumer un bilan simple :
 
 => RESULTAT  (si positif, on parle de bénéfice)
 
-- impôt societé (15%, 28%, 33% ??)
+- impôt societé (15% puis 28%)
 
 => BENEF NET  
 
@@ -76,7 +76,6 @@ _Votre salaire de mandataire social est à déclarer mensuellement sur fiche de 
 #### IS
 - 15% sur la partie du résultat entre 0 et 38120€
 - 28% sur la partie du résultat entre 38120 et 500 000€
-- 31% sur la partie du résultat au-dessus de 500 000 €
 
 NB: À horizon 2022, il n’existera plus que deux taux :
 15% entre 0 et 38 120€, et 25% sur le reste du résultat.
