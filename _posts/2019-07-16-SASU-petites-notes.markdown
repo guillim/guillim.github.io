@@ -257,7 +257,7 @@ Notes intéressantes :
 - Si le vélo est le moyen de transport principal, il peut être passé en charge  
 
 Certains dispositifs sont considérés comme des frais, alors que c'est un forme de rémunération (il faut utiliser la carte pro) :  
-- carte cadeau (160€ / an)   
+- ~~carte cadeau (160€ / an)~~ (plus possible depuis le 1er janvier 2020)      
 - ~~chèque vacance (450€ / an) sur le site [ancv](https://www.ancv.com/)~~ (plus possible depuis le 1er janvier 2020)   
 - chèque CESU __préfinancé__ (1830€ / an) sur le site [domiserve](https://www.domiserve.com/) ou sur l'un des 3 autres organismes agréés pour les chèque préfinancés  
 
