@@ -72,6 +72,7 @@ Fiscalement, la rémunération est imposée à **l’impôt sur le revenu** apr�
 il existe un **décalage** dans le temps pour les déclarations:
 _Votre salaire de mandataire social est à déclarer mensuellement sur fiche de paie et vous aurez à payer chaque mois les charges sociales dues au titre du mois précédent. Le 15 Janvier, je paie donc mes cotisations sur mon salaire de décembre._
 
+![screenshot](/assets/img/sasu_salaires.png)
 #### IS
 - 15% sur la partie du résultat entre 0 et 38120€
 - 28% sur la partie du résultat entre 38120 et 500 000€
