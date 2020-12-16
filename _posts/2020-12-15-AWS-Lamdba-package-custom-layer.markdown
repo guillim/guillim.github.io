@@ -58,3 +58,4 @@ Here we go : in the code editor, you can now import numpy !!!
 
 # Reference
 Main source of inspiration : [theashworld](https://github.com/theashworld/nlp_on_aws_lambda)  
+Layer is not enough : use a Lamdba [docker container](https://github.com/lambci/docker-lambda)  
