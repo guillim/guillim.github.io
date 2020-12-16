@@ -26,10 +26,11 @@ sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Res
 ```
 
 Results looks like this :  
+
 | SSID | BSSID | RSSI | CHANNEL | HT | CC | SECURITY (auth/unicast/group) |  
-| ---  |  ---  | ---  |  ---    |--- |--- | ---  |  
-orange | 1e:81:d8:dc:27:56 | -87 | 3 | Y | FR | NONE |  
-| **Domino-F90A** | **88:f3:ab:79:f6:1a** | -74 |  **1** | N | -- | WPA(PSK/TKIP/TKIP) |
+| --- | --- | --- | --- | --- | --- | --- |  
+| orange | 1e:81:d8:dc:27:56 | -87 | 3 | Y | FR | NONE |  
+| **Domino-F90A** | **88:f3:ab:79:f6:1a** | -74 | **1** | N | -- | WPA(PSK/TKIP/TKIP) |  
 
 Note :  
 If you want to avoid typing _/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport_ every time, you can run this to make a shortcut as `airport` : ``` sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/local/bin/airport ```
