@@ -6,7 +6,7 @@ categories: database
 comments: true
 ---
 
-If you host a postgres database on your server, and you need to **expose** it to the web, so that other application can connect to it... you will need to secure it, and here is a quick Ârecap.  
+If you host a postgres database on your server, and you need to **expose** it to the web, so that other application can connect to it... you will need to secure it, and here is a quick recap.  
 
 # Summary
 There will be three main steps :
@@ -31,8 +31,9 @@ sudo ufw allow from authorized_client_ip_address to any port 5432
 Make sure everything is fine by typing again `ufw status`  
 
 
-Note: if trying to connect from google data.studio app, the list of IPs you need to allow are listed [here](https://support.google.com/datastudio/answer/7288010?hl=fr)
+Note: if trying to connect from google data.studio app, the list of IPs you need to allow are listed [here](https://support.google.com/datastudio/answer/7288010?hl=fr)  
 
+Troubleshooting: remember that the rule order is important in your firewall !  
 
 ## pg_hba.conf
 Here we will configure the allowed hosts

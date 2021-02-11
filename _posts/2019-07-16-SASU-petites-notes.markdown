@@ -22,13 +22,13 @@ Pour un projet court terme, je choisis la micro-entreprise. Mais dès qu'il s'ag
 Dès que vous commencez à faire du chiffre, vous avez aussi la responsabilité de vos actions. Le fait de créer une SASU agit comme un bouclier pour votre propre patrimoine. Si jamais un contrat se passe mal, et que la justice s'en mêle, elle pourra saisir votre maison si vous êtes Micro-entrepreneur, (ou [entreprise individuelle](https://fr.wikipedia.org/wiki/Entreprise_individuelle))... alors que votre maison (et l'ensemble de vos biens) seront protégés si vous avez une SASU
 
 ## Protection sociale
-Pas grand chose quand on est en micro-entreprise...  
+Pas grand-chose quand on est en micro-entreprise...  
 En SASU on peut se salarier (soi-même) pour bénéficier des avantages sociaux des "employés normaux". La sécurité sociale + retraite sont donc octroyées, comme les cadres.
 
 ## Déduire les frais / impôts
 Pour ce point, la SASU est plus performante que la micro-entreprise:
 - en micro-entreprise un abattement de 34 % est appliqué pour le calcul de l'impôt (qui est l'impôt sur le revenu puisque la micro-entreprise n'est pas une entité séparée, comme peut l'être la SASU)  
-L'autre option est d'opter pour le prélèvement libératiore de 2,2 %  
+L'autre option est d'opter pour le prélèvement libératoire de 2,2 %  
 Dans ces deux cas, on ne peut pas déduire de frais... ce qui peut être bloquant si les frais commencent à chiffrer
 - en SASU, on peut déduire les salaires de ses employés, et les autres frais de fonctionnement de l'entreprise.
 
@@ -38,22 +38,21 @@ Sans comparaison, le micro-entrepreneur est le grand gagnant. Ensuite vient l'EI
 ## Fiscalité
 
 Pour résumer un bilan simple :  
-```js
-+ CA  
-- rémuneration, selon ce que je veux me payer comme salaire chaque mois  
-- cotisation sociales (75%) | parfois appelés charges sociales
-- frais eventuels | parfois appelés charges d'exploitation  
 
-=> RESULTAT  (si positif, on parle de bénéfice)
-
-- impôt societé (15%, 28%, 33% ??)
-
-=> BENEF NET  
-
-- dividendes possible (17.2% CSG + IR apres 40% d'abbatement OU flat tax 30%)
-
-= 0 € (ou plus pour laisser de la tréso dans la boîte)
-```
+| CA                     |                                                                                     | + | 100.000 |
+|------------------------|-------------------------------------------------------------------------------------|---|---------|
+| Charges d'exploitation | les frais: logiciels, tel pro, ordi                                                 | - | 8.000   |
+| Salaires               | Brut, avant l'impôt sur le revenu (dont Charges salariales)<br>(selon ce que je veux me verser chaque mois en brut)   | - | 40.000  |
+| Charges patronnales    |                                                                                     | - | 15.000  |
+|                        |                                                                                     |   |         |
+| Résultat net           | c'est la somme des lignes précédentes                                               | + | 37.000  |
+| IS                     | 15% entre 0 et 38.000<br>28% au-dessus                                              | - | 5.500   |
+| Résultat net d'impôt   | c'est la somme des lignes précédentes. Si positif = bénéfice                        | + | 31.500  |
+|                        |                                                                                     |   |         |
+| Dividendes             | On choisit, on peut aussi tout garder<br>en réserve pour faire un fond de roulement | - | 30.000  |
+| Réserve                |                                                                                     | - | 1.500   |
+|                        |                                                                                     |   |         |
+|                        | La somme doit être nulle                                                            |   | 0       |
 
 #### Cotisations sociales  
 Les plus importantes cotisations sont pour la SASU : 75 %. c'est le prix à payer pour avoir une couverture sociale proche de celle des "employés classiques" (Elles ne sont que de 40% pour les EI)  
@@ -64,19 +63,19 @@ Si pas de rémunération, pas de cotisation: et donc pas de protection sociale. 
 
 
 #### Rémunération
-La rémunération est **libre**: on choisi le montant. (1000€ sur un mois, puis 2000€ le mois suivant, no pb). _"Cela ne pose pas de problème dans la mesure où il n’y a aucun lien de subordination entre vous et votre société, donc pas de contrat de travail."_   
+La rémunération est **libre**: on choisit le montant. (1000€ sur un mois, puis 2000€ le mois suivant, no pb). _"Cela ne pose pas de problème dans la mesure où il n’y a aucun lien de subordination entre vous et votre société, donc pas de contrat de travail."_   
 
 Le taux de charges sociales au régime général est d’en moyenne **75%** du salaire net. _Ex: pour avoir 1000€ de salaire, la SASU devra payer 750€ de charges sociales => super brut de 1750 €_
 
 Fiscalement, la rémunération est imposée à **l’impôt sur le revenu** après **abattement de 10%**: _Ex : Je me verse 10 000€ de rémunération, 9 000€ subiront le barème progressif de l’impôt sur le revenu_
 
-il existe un **decalage** dans le temps pour les déclarations:
+il existe un **décalage** dans le temps pour les déclarations:
 _Votre salaire de mandataire social est à déclarer mensuellement sur fiche de paie et vous aurez à payer chaque mois les charges sociales dues au titre du mois précédent. Le 15 Janvier, je paie donc mes cotisations sur mon salaire de décembre._
 
+![screenshot](/assets/img/sasu_salaires.png)
 #### IS
 - 15% sur la partie du résultat entre 0 et 38120€
 - 28% sur la partie du résultat entre 38120 et 500 000€
-- 31% sur la partie du résultat au dessus de 500 000 €
 
 NB: À horizon 2022, il n’existera plus que deux taux :
 15% entre 0 et 38 120€, et 25% sur le reste du résultat.
@@ -84,9 +83,11 @@ NB: À horizon 2022, il n’existera plus que deux taux :
 #### Dividendes  
 N'existe pas pour les micro-entrepreneurs. Et pas du tout intéressant pour les EI. Clairement c'est la SASU qui l'emporte haut la main concernant les dividendes
 
-Conseil: choisir impôt sur le revenu de vos dividendes selon le barème progressif est intéressant si vous avez une **faible imposition** du foyer fiscal ( généralement, un taux marginal à 14%)
+Conseil: choisir impôt sur le revenu de vos dividendes selon le barème progressif est intéressant si vous avez une **faible imposition** du foyer fiscal ( généralement, un taux marginal à 14%). En effet, les dividendes possibles se calculent comme ça:   
 
-_17.2% de CSG-CRDS sur les dividendes distribuées, auxquels s’ajoutent les 12.8% d’impôt sur le revenu prélevé sur vos dividendes, ce qui correspond à un total de 30% de “Flat tax”_
+_17.2% CSG + IR apres 40% d'abbatement_  
+Ou  
+_17.2% de CSG-CRDS sur les dividendes distribués, auxquels s’ajoutent les 12.8% d’impôt sur le revenu prélevé sur vos dividendes, ce qui correspond à un total de 30% de “Flat tax”_
 
 ![screenshot](/assets/img/sasu_breakdown.png)
 
@@ -111,7 +112,7 @@ Cout: 53,38 € (Greffe) + 158 € (annonce légale)
 [LegalStart](https://www.legalstart.fr/): je recommande le pack du milieu (pas besoin de le faire en urgence, ni du suivi juridique de la formule premium).  
 => 129 €
 
-[Capitaine Contrat](https://www.captaincontrat.com/) (solution utilisée pour ma précédente SAS) Raison du choix: recomandation par Meriadec Buschmuller et Benoit Guigal.  
+[Capitaine Contrat](https://www.captaincontrat.com/) (solution utilisée pour ma précédente SAS) Raison du choix: recommandation par Meriadec et Benoit Guig.  
 => 129 €  
 
 COÛT total dans mon cas, via LegalStart: (260 + 160 HT /one shot, soit 432,04 TTC)
@@ -134,7 +135,7 @@ Ces deux options coûtent entre 8 et 9 € /mois.
 Je ne souhaite pas le faire moi-même: trop long, trop chiant, un peu risqué aussi (oublier des formalités coûte cher... 1500€ si on ne publie pas ses comptes)
 
 
-En terme de comptabilité, il me fallait un service qui soit intégré à Qonto (pour automatiser les tâches), donc devait faire parti de cette liste: [partenaires Qonto](https://support.qonto.eu/hc/fr/articles/360000310489-Quelles-apps-peuvent-automatiquement-r%C3%A9cup%C3%A9rer-mes-transactions-)
+En termes de comptabilité, il me fallait un service qui soit intégré à Qonto (pour automatiser les tâches), donc devait faire parti de cette liste: [partenaires Qonto](https://support.qonto.eu/hc/fr/articles/360000310489-Quelles-apps-peuvent-automatiquement-r%C3%A9cup%C3%A9rer-mes-transactions-)
 
 ### Outil seul VS Outil + Expert comptable
 
@@ -165,12 +166,12 @@ Cabinet d'expert-comptable:
 - [Lebonexpertcomptable](https://www.lebonexpertcomptable.com/): recommandé par un ami & full online (avec QuickBooks + ReceiptBank)  A APPELER
 - [l-expert-comptable](https://www.l-expert-comptable.com/): utilisent Tiime + Receipt + Invoice => 100% online à la différence de Novaa qui privilégie le physique à Paris  
 (100€ /mois)  
-Un peu plus de détail: ils sont spécialisés dans les freelance sans salariés (pas de contrat de travail, de gestion du temps des salariés, du chômage, des congés payés...).   
-Le tarif comprend tout: comptabilité, TVA, frais, conseil gratuit d'un comptable (lui-même en contact avec un expert comptable au besoin), dépôt du bilan.
+Un peu plus de détail: ils sont spécialisés dans les freelance sans salariés, mais dpeuis 2020 possibilité de gérer 1 ou 2 salariés ou assimiliés.   
+Le tarif comprend tout: comptabilité, TVA, frais, conseil gratuit d'un comptable (lui-même en contact avec un expert-comptable au besoin), dépôt du bilan.
 - [Novaa](https://www.novaa-expertise.com/) A APPELER
-- [ComptaStart](https://www.legalstart.fr/comptastart/) peut faire de la mise en relation avec un expert comptable. (entre 300€ et 500€)
-- [incityz](https://www.incityz.com/): Quand on a besoin de salariés. utilisent Tiime aussi. (100€/mois + 500€ pour le bilan)
-possibilité de RDV physique à Paris. Sinon font les mêmes prestations que l-expert-comptable  
+- [ComptaStart](https://www.legalstart.fr/comptastart/) peut faire de la mise en relation avec un expert-comptable. (entre 300€ et 500€)
+- [incityz](https://www.incityz.com/): Quand on a besoin de salariés. Utilisent Tiime aussi. (100€/mois + 500€ pour le bilan)
+Possibilité de RDV physique à Paris. Sinon font les mêmes prestations que l-expert-comptable  
 Pour les salariés: les prévenir 72h avant le début du contrat, avec les infos (25€ /mois par salarié + 90€ de début pour rédiger contrat etc... qu'on peut aussi faire soi-même)
 
 
@@ -211,7 +212,7 @@ Ex: Je décide de me verser 3000€ net en Octobre. Alors je paierai 1700€ à 
 Ces prélèvements arrivent, peu importe si on se paie un salaire ou non  
 - TVA le __30 avril de l'année suivante__ (__20% du CA__, la différence entre le HT et le TTC)
 - CFE __en décembre de l'année en cours__ (__500€__ environ, gratuit la première année)
-- IS __le 15 mai de l'année suivante__ (ratio dépend du bénéfice). Note: si l'année passée l'IS > 3000€ alors des accomptes devront être versés trimestriellement, 15 mars - 15 juin - 15 septembre - 15 décembre - à hauteur de l'IS / 4
+- IS __le 15 mai de l'année suivante__ (ratio dépend du bénéfice). Note: si l'année passée l'IS > 3000€ alors des acomptes devront être versés trimestriellement, 15 mars - 15 juin - 15 septembre - 15 décembre - à hauteur de l'IS / 4
 
 #### Comment savoir combien il me reste pour me payer un salaire ce mois-ci ?
 Pour faire simple, il suffit d'attendre que l'ensemble des prélèvements liés au salaire du mois précédent passent, donc après le 15 du mois. Ensuite, il faut regarder son compte pro et retirer les 20% de TVA. Quand c'est fait, on a une bonne idée de ce qu'il reste de trésorerie pour se verser un salaire. Ne pas oublier de provisionner pour la CFE, l'assurance prévoyance, et les dettes de l'entreprise le cas échéant.  
@@ -232,7 +233,7 @@ Optionel:
 
 Note: un service "Conformité" existe chez LegalStart. Ils s'assurent que ces 3 obligations sont respectées (279€ /an)... chelou pour le prix car selon l-expert-comptable, le dépôt auprès des greffes ne coûte que 40€...
 
-Note: avec l-expert-comptable, la préparation du bilan est envoyé mi-novembre. Cela permet de s'assurer que le bilan est conforme avec ce qui est prévu, et aussi d'optimiser le versement de dividende par exemple. Puis le bilan définitif est produit courant décembre. Ensuite l-expert-comptable se charge de l'envoyer au greffe (l'administration publique laisse 4 mois à partir de la cloture des comptes, souvent le 31 décembre, pour l'envoyer, donc jusqu'au 30 avril)
+Note: avec l-expert-comptable, la préparation du bilan est envoyé mi-novembre. Cela permet de s'assurer que le bilan est conforme avec ce qui est prévu, et aussi d'optimiser le versement de dividende par exemple. Puis le bilan définitif est produit courant décembre. Ensuite l-expert-comptable se charge de l'envoyer au greffe (l'administration publique laisse 4 mois à partir de la clôture des comptes, souvent le 31 décembre, pour l'envoyer, donc jusqu'au 30 avril)
 # 6. Avoir un salarié
 
 C'est tout à fait possible en SASU. Vérifiez simplement que votre cabinet comptable est capable de gérer des salariés. En effet l'édition des fiches de paie nécessite de déclarer les cotisations sociales => certains cabinets ne veulent pas le faire.
@@ -245,7 +246,7 @@ Un stagiaire payé au minimum légal ne cotise à aucune cotisation sociale. Il 
 La principale règle à ce sujet est: _les frais doivent être dans l'interêt professionel de la société_
 Il faut impérativement avoir une facture au nom de la société.
 
-Examples de ce qui passe au nom de la sociétié:
+Examples de ce qui passe au nom de la société:
 - Environ 80% des frais de télécommunication (forfait internet...)
 - un petit % du loyer personnel, correspondant à la zone de travail accordé au travail à domicile
 - idem pour les frais d'électricité
@@ -257,8 +258,8 @@ Notes intéressantes :
 - Si le vélo est le moyen de transport principal, il peut être passé en charge  
 
 Certains dispositifs sont considérés comme des frais, alors que c'est un forme de rémunération (il faut utiliser la carte pro) :  
-- carte cadeau (160€ / an)   
-- chèque vacance (450€ / an) sur le site [ancv](https://www.ancv.com/)  
+- ~~carte cadeau (160€ / an)~~ (plus possible depuis le 1er janvier 2020)      
+- ~~chèque vacance (450€ / an) sur le site [ancv](https://www.ancv.com/)~~ (plus possible depuis le 1er janvier 2020)   
 - chèque CESU __préfinancé__ (1830€ / an) sur le site [domiserve](https://www.domiserve.com/) ou sur l'un des 3 autres organismes agréés pour les chèque préfinancés  
 
 # FAQ de LegalStart:
