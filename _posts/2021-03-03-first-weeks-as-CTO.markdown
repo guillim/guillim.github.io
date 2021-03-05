@@ -28,11 +28,13 @@ It is your role to create the **structure for your tech team to be efficient**. 
 **Values**: on top of your enterprise culture, try to find pilars for your product and they will drive its development.  
 _ex: reliability & velocity  
 
-* create a process for **people dispatching** into teams with clear scopes, setup a routine for **team refactoring**
-* clarify your **hierarchy mode**: _ex : Vertical => CTO > lead dev > dev or Horizontal => CTO = dev_
+* create a process for **people dispatching** into teams with clear scopes, setup a routine for **team refactoring**. Check the holacracy ideas in the ref bellow: true freedom ends where another begins, so clarify bounderies.
+* clarify your **hierarchy mode**:
+  for instance
+  * Vertical   => CTO > lead dev > dev (harder to stimulate your team when your CTO looks distant, at N+4 level)
+  * Horizontal => CTO = dev (prefered)
 * make it nice for your team to work _(ex: fun, food, afterwork...)_
-* **recruit talent you need**: candidates must fit with your culture, but they can also bring abilities from the outside world
-* Set up a list of tools for communication (chat on Slack, important structural decision on GitHub, knowledge base on Notions, brainstorm online with a post-it app, use template for meetings request)
+* Set up a list of tools for work & communication (chat on Slack, important structural decision on GitHub, knowledge base on Notions, brainstorm online with a post-it app, use template for meetings request). See this [list of tool proposal](assets/Tools-for-CTO.md)
 
 ### Managment - Agility
 This goes down to handling project managmenent. Most of the time the CTO tries to gather crew of maximum size 8 persons. Then you have two options :
@@ -52,25 +54,29 @@ Main differences between Kanban and scrum:
 -  _sprint for scrum_ : work is released every two weeks (timeframe can change) in Scrum. It's a continuous release for Kanban
 - _composition of the crew_ : only devs in Kanban (one of them takes ownership of the project managment) while in Scrum you have typically 1 coach, 1 product owner, 1 designer and 3 devs.
 
-Note : some methods can't apply to your team, or will require recruitements.
+Some methods can't apply to your team, or will require recruitements. Pay attention to that.  
+
+Also, be very careful to avoid a systemic micro-management
+
+There are many documentation online for Agile methodology. Feel free to dig.
 
 ### Product roadmap
 Keep in mind you are still early stage, so you need to find a market fit as fast as possible for your product. Focus on the essential.  
 
-There are different methods for doing so. But they all end up with you facing a backlog of ideas for your product. Choose the main areas (group of ideas) that you want in production in 3 months.  
-
-The Scrum way to do things is to use a userStoryMap
+There are different methods for doing so. But they all end up with you facing a backlog of ideas for your product. Choose the main areas (group of ideas) that you want in production in 3 months. The Scrum fans will use a userStoryMap, but any other ways exist. The person in charge of this job can be called by different names : product owner, product manager, and also CTO at the begining.
 
 
 # Recruitement
 Crucial, especially for the first core team ! You **cannot mess the 5 first recruits**. They must:
 - be aligned with your **culture of work**
 - **fit with you team**
-- excel **technically**  
+- excel **technically** & same Level as the rest of your team  
+
+Use it to bring missing abilities from the outside world  
 
 Recruitement is a huge topic, please refer to link below or dig on specific ressources. I cannot write more here. In one sentence: _can you see in them as CTO in 5 years ?_
 
-My opinion : as soon as possible, hire a fullstack designer (confident to do UX & UI). In the meantime, use freelances before you get the appropriate one (can also be a way to find your proper candidate).
+My opinion : after the first devs, hire a fullstack designer (confident to do UX & UI). In the meantime, use freelances before you get the appropriate one (can also be a way to find your proper candidate).
 
 For Early stage startups, the main concern will be **sourcing good candidates**. Find what makes you sexy for them (, working with you, your company value proposition), and where they can hear about you (meetups, podcast, blog...).
 
@@ -90,7 +96,7 @@ That's entirely up to you.
 
 # Culture
 
-* list **3 keywords** defining your way of work _ex: autonomy, kindness, asynchronous & transparent communication_, even better create a manifest (see References). This has a huge impact on **recruitment**
+* list **3 keywords** defining your way of work _ex: autonomy, kindness, asynchronous & transparent communication_, even better create a manifest (see References). This has a huge impact on **recruitment**. We could have picked efficiency, proximity... : but you need to make choose the most important for your organisation.
 * ask ppl how happy they are & how to improve it
 * respect a good life/work balance.
 
@@ -118,8 +124,12 @@ If I have to give only 3 words, to summarize an early stage CTO:
 * inspire
 
 # Reference
+curated list of ressources [Awsome CTO on GitHub](https://github.com/kuchin/awesome-cto)  
+@Spotify Agile organisation [Praveen blog](https://blog.praveen.science/my-experience-on-spotify-agile-methodology/#squads)  
 Manifest of enterprise culture [toucantoco](https://toucantoco.com/blog/nos-5-valeurs-startup-dataviz/)  
 Examples of cultural values & recruitment tips [Alab blog](https://blog.alan.com/conference/people-talks-1-culture-dentreprise-definir-vos-valeurs-pour-recruter)  
 Rajiv Pant's Linkdin post [90 Day Plan for a CTO in a New Job](https://www.linkedin.com/pulse/90-day-plan-cto-new-job-rajiv-pant/)  
 Rajiv Pant's blog [career chart example](https://www.rajiv.com/blog/2012/12/17/tech-career-tracks-v2/)  
-Book Frederic Laloux [reinventing organizations on koober](https://koober.com/fr/fiche/r%C3%A9sum%C3%A9-de-reinventing-organizations)
+Roadmap using Story mapping [by Andrea Gigante](https://medium.com/@andrea.gigante/creating-an-agile-roadmap-using-story-mapping-b823c0a41da1)  
+Book Frederic Laloux [reinventing organizations on koober](https://koober.com/fr/fiche/r%C3%A9sum%C3%A9-de-reinventing-organizations)  
+Holacracy introduction for new management style [Brian Robertson's Tedx](https://www.youtube.com/watch?v=tJxfJGo-vkI)
