@@ -36,7 +36,9 @@ _ex: reliability & velocity
 * make it nice for your team to work _(ex: fun, food, afterwork...)_
 * Set up a list of tools for work & communication (chat on Slack, important structural decision on GitHub, knowledge base on Notions, brainstorm online with a post-it app, use template for meetings request). See this [list of tool proposal](assets/Tools-for-CTO.md)
 
-### Managment - Agility
+Note: asynchronous communication (as cultural values) has impact on your orgniastion. you will then choose appropriates tools and decision making process for this to operate. It brings great values, allowing anyone to be listened to and maturing its opinion before sharing it. It also avoids interruptions.
+
+### Product Managment - Agility
 This goes down to handling project managmenent. Most of the time the CTO tries to gather crew of maximum size 8 persons. Then you have two options :
 * trust self-organisation for your crews (my prefered)
 * impose a fixed organisation.
@@ -93,6 +95,7 @@ That's entirely up to you.
 * **Lead**. Fill your team with **energy** _ex: work with your team, inspire them every week, create common goals, excitement, challenges, rewards_
 * **Spread your vision** do regular all-hands meeting (every quarter for instance) for a **tech vision and strategy update** : explain how your tech choices can implement it
 * ask for advice, including leadership, from your colleagues, regardless of their level or experience. You can learn from anyone. This also encourages your colleagues to become leaders.
+
 
 # Culture
 
