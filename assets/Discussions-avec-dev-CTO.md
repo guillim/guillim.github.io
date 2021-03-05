@@ -1,6 +1,6 @@
 # Synthèse de mes échanges avec des dev ou CTO
 Dans le cadre d'une montée en compétence et compréhension du métier de CTO, j'ai interviewé 4 personnes sur leurs métiers de Dev ou de CTO. Mes questions étaient centrées sur
-* la strucutre de la team tech
+* la structure de la team tech
 * les méthodos de travail
 * la place du CTO
 * gestion du produit
@@ -12,14 +12,14 @@ Et en bonus, à quoi ressemble une journée type
 ### @startup de 5 dev
 
 **Méthodologie de taff :**
-à ameliorer selon lui => no scrum... ou autre principe linter, CI... il pense qu'il le fera par la formation ou recrutement de gens bons
+à améliorer selon lui => no Scrum... ou autre principe linter, CI... il pense qu'il le fera par la formation ou recrutement de gens bons
 Comment il fait : système Ticket + Roadmap (important que qqn assigne les tickets)
 
 **Structure équipes tech: (CTO = chief organisation)**
-définition : Comment staffer la team sur les projets, en découle le style de management. noter que le CTO doit aussi penser à restructurer ses teams en fct degré maturité
+définition : Comment staffer la team sur les projets, en découle le style de management. Noter que le CTO doit aussi penser à restructurer ses teams en fct degré maturité
 5 personnes => tous fullstack : chacun s'occupe de sa feature seul + certaines responsabilités orthogonales (ie hors produit comme "équipe domaine")
 
-chaque niveau de maturité necessite une évolution: nouvelles problématiques à anticiper.
+Chaque niveau de maturité nécessite une évolution : nouvelles problématiques à anticiper.
 - niveau 1 - choisir stack + recruter + dev du MVP ASAP = king of tech
 - niveau 2 - recrutement, motiver les gens, choix d'organisation...
 - ...
@@ -33,8 +33,8 @@ Qui priorise les tâches
 **Supervision des équipes tech: (CTO lead les gens LEADER) = managment**
 Comment gérer les pb
 ex: pourquoi cette personne ne sait pas faire une roadmap ?
-Leader est là pour aider team a produire
-gerer le temps des dev
+Leader est là pour aider team à produire
+gérer le temps des dev
 
 **Choix technos**, évident
 
@@ -42,9 +42,9 @@ gerer le temps des dev
 son avis : CTO dernier mot
 
 **Produit & Management**
-- Roadmap (PO la construit tout 3mois + marge temps bug) => trello maison | grand objectifs (on aura ça dans 3 mois). Ensuite une grosse réunion team pour passer au niveau suivant, avec redécoupage des taches, et assigner les taches
+- Roadmap (PO la construit tout 3mois + marge temps bug) => trello maison | grands objectifs (on aura ça dans 3 mois). Ensuite une grosse réunion team pour passer au niveau suivant, avec redécoupage des taches, et assigner les taches
 - Todo list : sur Notion format tableau (gestion + communication, doc... ressemble wiki)
-3 colonnes : En cours |  features cours terme | fearures moyen terme | done
+3 colonnes : En cours |  features cours terme | features moyen terme | done
 - todo personnelle sur un trello individuel [chaque dev fait ce qu'il veut]
 
 
@@ -56,7 +56,7 @@ relation fournisseurs DNS
 
 PB actuel : Recrutement de junior seulement. pas d'apport de skills via ces recrutements
 
-Notions de Run (bugfix...) VS Build (features de la roadamp). Permet de monitorer ça (dette tech ?). Avec une question: le CTO doit-il faire un RUN hors de son scope ?
+Notions de Run (bugfix...) VS Build (features de la roadamp). Permet de monitorer ça (dette tech ?). Avec une question : le CTO doit-il faire un RUN hors de son scope ?
 
 
 **Où apprendre tout ça :**
@@ -90,7 +90,7 @@ lui attire pas mal grâce à la Data => plus facile d'attirer les mecs en stage 
 
 Deuxième enjeu : tester les candidats
 Chez Lui :
-1 - 📲 call verifier que le mec correspond, et que notre offre le reponde a ses attentes
+1 - 📲 call vérifier que le mec correspond, et que notre offre le réponde a ses attentes
 2 - 🗣️ un entretien fit avec la team
 3 - 💻 questions tech avec et sans coder : objectif de déterminer le niveau du dev, sa faculté à apprendre rapidement. Voir aussi quels sont ses réflexes, par ex : t'as 1 semaine pour dev un site de ecommerce, que fais-tu (réponse idéale : passer par shopify si correspond au besoin)
 
@@ -99,31 +99,31 @@ L'idée d'un recrutement dev c'est que 2 ans plus tard il puisse re-lire son cod
 
 **Organisation**
 3 team de 4 dev, 1 senior qui lead les sujets management, PO etc...
-pas tres structuré car tres heteroclite
+pas très structuré car très hétéroclites
 
 Methodo de project managment:
 Que des dev : pas de product Owner, ni designer (même pas partagé), scrum master => c'est un dev senior qui "organise" sa team
 Sprint dure 1 semaine
 - every morning : meeting 10min (fait la veille, todo journée)
-- every week : meeting pour comprendre ce qui a chié et comment faire pour ameliorer
+- every week : meeting pour comprendre ce qui a chié et comment faire pour améliorer
 Code review : par qqn de la team
-Product roadmap (faire que site soient PWA) simplissime par lui, ensuite les dev senior s'occupent de creuser avec leur team, puis decouper en tickets
+Product roadmap (faire que site soient PWA) simplissime par lui, ensuite les dev senior s'occupent de creuser avec leur team, puis découper en tickets
 
 **supervision tech** => pas ouf, faudrait des tests + product owner
 
 **Culture souhaitable**
-creer un environmeent pour que chacun s'approprie les bonnes practises et donner un referent sur tous les sujets => déecharge de tout taff le CTO + rend autonome les squad.
+créer un environnement pour que chacun s'approprie les bonnes practises et donner un référent sur tous les sujets => déecharge de tout taff le CTO + rend autonome les squad.
 
 
 **Outils (Make VS Buy)**
-Project management : clairement tres fan des opinoniated et poussé dans UX de ce sujet :
+Project management : clairement très fan des opinoniated et poussé dans UX de ce sujet :
 - clubhouse bien fait, car visuellement sympa, roadmap, milestone,
-- Linear.app (apparement pas mal aussi)
-- Jira...  trop moche
-Knowledge base (indispendable pour documenter, si qqn est en vacances, etc...) => notions
+- Linear.app (apparemment pas mal aussi)
+- Jira... trop moche
+Knowledge base (indispensable pour documenter, si qqn est en vacances, etc...) => notions
 autre option bookstack
-Monitoring prod : bugsnag (sentry) dingissime => intergeation avec slack
-alertes server directement depuis  digitalocean
+Monitoring prod : bugsnag (sentry) dingissime => intégration avec slack
+alertes server directement depuis digitalocean
 Teams (vs Slack)
 backoffice de forestadmin
 Octobat => facturation connect a Stripe
@@ -131,13 +131,13 @@ Octobat => facturation connect a Stripe
 
 **Best practise Github PR :**
 hyper complète avec des template sur github
-permet de faire un peu de CI (lintr ok, toutes features du ticket résolus, tous les test faits)
+permet de faire un peu de CI (lintr ok, toutes features du ticket résolus, tous les tests faits)
 
 
 ## J.B Dev
 ### @startup de 15 dev
 
-spécial : tres petit, fondateurs manquaient de plein de trucs => NE PAS REFAIRE
+spécial : très petit, fondateurs manquaient de plein de trucs => NE PAS REFAIRE
 
 **methodo** : agile avec postit
 * tracking peu motivant | dépend de la team
@@ -178,7 +178,7 @@ Peu de réunion, pas d'interruption, décisions par écrit (les timides ont plus
 **CTO ouvert au challenge**  
 consultait beaucoup ses dev : pour l'organisation ou tech ex: pk des bugs ? Process de recrutement
 
-**pas de demission de dev** grace à
+**pas de démission de dev** grâce à
 * la culture d'entreprise
   - ambiance top (jeux de sociétés & apéro & consoles de jeu, salle de sieste)
   - remote ok à 100%
@@ -229,4 +229,50 @@ Note: les timeframe ne sont pas figées. Avant c'etait de 3 mois, maintenant 7 s
 **Culture**  
 Poser ses questions en public : même si c'est gênant => encourager les gens à parler  
 Politique : pas forcément tout corriger si bug de temps en temps.  
-Repo Github dédié pour les décisions importantes organisationelles.
+Repo Github dédié pour les décisions importantes organisationnelles.
+
+
+
+## JY CTO
+### @startup de 10 dev
+
+**Communication**  
+Rôle de vulgariser la tech aux autres Directeurs. Comment véhiculer les notions importantes de tech sans parler tech, en prenant de la hauteur.  
+_ex : pillier FIABILITÉ_  
+_en terme tech : sla 99%, no downtime, ..._  
+_quels outils tech le permettent_  
+
+**Recrutement**  
+Marché actuel = tendu. startup paie moins bien. Comment se différencier ?
+* valeur de la boite
+* miser sur un recruteur exceptionnel
+* miser sur sa personnalité de CTO => inspirant, dev veut travailler avec moi
+
+=> Pas grave d'etre nul en infra => mais faut en avoir conscience et y remédier
+
+**mise en situation**  
+1. démotivation, que faire ?  
+est-ce que c'est vrai, ou les metrics ne sont fausses ?  
+chercher raison: propre à la team tech VS global ? creuser etc...  
+
+Si pas de raison, marasme latent  
+* changement de cadre (louer un truc a la mer: fin de journee surf)  
+* fun  
+* se raccrocher au produit, inspirer, rebooster  
+_think out of the box_ => qu'est ce que je fais quand j'ai un coup de mou ? restaurant/bar...
+
+=> CTO n'a pas le droit de pas réagir. il doit detecter le pb, et compenser avec en voyant plus large.
+
+**sky it the limit**  
+c'est toi, CTO, qui décide, qui t'autorise à aller plus loin, à être ambitieux  
+_ex: si je veux la meilleure tech du monde, je m'en donne les moyens_
+
+**Leader**  
+inspirant, mais aussi prendre par la main sa team pour qu'elle fasse le premier pas
+confiance
+transparence & communication
+
+
+**point important**  
+maturité : pouvoir jongler avec la hauteur pour voir l'ensemble / produire la tete dans le guidon  
+véhiculer la confiance en soi
