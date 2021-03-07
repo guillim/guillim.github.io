@@ -23,7 +23,7 @@ First, understand your position & its boundaries
 
 
 # Organization
-It is your role to create the **structure for your tech team to be efficient**. Subsequently, it defines the **management style** you aim for. At a very early stage, don't overthink it: 3 devs don't require well-defined organizations. But soon, you'll have to **split your tech team** into smaller crews, and you better have anticipated this. Main reason: an organization require **cultural values** _(ex: autonomy)_ shared by your team. To give an example: one of the reason Agile methods fail is when people don't identify themselves to its values. Sometimes you can't change people, so better recruit them carefully with this topic in mind. Keep in mind that the organization is alive: it evolves with your team size.
+It is your role to create the **structure for your tech team to be efficient**. Subsequently, it defines the **management style** you aim for. At a very early stage, don't overthink it: 3 devs don't require well-defined organizations. But soon, you'll have to **split your tech team** into smaller crews, and you better have anticipated this. Main reason: an organization require **cultural values** _(ex: autonomy)_ shared by your team. To give an example: one of the reason Agile methods fail is when people don't identify themselves to its values. Sometimes you can't change people, so better hire them carefully with this topic in mind. Keep in mind that the organization is alive: it evolves with your team size.
 
 **Values**: on top of your enterprise culture, try to find pillars for your product, and they will drive its development.  
 _ex: reliability & velocity  
@@ -56,7 +56,7 @@ Main differences between Kanban and scrum:
 -  _sprint for scrum_ : work is released every two weeks (timeframe can change) in Scrum. It's a continuous release for Kanban
 - _composition of the crew_ : only devs in Kanban (one of them takes ownership of the project management) while in Scrum you have typically 1 coach, 1 product owner, 1 designer and 3 devs.
 
-Some methods can't apply to your team, or will require recruiting. Pay attention to that.  
+Some methods can't apply to your team, or will require hiring. Pay attention to that.  
 
 Also, be very careful to avoid a systemic micro-management
 
@@ -68,7 +68,7 @@ Keep in mind you are still early stage, so you need to find a market fit as fast
 There are different methods for doing so. But they all end up with you facing a backlog of ideas for your product. Choose the main areas (group of ideas) that you want in production in 3 months. The Scrum fans will use a userStoryMap, but any other ways exist. The person in charge of this job can be called by different names : product owner, product manager, and also CTO at the beginning.
 
 
-# Recruitment
+# Hiring
 Crucial, especially for the first core team ! You **cannot mess the 5 first recruits**. They must:
 - be aligned with your **culture of work**
 - **fit with your team**
@@ -76,7 +76,7 @@ Crucial, especially for the first core team ! You **cannot mess the 5 first recr
 
 Use it to bring missing abilities from the outside world  
 
-Recruitment is a huge topic, please refer to link below or dig on specific resources. I cannot write more here. In one sentence: _can you see in them as CTO in 5 years ?_
+Hiring is a huge topic, please refer to link below or dig on specific resources. I cannot write more here. In one sentence: _can you see in them as CTO in 5 years ?_
 
 My opinion : after the first devs, hire a fullstack designer (confident to do UX & UI). In the meantime, use freelances before you get the appropriate one (can also be a way to find your proper candidate).
 
@@ -99,7 +99,7 @@ That's entirely up to you.
 
 # Culture
 
-* list **3 keywords** defining your way of work _ex: autonomy, kindness, asynchronous & transparent communication_, even better create a manifest (see References). This has a huge impact on **recruitment**. We could have picked efficiency, proximity... : but you need to make choose the most important for your organization.
+* list **3 keywords** defining your way of work _ex: autonomy, kindness, asynchronous & transparent communication_, even better create a manifest (see References). This has a huge impact on **hiring**. We could have picked efficiency, proximity... : but you need to make choose the most important for your organization.
 * ask people how happy they are & how to improve it
 * respect a good life/work balance.
 
@@ -115,7 +115,7 @@ This should be a regular process : after a few months it's time for an update =>
 # Other topics
 * Measure run vs build
 * control your time:
-  * try a weekly routine (beginning with a chat with your associates ? Reserve Friday afternoon for recruitment interviews...)
+  * try a weekly routine (beginning with a chat with your associates ? Reserve Friday afternoon for hiring interviews...)
   * try a daily routine (with blocks of time, and using the pomodoro technique for instance)
   * trust people and give you free time to think
 * Implement a performance evaluation and career development system.
@@ -123,14 +123,14 @@ This should be a regular process : after a few months it's time for an update =>
 # In 3 words
 If I have to give only 3 words, to summarize an early stage CTO:
 * architect (team & tech)
-* recruiter
+* hire
 * inspire
 
 # Reference
 curated list of resources [Awesome CTO on GitHub](https://github.com/kuchin/awesome-cto)  
 @Spotify Agile organization [Praveen blog](https://blog.praveen.science/my-experience-on-spotify-agile-methodology/#squads)  
 Manifest of enterprise culture [toucantoco](https://toucantoco.com/blog/nos-5-valeurs-startup-dataviz/)  
-Examples of cultural values & recruitment tips [Alab blog](https://blog.alan.com/conference/people-talks-1-culture-dentreprise-definir-vos-valeurs-pour-recruter)  
+Examples of cultural values & hiring tips [Alab blog](https://blog.alan.com/conference/people-talks-1-culture-dentreprise-definir-vos-valeurs-pour-recruter)  
 Rajiv Pant's Linkdin post [90 Day Plan for a CTO in a New Job](https://www.linkedin.com/pulse/90-day-plan-cto-new-job-rajiv-pant/)  
 Rajiv Pant's blog [career chart example](https://www.rajiv.com/blog/2012/12/17/tech-career-tracks-v2/)  
 Roadmap using Story mapping [by Andrea Gigante](https://medium.com/@andrea.gigante/creating-an-agile-roadmap-using-story-mapping-b823c0a41da1)  
