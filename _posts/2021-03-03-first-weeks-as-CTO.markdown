@@ -50,7 +50,8 @@ There are two big method I know of :
 Before detailing, let's talk about a few concepts:
 - roadmap: For your crew, the main features to be developed in the next weeks/months (timeline depends on the CTO)
 - ticket backlog: next tasks to be developed (taking less than 1 day, otherwise split it), sort by **priority**, **assigned** to a dev
-- ticketing tool : Trello, Notions... The main tool you are happy to work with for dealing with your tasks. Enables transparent and painless report. Usually on the format : todo | doing | pb | done
+- ticketing tool : Trello, Notions... The main tool you are happy to work with for dealing with your tasks. Enables transparent and painless report. Usually on the format :  
+todo/backlog | doing | pb | done  
 
 Main differences between Kanban and scrum:
 -  _sprint for scrum_ : work is released every two weeks (timeframe can change) in Scrum. It's a continuous release for Kanban
