@@ -31,3 +31,7 @@
 
 ## Feedback between colleagues
 * officevibe
+
+## Map/Role people  
+* crystal.work
+* glassfrog
