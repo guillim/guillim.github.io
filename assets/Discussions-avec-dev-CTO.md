@@ -276,3 +276,83 @@ transparence & communication
 **point important**  
 maturité : pouvoir jongler avec la hauteur pour voir l'ensemble / produire la tete dans le guidon  
 véhiculer la confiance en soi
+
+## J.S Dev
+### @licorne de 150 dev
+
+**methodo**  
+Metodo : libre MAIS contrôlé par le management (comment ?)
+- kanban (⚠️ effet tunnel)
+- scrum (note: pas ouf en flux tendu)
+- ...
+
+Temps moyen de travail sur une feature: généralement 2 semaines (feed-back rapide)  
+Note: il peut y avoir plus de 2 semaines en amont de taff pour le PO
+
+**orga, structure, supervision** (150 dev fullstack)  
+Structure en SQUAD spotify : 3-4 fullstack + design + PO  
+Note : le combo back + front existait aussi dans son ancienne boite JT   
+
+Chaque SQUAD a un tech holder (lead tech) qui discute avec le PO et designer pour produire les mock-up => puis les dev s’en emparent  
+
+Squads organisées par fonctions produit, à qui c'est destiné :  
+_ex JT : étudiant / prof / écoles   
+[et split en sous-fonctions si trop grande]_  
+_ex: D patient / médecin / logiciel médical_  
+
+Supervision par objectif, via OKR => à la fin de ce sprint, tel chiffre doit être meilleur (et la team fait ce qu’elle veut pour le faire => carte Blanche “full autonomie”. ex: les équipe interview utilisateurs, décide du module, etc… Attention à pas vouloir micro-manager : nécessité d'objectifs clairs
+
+Pas de réorganisation permanente des squads: tu peux demander en interne à bouger, mais pas de process clair. Conséquence: teams spécialisées, reste longtemps avec mêmes personnes et mêmes features. Personne n'a une vue générale sur ce qui se passe. Tu ne sais jamais trop qui a fait le code quand tu arrives dessus.
+
+
+**product roadmap, ticketing**  
+Produit au cœur de tout : itérations rapide, la tech est au service du produit
+
+Produit = département a part entière, composé de tous les PO des squads. le PO s’arrange pour que ces gros blocks fonctionnels arrivent dans pipe sous forme de tickets
+
+CPO: reconversion classique CTO => CPO
+Role CPO : valide l'alignement marché et nouveau produit (évaluation opportunité)
+
+
+Cas pratique:  
+Imaginons que notre produit soit un agenda pour reserver des creneau en pharamcie. on travaille sur la vaccination qui va ouvrir pour les pharmaciens : si une pharmacie ouvre un créneau vaccination => elle va se faire surcharger de demande par les gens, et donc le support de notre startup va crouler sous les appels des pharmaciens. L’équipe produit veut aider les pharmaciens. Le PO et la squad font des propositions. ex: indiquer le nbr doses restantes en pharmacie aux gens. le PO va voir ses managers produits, discussion de comment ca va impacter et comment mesurer avec telle metric (ex: nbr appel su support). Puis PO transforme en ticket => ex: conditionner prise de rdv par gestion des doses
+
+**place du CTO**  
+Role CTO : évolue en fct nbr tech.  
+En l'occurence, les deux cofondateurs tech voulaient rester tech => recrutement de personnes à leur place en tant que management.
+
+CTO met en place process   
+bonne stack, bon outils  
+quality (code review, test, refacto)  
+culture  
+aide PO pour dire ce qui est faisable ou pas & priorisation  
+
+
+**outils && communication**  
+communication: écrite & asynchrone  
+outils: slack, confluence (= #wiki ou #notions) sur Atlassian, email, asana (hyper utilise car todolist pour tous les process ex: recrutement : 3 semaines de todo sur asana. ex: premiere fois tech holder)
+
+
+**Autre**  
+Culture de l’ownership => un dev code et debug ensuite. Responsabilité de bout en bout (y compris gestion des pb)
+
+Améliorer un Process : tu es responsable d’un projet => va voir tout le monde pour récolter les avis. Fais en la synthèse puis décide.  
+Tout process est hyper carré, et clairement écrit qq part. Par exemple pour l'onboarding d'un nouvel arrivant, il y a une todo-liste de 3 semaines sur asana
+
+Repartition du temps:
+* 50% BUILD temps features
+* 15% RUN debug
+* 15% refacto etc.. (mettre en place de l’alert)
+* 20% reunion, new features, recrutement…
+
+Valeure:  
+* Culture de écrit (moins que chez Al.) 
+* keep the stack simple => boring tech
+* user first
+*ownership => d'ou le besoin de fullstack
+* Act : si tu le fais pas, personne va le faire
+
+**Quality tech**  
+Tests ultra poussés && good practise. Tout est testé via intégration (simule un utilisateur via browser => pas de test unitaire). Si bug, faire un test pour pas que ca se reproduise dans le futur. Également, permet de relire un code inconnu & de le comprendre vite.
+
+PR review par qqn d’autre obligatoire

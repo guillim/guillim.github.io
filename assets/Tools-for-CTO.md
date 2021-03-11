@@ -11,6 +11,8 @@
 ## Knowledge base:
 * Notions
 * Bookstack
+* Confluence
+* Asana
 
 ## Monitoring code Errors:
 * Bugsnag
@@ -22,6 +24,7 @@
 ## Chat:
 * Slack
 * Teams
+* email
 
 ## Backoffice:
 * Fforestadmin
