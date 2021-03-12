@@ -63,6 +63,7 @@ Notions de Run (bugfix...) VS Build (features de la roadamp). Permet de monitore
 - HackerNews un peu, mais surtout expérience et réseau.
 - Livre "reinventing organisation"...
 - Réseau
+- Slack tech.rocks  
 
 
 
