@@ -5,11 +5,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 #google_analytics:
 theme: jekyll-theme-cayman
 github_username:  guillim
+repository: guillim/guillim.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
-  - jekyll-feed
-  - jekyll_analytics:
-      GoogleAnalytics:
-        id: G-VG066D0PMC
-        anonymizeIp: false
+  - jekyll-analytics
+whitelist: [jekyll-analytics]
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-192007350-1
+    anonymizeIp: false
