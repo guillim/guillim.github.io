@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
-  - jekyll-analytics:
+  - jekyll_analytics:
       GoogleAnalytics:
         id: G-VG066D0PMC
         anonymizeIp: false
