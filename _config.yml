@@ -8,10 +8,3 @@ github_username:  guillim
 repository: guillim/guillim.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-plugins:
-  - jekyll-analytics
-whitelist: [jekyll-analytics]
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-192007350-1
-    anonymizeIp: false
