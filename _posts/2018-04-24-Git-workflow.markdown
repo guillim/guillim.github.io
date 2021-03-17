@@ -29,7 +29,7 @@ If you are alone (probably on some side-project) then this workflow may slow you
 
 # Summary  
 
-![global schema](https://ibin.co/3zhcT2rdUXvP.png){:class="img-responsive"}  
+![global schema](/assets/img/global_schema.png){:class="img-responsive"}  
 
 
 
