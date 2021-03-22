@@ -12,8 +12,7 @@ Configuration:
 `Jekyll: 3.7.2`
 # 1.  Go to the [offical website][officalWebsite]
 You should see this:  
-![instructions]( https://ibin.co/3rPA7OPjusBp.png){:class="img-responsive"}
-
+![instructions](/assets/img/jekyll1.png)  
 Before you do all this, you will probably need to install *Ruby*, in order to use `gem`
 
 # 2.  Make sure gem is available
@@ -72,7 +71,6 @@ Bundler could not find compatible versions for gem "bundler":
 This Gemfile requires a different version of Bundler.
 Perhaps you need to update Bundler by running `gem install bundler`?
 ```
-It is probably because you have installed `bundler` globally as well as locally. 
+It is probably because you have installed `bundler` globally as well as locally.
 
 Solution: try to remove one of them by typing `gem uninstall bundler` and try again. More info [here][here]
-
