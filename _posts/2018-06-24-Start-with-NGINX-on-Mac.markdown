@@ -23,7 +23,7 @@ brew install nginx
 
 You will see this:
 
-![terminal](https://ibin.co/46UQhlZk0jKf.png){:class="img-responsive"}  
+![terminal](/assets/img/nginx1.png)
 
 
 # 2.  Start NGINX:  
