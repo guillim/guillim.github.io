@@ -1,0 +1,86 @@
+---
+layout: default
+title:  "Hiring"
+date:   2021-03-23 03:22:48 +0100
+categories: cto
+comments: true
+---
+
+Tomorrow, you have to **hire someone** for the first time. What do you do ?
+
+Hiring is crucial, and must not be mistaken. After some research and talks with friends, I propose some guidelines for hiring. It's the bare bones that you must adapt to your company/situation, but at least it may avoid you some mistakes.
+
+Hiring is an ongoing process: it must improve after each hiring.  
+
+# Intro
+
+In a nutshell there are 4 steps
+
+* define precisely the mission & the profile you need
+* source candidates, and keep some of them warm
+* structured meetings
+* be attractive
+
+# The job & the ideal candidate
+First, you must write down what you are looking for, and who you are looking for. And you must be precise in your definition. People who will work with the new hire must be involved in this definition process.  
+
+In a word, **clarify** :
+
+* job description (short & precise)
+* 3 to 8 job objectives (ambitious & realistic)
+* candidate skills + culture fit
+
+# Source candidates
+That's a running task for big companies. Always have people in your hiring pipe to avoid months of delay. If you are too small for such a process, **anticipate**.
+
+Use your personal / professional network to spread your need. You can also look at external recruiters for very specific profiles. Last, you can use online websites for jobs boards.
+
+# Meetings / interviews
+These are the most important part to get suitable candidates, and avoid bad recruitments. Make the candidate feel comfortable: you'll get better answers anyway, and you'll enjoy it more.
+
+* **pre-selection** interview (prefer online, 30min max)  
+This screening meeting is all about the candidate, to make sure he understands the jobs, and that he has the appropriate profile, before going further. If you have a bad intuition, just follow your instinct.  
+  * carer objectives
+  * qualities + practical examples
+  * improvement topics + practical examples
+  * ranking /10 your previous employer would have given + why  
+
+ End with questions from the candidate. You must feel its motivation & culture fit at the end.  
+
+* **experiences** interview (3h total)  
+Follow the candidate resume, in the chronological order, and for each step, ask:
+  * mission, objectives, skills required
+  * achievement, proud of what ?
+  * mistakes, negative, disliked
+  * opinion on+from the team & company
+  * why did you leave
+
+Tips:  
+Pay attentions to orange/red flags. They can be of different sorts: the candidate critics previous manager, can't explain why he left, skips failures...
+
+* **Ref check** interview (10min)  
+Ask for 3 previous coworkers you can get in touch with, and call them when you have some time. It will avoid any kind of "frauds", pushing the candidate to tell the truth. Ask the previous co-workers:
+    * general feeling
+    * qualities
+    * improvements
+    * rank/10  
+
+
+* **Specific** interview  
+Some jobs requires other meetings. tech test, team fit...
+
+After each interview, a ranking must be given. It will be the criteria for the selection.
+
+# be attractive
+Every candidate has its own motivations. Try to guess what they are.
+
+Make sure you identify your company strength to attract candidates as well. It depends on every company: the company mission, the manager personality, the autonomy, the working place...
+
+Financially, you need to guess what will be acceptable for your candidate.
+
+Last of all, get a personal touch for each candidate. It's makes new hired comfortable: new device ? Mobility ?...
+
+
+# Reference
+Who: The A Method for Hiring [Geoff Smart, amazon link](https://www.amazon.fr/Who-Method-English-Geoff-Smart-ebook/dp/B001EL6RWY)  
+French synthesis of the previous [A method](https://www.welcometothejungle.com/fr/articles/who-the-a-method-for-hiring-de-geoff-smart-et-randy-street)  
