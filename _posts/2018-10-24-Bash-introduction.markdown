@@ -228,4 +228,5 @@ Note: to check the existence of a directory, change the option from `f` to `d` l
 
 More about ps1, ps2 ... [thegeek]([https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/?utm_source=twitterfeed&utm_medium=twitter])  
 More about [testing]([https://fr.wikibooks.org/wiki/Programmation_Bash/Tests])  
-More about checking if a file exist: [linuxize](https://linuxize.com/post/bash-check-if-file-exists/)
+More about checking if a file exist: [linuxize](https://linuxize.com/post/bash-check-if-file-exists/)  
+Difference between [bash & sh](https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash)  

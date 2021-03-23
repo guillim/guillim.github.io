@@ -34,7 +34,7 @@ _ex: reliability & velocity
   * Vertical   => CTO > lead dev > dev (harder to stimulate your team when your CTO looks distant, at N+4 level)
   * Horizontal => CTO = dev (preferred)
 * make it nice for your team to work _(ex: fun, food, afterwork...)_
-* Set up a list of tools for work & communication (chat on Slack, important structural decision on GitHub, knowledge base on Notions, brainstorm online with a post-it app, use template for meetings request). See this [list of tool proposal](assets/Tools-for-CTO.md)
+* Set up a list of tools for work & communication (chat on Slack, important structural decision on GitHub, knowledge base on Notions, brainstorm online with a post-it app, use template for meetings request). See this [list of tool proposal](/assets/Tools-for-CTO.md)
 
 Note: asynchronous communication (as cultural values) has impact on your organization. You will then choose appropriates tools and decision-making process for this to operate. It brings great values, allowing anyone to be listened to and maturing its opinion before sharing it. It also avoids interruptions.
 
