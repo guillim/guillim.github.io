@@ -157,6 +157,9 @@ It is important when you have to revert a whole feature (= a group of commits). 
 # Reference:
 * [Atlassian Guide book][atlassian]
 * [nvie blogpost][nvie]  
+* [Deal with remote branches][git_branch]
+
 
 [nvie]: http://nvie.com/posts/a-successful-git-branching-model/
-[atlassian]: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+[atlassian]: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow  
+[git_branch]: https://stackoverflow.com/questions/11266478/git-add-remote-branch
