@@ -71,7 +71,7 @@ This is what you put in your Roadmap, inside each quarter (or term) defined by y
 Go in a direction (Business objectives) to reach this specific destination (Key results) by an improvement to this metrics (KPIs)
 
 - **Objectives** = what you want  _ex: Reach critic mass of user_. **Not precise, business goal orientated**  
-- **Key Results** = How do you get there  _ex: reduce churn_,  _make adds_,  _increase conversion rate_  => **measurable**! Each Objective can have up to 3 key results  
+- **Key Results** = How do you get there  _ex: increase conversion rate by 20% in 3 months (last month it decreased by 5% and now is 57%)_  => **measurable**! Each Objective can have up to 3 key results. More on how to wirte a good Key result [here](https://critter.blog/2021/01/13/audience-friendly-goals/) (don't forget to add the context = current value + current trend)  
 - **Actions** = What to do  _ex: redesign funnel buttons_  
 
 _The premise of the OKR (objectives and key results) framework is that objectives are specific qualitative goals, and key results are quantitative measures of progress toward achieving those objectives._
