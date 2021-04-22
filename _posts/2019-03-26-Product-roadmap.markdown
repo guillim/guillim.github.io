@@ -202,6 +202,7 @@ Should reflect the main objectives from your backlog. Don't forget to remind eve
 
 Summary of the book [product roadmaps relaunched](https://medium.com/@rodrigogalindof/product-roadmaps-relaunched-c86188071cc6)  
 The book: [product roadmap relaunched](https://www.goodreads.com/book/show/36507075-product-roadmaps-relaunched?ac=1&from_search=true&qid=zkOOrgnjE0&rank=1)  
+Key results : how to write [Audience friendly goals](https://critter.blog/2021/01/13/audience-friendly-goals/)  
 Bruno Correia [OpenClassroom](https://openclassrooms.com/en/courses/5778386-construisez-votre-roadmap-produit/5778393-decouvrez-linteret-dune-roadmap)  
 ["15min summary"](/assets/files/product_roadmap.mov)   
 Tool for brainstorming : [Miro](https://miro.com/)  
