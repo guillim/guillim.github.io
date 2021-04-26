@@ -136,3 +136,4 @@ Roadmap using Story mapping [by Andrea Gigante](https://medium.com/@andrea.gigan
 Book Frederic Laloux [reinventing organizations on koober](https://koober.com/fr/fiche/r%C3%A9sum%C3%A9-de-reinventing-organizations)  
 Holacracy introduction for new management style [Brian Robertson's Tedx](https://www.youtube.com/watch?v=tJxfJGo-vkI)  
 Article about the [feedback culture](https://www.radicalcandor.com/introduce-radical-candor-feedback/)  
+code guideline: [best code is no code, or short code](https://blog.codinghorror.com/the-best-code-is-no-code-at-all/)  
