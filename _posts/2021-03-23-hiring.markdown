@@ -40,7 +40,7 @@ These are the most important part to get suitable candidates, and avoid bad recr
 
 * **pre-selection** interview (prefer online, 30min max)  
 This screening meeting is all about the candidate, to make sure he understands the jobs, and that he has the appropriate profile, before going further. If you have a bad intuition, just follow your instinct.  
-  * carer objectives
+  * career objectives
   * qualities + practical examples
   * improvement topics + practical examples
   * ranking /10 your previous employer would have given + why  
@@ -67,11 +67,11 @@ Ask for 3 previous coworkers you can get in touch with, and call them when you h
 
 
 * **Specific** interview  
-Some jobs requires other meetings. tech test, team fit...
+Some jobs require other meetings. tech test, team fit...
 
 After each interview, a ranking must be given. It will be the criteria for the selection.
 
-# be attractive
+# Be attractive
 Every candidate has its own motivations. Try to guess what they are.
 
 Make sure you identify your company strength to attract candidates as well. It depends on every company: the company mission, the manager personality, the autonomy, the working place...
