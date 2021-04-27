@@ -207,4 +207,5 @@ Bruno Correia [OpenClassroom](https://openclassrooms.com/en/courses/5778386-cons
 ["15min summary"](/assets/files/product_roadmap.mov)   
 Tool for brainstorming : [Miro](https://miro.com/)  
 Free [.ppt alternative](https://framaslides.org/app#)  
-Example: the [Roadmap of Github](https://github.com/github/roadmap/projects/1)
+Example: the [Roadmap of Github](https://github.com/github/roadmap/projects/1)  
+Vision VS Mission [atlassian](https://www.atlassian.com/work-management/project-management/mission-and-vision)  
