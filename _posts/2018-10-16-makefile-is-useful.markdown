@@ -60,6 +60,9 @@ include ./artifacts
 network:
         @docker network create ${APP} 2> /dev/null; true
 
+# Note: you may wonder what @ stands for ? in makefile, adding @ before a command means "don't print the command in the output"
+
+
 network-stop:
         @echo cleaning ${APP} docker network
         docker network rm ${APP}
