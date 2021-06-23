@@ -104,6 +104,13 @@ database-stop:
 up: network database backend frontend
 
 down: frontend-stop backend-stop database-stop network-stop  
+
+## access the LIUNX current user value. 
+## $USER won't work since it refers to a Makefile variable we haven't defined
+
+printLinuxUser:
+        echo $$USER
+
 ```
 
 Note: all configuration lays inside the different docker-compose-XXX files.
