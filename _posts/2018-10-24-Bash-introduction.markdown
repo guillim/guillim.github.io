@@ -142,17 +142,17 @@ Well, there is a third way for testing, more bulletproof:
 
 Note: in bash,  we don't use **if** with **=**. use eq, lt etc... instead
 
-Note: the spaces inside the brackets are important => this is a wrong way [[XXXXXXX]] 
+Note: the spaces inside the brackets are important => this is a wrong way [[XXXXXXX]]
 
 ```bash
-$ [[ 2 = 2 ]]
-$ echo $?
+[[ 2 = 2 ]]
+echo $?
 ```
 returns 0
 
 ```bash
-$ [[ 2 = 3 ]]
-$ echo $?
+[[ 2 = 3 ]]
+echo $?
 ```
 returns 1
 
@@ -196,6 +196,12 @@ else
 fi
 ```
 
+#### Simple oneliner condition `&&`
+if you want to trigger an action only if the previous one succeded, you can do
+```bash
+ls && echo "previous command succeded"
+```
+Note: `||` is the opposite, and `;` will trigger both whatever the output of the first command
 
 ## Create / append to a file
 
@@ -213,6 +219,30 @@ echo "hello siva" >> read.txt
 cat read.txt  
 ```
 
+###### Advanced tip:
+You can specify what will be outputted with these codes:   
+**1** No error	(stdout)  
+**2** error	(stderr)  
+```bash
+# Nothing will happen (no errors)
+echo "hello tom" 2>> error-log.txt
+
+# will create succeded-log.txt and append "hello tom"
+echo "hello tom" 1>> succeded-log.txt
+
+# will create error-log.txt and append "-bash: notacommand: command not found"
+notacommand 2>> error-log.txt
+
+# will do both
+mycommand 1>> succeded-log.txt 2>> error-log.txt
+
+# shortcut when using the same log file
+mycommand >> log.txt 2>&1
+
+
+```
+
+
 ## Check for an existing file
 ```bash
 if [[ -f "README.md" ]]
@@ -224,9 +254,72 @@ fi
 ```
 Note: to check the existence of a directory, change the option from `f` to `d` like so : `if [[ -d "myfolder" ]]`  
 
+
+## Check hardware configuration of your machine
+```bash
+lshw -short
+```
+
+## Put a process in the background
+This applies to the current shell environment. Let's say you are editing a file with `vi` or `nano`. Temporarily, you want to check something in your machine. Then type :
+```bash
+bg
+```
+or you can also type `Ctrl + z` (Note: some editor can block this shortcut sometimes to avoid confusion)
+
+And you editor will disappear. It's because it was sent as a background process.
+###### List all the tasks in the background
+```bash
+jobs
+```
+
+###### Get back your process
+```bash
+fg
+# or if you know its number after typing 'jobs' (here the second one)
+fg 2
+```
+
+More info [here][manual and tips]
+
+###### Tip
+`&` is a shortcut for running `vi` in the forground and `ls -la` in the background
+```Bash
+vi log.txt & ls -la
+```
+
+## Difference between `&&` and `|`
+`command1 | command2` will take the output of `command1` and provide it to `command2`  
+While  
+`command1 && command2` will execute `command2` only if  `command1` succeded
+
+```bash
+echo "test1" && echo "test2"
+# outputs
+> test1
+> test2
+
+echo "test1" | echo "test2"
+# outputs
+test2
+```
+
+
+## What is `/dev/null`
+it's the _the null device in a UNIX system_ : whatever you write to /dev/null will be discarded. more info [here][dev/null]  
+
+Known use : `commande >/dev/null 2>&1` to delete every output (stdout & stderr) of `command`
 # Ressources
 
 More about ps1, ps2 ... [thegeek]([https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/?utm_source=twitterfeed&utm_medium=twitter])  
 More about [testing]([https://fr.wikibooks.org/wiki/Programmation_Bash/Tests])  
 More about checking if a file exist: [linuxize](https://linuxize.com/post/bash-check-if-file-exists/)  
 Difference between [bash & sh](https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash)  
+lshw [manual and tips](https://www.howtoforge.com/linux-lshw-command/)  
+bg & fg [manual and tips][manual and tips]  
+bg & fg [shorter]((https://til.secretgeek.net/linux/bg_fg_background_and_foreground.html)  
+very 4 to understand [french documentation](https://doc.ubuntu-fr.org/projets/ecole/scripting/initiation_au_shell)  
+explanation & how to use [dev/null][dev/null]
+
+[manual and tips]: https://linuxhint.com/what_is_dev_null/
+[dev/null]: https://linuxhint.com/what_is_dev_null/

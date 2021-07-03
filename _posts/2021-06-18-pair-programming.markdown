@@ -20,6 +20,35 @@ Basically a tool allowing your coworker to see your terminal, in their own termi
 * fast to setup (1min) and easy to understand
 * free
 
+### Example
+```Bash
+upterm host -- bash
+```
+```
+# outputs this
+=== UUNJCYOCVMN9ZWLLP5IT
+Command:                bash
+Force Command:          n/a
+Host:                   ssh://uptermd.upterm.dev:22
+SSH Session:            ssh UuNjCYOcVMN9zWLlp5iT:MTAsMjQ0LjBuMTQy8kIy@uptermd.upterm.dev
+```
+Then you just need to send this command to your co-worker:
+`ssh UuNjCYOcVMN9zWLlp5iT:MTAsMjQ0LjBuMTQy8kIy@uptermd.upterm.dev`  
+And your good ! both of you will be able to interact with the terminal
+
+# Tmux
+### Why do i need
+Mulitple tabs in your terminal window. Useful when you share your terminal with upterm for instance : you don't need to share each terminal to your co-worker.
+
+### What is it
+From the doc: _tmux is a terminal multiplexer. It lets you **switch easily between several programs in one terminal**, detach them (they keep running in the background) and reattach them to a different terminal._
+
+### Advantages
+* avoid sharing multiple teminals
+
+
+
 
 # Reference
 Offcial [github repo](https://github.com/owenthereal/upterm)  
+Tmux [github repo](https://github.com/tmux/tmux/wiki)
