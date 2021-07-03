@@ -8,7 +8,7 @@ Dans le cadre d'une montée en compétence et compréhension du métier de CTO, 
 Et en bonus, à quoi ressemble une journée type
 
 
-## J.K CTO
+## J.K CTO (Simpl)
 ### @startup de 5 dev
 
 **Méthodologie de taff :**
@@ -67,7 +67,7 @@ Notions de Run (bugfix...) VS Build (features de la roadamp). Permet de monitore
 
 
 
-## M.G CTO
+## M.G CTO (Commo)
 ### @PME de 15 dev
 
 Il existe deux profils de CTO :
@@ -149,7 +149,7 @@ par features : dev embarque | logiciel desktop | mobile | data
 * pas de motivation (trop de hiérarchie => horizontalité, tt monde mm niveau)
 * Transparence : fondateurs mentaient sur leurs salaires
 
-## J.B Dev
+## J.B Dev (360)
 ### @startup de 10 dev
 
 **methodo**  
@@ -190,7 +190,7 @@ consultait beaucoup ses dev : pour l'organisation ou tech ex: pk des bugs ? Proc
 * CTO protégeait ses teams, notamment par la structure qui fait que le PM protège les dev. Ainsi les dev sont focus
 
 
-## J.B Dev
+## J.B Dev (Ala)
 ### @licorne de 50 dev
 
 **methodo** orga à la Spotify en crew = squad  
@@ -234,7 +234,7 @@ Repo Github dédié pour les décisions importantes organisationnelles.
 
 
 
-## JY CTO
+## JY CTO (efoun)
 ### @startup de 10 dev
 
 **Communication**  
@@ -278,7 +278,7 @@ transparence & communication
 maturité : pouvoir jongler avec la hauteur pour voir l'ensemble / produire la tete dans le guidon  
 véhiculer la confiance en soi
 
-## J.S Dev
+## J.S Dev (Doct)
 ### @licorne de 150 dev
 
 **methodo**  
@@ -347,7 +347,7 @@ Repartition du temps:
 * 20% reunion, new features, recrutement…
 
 Valeure:  
-* Culture de écrit (moins que chez Al.) 
+* Culture de écrit (moins que chez Al.)
 * keep the stack simple => boring tech
 * user first
 *ownership => d'ou le besoin de fullstack
@@ -357,3 +357,18 @@ Valeure:
 Tests ultra poussés && good practise. Tout est testé via intégration (simule un utilisateur via browser => pas de test unitaire). Si bug, faire un test pour pas que ca se reproduise dans le futur. Également, permet de relire un code inconnu & de le comprendre vite.
 
 PR review par qqn d’autre obligatoire
+
+
+## M.B Lead Dev (popsta)
+### @startup de 9 dev
+
+**methodo**  
+- agile
+- liberté laissé à la paire pour choisir la façon de faire du pair : point de synchro chaque jours ou coding live pendant 7h.
+
+**orga, structure, supervision**  
+Pair programming pour tous. changement toutes les 2 semaines, avec l'un des deux qui reste sur la meme feature pour garder une connaissance.
+
+**outils && communication**  
+communication: asynchrone + daily  
+outils: repo github dedié à l'orga de la boite
