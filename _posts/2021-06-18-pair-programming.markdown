@@ -36,6 +36,19 @@ Then you just need to send this command to your co-worker:
 `ssh UuNjCYOcVMN9zWLlp5iT:MTAsMjQ0LjBuMTQy8kIy@uptermd.upterm.dev`  
 And your good ! both of you will be able to interact with the terminal
 
+# Live Share
+This only applies if you have an IDE like VScode, that enables the extensions ["Live Share"](https://docs.microsoft.com/en-us/visualstudio/liveshare/).
+Steps are pretty straightforward :
+- After signing in
+![signin](https://docs.microsoft.com/en-us/visualstudio/liveshare/media/vscode-sign-in-toast.png)
+- You need to click "Live Share" and an invite link appears : click "Read-only" if you don't want your collaborator to be able to modify code on your machine. He will only view it.
+![link](https://docs.microsoft.com/en-us/visualstudio/liveshare/media/vscode-share-button-new.png)
+or simply use the tab on the left panel 
+![panel](https://docs.microsoft.com/en-us/visualstudio/liveshare/media/vscode-read-only-viewlet.png) 
+- You just need to send your invite link to your collaborator, by email or slack... and start working together
+![work](https://visualstudio.microsoft.com/wp-content/uploads/2018/11/v2-Edit-Comp_FINAL-optimized840.gif)
+
+
 # Tmux
 ### Why do i need
 Mulitple tabs in your terminal window. Useful when you share your terminal with upterm for instance : you don't need to share each terminal to your co-worker.
