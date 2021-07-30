@@ -50,8 +50,12 @@ So when rebasing a _feature_ branch (that you, and only you are working on) on t
 ```bash
 git checkout feature
 git rebase master
-```
+```  
+
+### Rule of thumb
+Don't rebase if you already are on the master branch. It's reserved to feature branches  
 
 # Reference:
 * [stackoverflow](https://stackoverflow.com/questions/36148602/git-pull-vs-git-rebase/36148845#36148845)
+* [stackoverflow 2](https://stackoverflow.com/questions/804115/when-do-you-use-git-rebase-instead-of-git-merge)
 * [atlassian guide](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
