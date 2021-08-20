@@ -87,4 +87,6 @@ Nice medium tutorial : [How To Crack WPA/WPA2 Wi-Fi Passwords Using Aircrack-ng]
 Other software: [Ettercap to Intercept Passwords with ARP Spoofing](https://null-byte.wonderhowto.com/how-to/use-ettercap-intercept-passwords-with-arp-spoofing-0191191/)  
 Best Wireless Network Adapter for Wi-Fi Hacking: [buying List](https://null-byte.wonderhowto.com/how-to/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019-0178550/)  
 No password : [Mac adress spoffing](https://null-byte.wonderhowto.com/how-to/hack-open-hotel-airplane-coffee-shop-wi-fi-with-mac-address-spoofing-0183387/)  
-TLDR : [short gist if you have no time](https://gist.github.com/victorreyesh/6532800)
+TLDR : [short gist if you have no time](https://gist.github.com/victorreyesh/6532800)  
+list of [common password for WPA guessing](/assets/files/Choisir_son_statut.pdf)  
+
