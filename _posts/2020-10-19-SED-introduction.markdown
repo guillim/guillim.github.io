@@ -116,3 +116,4 @@ Regex manual [regexr](https://regexr.com/)
 Find & replace in mulitple files [`grep -RiIl --exclude-dir=tests 'search' | xargs sed 's/search/replace/g'
 `](https://www.internalpointers.com/post/linux-find-and-replace-text-multiple-files)  
 tr [linux-france.org](http://www.linux-france.org/article/man-fr/man1/tr-1.html)  
+How to [remove line breaks /n](https://stackoverflow.com/questions/1251999/how-can-i-replace-a-newline-n-using-sed)  
