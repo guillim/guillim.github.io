@@ -1,0 +1,49 @@
+---
+layout: default
+title:  "12 factors"
+date:   2021-09-09 03:22:48 +0100
+categories: best-practise
+comments: true
+---
+
+Today, we are going to list the 12 factors recommended for better web application development. You can see these 12 factors as a checklist to de & deploy your app easily and shortly. 
+
+# 12 factors
+
+## What is it ?
+According to wikipedia, _The Twelve-Factor App methodology is a methodology for building software-as-a-service applications. These best practices are designed to enable applications to be built with portability and resilience_. 
+
+## Why 
+The main goal is to **remove MANY problems** when deploying your apps.
+
+## The 12 :
+- Only **one codebase** for your app
+This codebase can be used for many deployments, using configuration files out of the codebase (or env variables)
+- All **dependencies** are declared
+No implicit reliance on system tools or libraries. For NodeJS, this implies to always commit your `package-lock.json` file.
+- **Configuration** that varies between deployments should be stored in the **environment**
+If you realise that two of your codebase instances differs, it has to go in the env
+- **Backing services** (and external API for instance, or a DB) are treated as **attached resources**
+You should be able to plug / unplug simply modifying the environment during the execution.
+- **Build, release, run** : nothing more, nothing less
+- Applications are stateless processes
+So persisting data are stored on a backing service, never in Sessions or server-RAM related storage. Main goal is to deploy mulitple instances of your application (when your load ramps up) using auto-scaling and so on... a user loged with session var to a specifi server would be discotnected if the load balancer sends its following request to another server replica (because sesssion vars stay inside the server)
+- services are available on specified ports
+Note: Using docker eases a lot this requireements
+- Concurrency => scale individual processes
+Scaling with more machines is infinite, while getting more RAM on one machine is limitied.
+- Fast startup and shutdown
+Fast autoscaling 
+- Dev/Prod parity
+All environments are as similar as possible, so that there are no suprises with specific conf / missing package 
+- Applications produce logs as event streams and leave the execution environment to aggregate.
+=> use the defualt stdout for logs. The app mustn't care about the log service which will handle it.
+- Any admin tasks should be kept in the codebase
+This way, there are no surprises. the Codebase is enough to manage everything.
+
+
+
+# Reference
+Wiki [summary](https://en.wikipedia.org/wiki/Twelve-Factor_App_methodology)  
+Official [12-factor-app website](https://12factor.net/)
+App Checklist from [Michael Bitard](https://agileek.github.io/software/2020/07/14/twelve-factor-app-checklist/)
