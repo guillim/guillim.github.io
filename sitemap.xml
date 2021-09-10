@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://guillim.github.io/</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/terminal/2021/06/18/pair-programming.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/cto/2021/03/23/hiring.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/cto/2021/03/03/first-weeks-as-CTO.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/javascript/2021/02/11/javascript-array.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/aws/serverless/2020/12/15/AWS-Lamdba-package-custom-layer.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/wifi/2020/12/08/wifi-hack-password.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/database/2020/10/28/expose-and-secure-postgres-for-external-connection.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/linux/2020/10/19/SED-introduction.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/linux/2020/10/06/user-group.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/machine-learning/2020/09/29/BERT-architecture.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/javascript/2020/08/28/csv-encoding-detection-javascript.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/datascience/2020/08/11/TFIDF-BM25.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/python/2020/03/21/airflow-quickstart.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/cron/2020/03/20/cron.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/ssh,/docker/2020/03/11/ssh-port-forwarding-with-docker.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/python,/docker,/django/2020/02/20/Debug-remote-Python-server-dockerised.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/postgres/2020/01/24/PostgREST-with-free-database.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/git/2020/01/21/git-pull-or-rebase.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/python/2019/12/30/Datascience-intro.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/python/2019/11/29/start-BERT-intent-transformer.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/python/2019/11/11/Datascience-with-python-useful-function.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/docker/2019/07/29/separate-docker-data.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/sasu/2019/07/16/SASU-petites-notes.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/docker/2019/06/11/docker-compose-intro.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/product/2019/03/26/Product-roadmap.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/vue/2019/03/25/create-vuejs-component-and-use-it-through-npm.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/vue/2019/03/20/damn-vuejs-observer.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/docker/2018/11/18/docker-hands-on-intro.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/devops/2018/11/05/What-is-DevOps.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/bash/2018/10/24/Bash-introduction.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/pandas/2018/10/22/Pandas-if-else-on-columns.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/docker/2018/10/16/makefile-is-useful.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/docker/2018/09/24/Ports-Docker-nightmare.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/nginx/2018/06/24/Start-with-NGINX-on-Mac.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/terminal/2018/06/19/MLR-for-CSV-manipulation.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/terminal/2018/06/10/JQ-for-ElasticSearch-multiple-upload.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/npm/2018/05/01/npm-CLI-package-creation.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/git/2018/04/24/Git-workflow.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/python/2018/04/15/Lambda-function.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/licence/2018/03/27/Licence-for-my-project.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/python/2018/03/20/Learn-Python.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/python/2018/03/19/Start-with-Jupyter.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/terminal/2018/02/19/Terminal-docker-autocomplete.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/terminal/2018/02/17/Terminal-git-autocomplete.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/github/2018/02/14/Github-Pages-with-your-own-domain-and-SSL.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/terminal/2018/02/12/Terminal-colors-and-nice-layout.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/gem/2018/02/11/gem-from-everywhere.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://guillim.github.io/jekyll/2018/02/10/Start-with-jekyll.html</loc>
+  <lastmod>2021-08-30T13:12:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+</urlset>
