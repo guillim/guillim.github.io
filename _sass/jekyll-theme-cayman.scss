@@ -343,3 +343,11 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+.tag {
+  border-radius: .25em;
+  background-color: #0091ca; 
+  color: white;
+  padding: .1em .3em .1em;
+  margin-right: 0.1em;
+}

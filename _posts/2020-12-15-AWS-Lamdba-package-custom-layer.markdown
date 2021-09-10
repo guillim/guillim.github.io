@@ -2,7 +2,7 @@
 layout: default
 title:  "AWS Lamdba layer for installing python package the serverless way"
 date:   2020-12-15 03:22:48 +0100
-categories: AWS, serverless
+categories: AWS serverless
 comments: true
 ---
 
