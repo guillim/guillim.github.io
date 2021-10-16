@@ -76,9 +76,17 @@ Let's say you want to join a Starbuck coffee wifi, but you don't have any money 
 ### Spy on someone
 Find someone already allowed to join the network and copy its MacAdress. The [Kismet](Kismet) tool is the best suited for macOS users.
 
-### Change your MacAdress
-Download the [macchanger tool](https://github.com/alobbs/macchanger) using `apt-get install macchanger` for linux or `brew install acrogenesis/macchanger/macchanger` for macOS
+### Change your MacAdress (spoofing)
+Let's say your wifi network is called `en0` (type `ifconfig` to be sure, see this for more information).      
+- For backup, note your current MAC adress on en0 network (something like d8:3a:85:77:ce:6d). In case you forgot to do it, restarting your laptop will reset is anyway.  
+- Generate a new MAC adress with `openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'` and copy it. We will name it **MAC_adress**  
+- Now change your MAC adress by typing simply `sudo ifconfig en0 hw ether MAC_adress` (note that `hw` is optional)  
 
+Other options :  
+- use [macchanger tool](https://github.com/alobbs/macchanger) using `apt-get install macchanger` for linux or `brew install acrogenesis/macchanger/macchanger` for macOS  
+- use [WifiSpoof app](https://wifispoof.com/)
+
+### Other tricks
 TO BE CONTINUED => [read this](https://null-byte.wonderhowto.com/how-to/hack-open-hotel-airplane-coffee-shop-wi-fi-with-mac-address-spoofing-0183387/)
 
 # Reference
@@ -88,5 +96,6 @@ Other software: [Ettercap to Intercept Passwords with ARP Spoofing](https://null
 Best Wireless Network Adapter for Wi-Fi Hacking: [buying List](https://null-byte.wonderhowto.com/how-to/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019-0178550/)  
 No password : [Mac adress spoffing](https://null-byte.wonderhowto.com/how-to/hack-open-hotel-airplane-coffee-shop-wi-fi-with-mac-address-spoofing-0183387/)  
 TLDR : [short gist if you have no time](https://gist.github.com/victorreyesh/6532800)  
-list of [common password for WPA guessing](/assets/files/Choisir_son_statut.pdf)  
-
+list of [common password for WPA guessing](/assets/files/Choisir_son_statut.pdf)   
+ifconfig features : [hw, ether...](https://www.computerhope.com/unix/uifconfi.htm)  
+Spoofing issues on Macbook : [reddit](https://www.reddit.com/r/macbook/comments/93h2mi/mac_address_changing_on_new_2018_mbp_broken/)  
