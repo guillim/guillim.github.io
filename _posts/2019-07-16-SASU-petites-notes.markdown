@@ -118,13 +118,14 @@ Cout: 53,38 € (Greffe) + 158 € (annonce légale)
 COÛT total dans mon cas, via LegalStart: (260 + 160 HT /one shot, soit 432,04 TTC)
 
 Note: possibilité de passer ça en charge de l'entreprise.
+Note: ce service peut être pris en charge par l-expert-comptable si vous passez par eux (voir en dessous)
 
 # 3. Banque
 
 Je veux avoir tout en ligne, rien en papier. J'avais identifié 2 options:
 
-- Qonto (que j'ai choisi)
-- Shine  
+- Qonto (mon choix, et 2 ans plus tard j'en suis toujours très satisfait => code parrainage [ici](https://qonto.com/r/uitafc))
+- Shine (on m'en a dit du bien aussi)  
 
 Ces deux options coûtent entre 8 et 9 € /mois.  
 
@@ -143,36 +144,35 @@ Ensuite on a le choix de prendre un outil seul, ou d'un outil avec un expert com
 => données comptables déjà organisées => bilan plus rapide =>  moins cher
 
 Outils de comptabilité:
-- [Tiime](https://www.tiime.fr/) (gratuit)   [plus de 10 ans, bons retours]
-Recommandé par un ami, et je l'utilisais avec ma précédente SAS
+- [Tiime](https://www.tiime.fr/) (gratuit) bien installé, bons retours. Mon choix (je l'utilisais déjà avec ma précédente SAS)  
 - [Dougs](https://www.dougs.fr/tarifs/) (69 HT / mois) on me l'a recommandé sur Comet
 - [zephyr](https://www.zefyr.net/) (50 HT / mois)
 - [quickbooks](https://quickbooks.intuit.com/fr/): suivi comptable
 - [comptaStart](https://www.legalstart.fr/comptastart/) (49 / mois)
 
 Outils de note de frais:
-- Tiime Receipt: gestion automatique des notes de frais et réconciliation bancaire
+- Tiime Receipt: gestion automatique des notes de frais et réconciliation bancaire (mon choix, trop bien)
 - ReceiptBank : dématérialisation des notes de frais
 - ComptaStart
 
 Outils de Facturation:
-- Tiime Invoice: gestion des devis -> facture
+- Tiime Invoice: gestion des devis -> facture (mon choix, top)
 - ComptaStart
 
-Il se désigne deux solutions intégrées: Tiime & ComptaStart. Les deux sont intégrées avec Qonto. J'ai choisi Tiime par recommandation, sans grande conviction
+Il se désigne deux solutions intégrées: Tiime & ComptaStart. Les deux sont intégrées avec Qonto. J'ai choisi Tiime par recommandation.
 
 
 Cabinet d'expert-comptable:
-- [Lebonexpertcomptable](https://www.lebonexpertcomptable.com/): recommandé par un ami & full online (avec QuickBooks + ReceiptBank)  A APPELER
-- [l-expert-comptable](https://www.l-expert-comptable.com/): utilisent Tiime + Receipt + Invoice => 100% online à la différence de Novaa qui privilégie le physique à Paris  
-(100€ /mois)  
+- [Lebonexpertcomptable](https://www.lebonexpertcomptable.com/): recommandé par un ami & full online (avec QuickBooks + ReceiptBank)  
+- [l-expert-comptable](https://www.l-expert-comptable.com/): utilisent Tiime + Receipt + Invoice => 100% online à la différence de Novaa qui privilégie le physique à Paris  (100€ /mois)    
 Un peu plus de détail: ils sont spécialisés dans les freelance sans salariés, mais dpeuis 2020 possibilité de gérer 1 ou 2 salariés ou assimiliés.   
 Le tarif comprend tout: comptabilité, TVA, frais, conseil gratuit d'un comptable (lui-même en contact avec un expert-comptable au besoin), dépôt du bilan.
-- [Novaa](https://www.novaa-expertise.com/) A APPELER
-- [ComptaStart](https://www.legalstart.fr/comptastart/) peut faire de la mise en relation avec un expert-comptable. (entre 300€ et 500€)
+(code parrainage: donnez le nom de ma SASU au moment de l'inscritpion : ANCHOR)  
+- [Novaa](https://www.novaa-expertise.com/)  
+- [ComptaStart](https://www.legalstart.fr/comptastart/) peut faire de la mise en relation avec un expert-comptable. (entre 300€ et 500€)  
 - [incityz](https://www.incityz.com/): Quand on a besoin de salariés. Utilisent Tiime aussi. (100€/mois + 500€ pour le bilan)
 Possibilité de RDV physique à Paris. Sinon font les mêmes prestations que l-expert-comptable  
-Pour les salariés: les prévenir 72h avant le début du contrat, avec les infos (25€ /mois par salarié + 90€ de début pour rédiger contrat etc... qu'on peut aussi faire soi-même)
+Pour les salariés: les prévenir 72h avant le début du contrat, avec les infos (25€ /mois par salarié + 90€ de début pour rédiger contrat etc... qu'on peut aussi faire soi-même)  
 
 
 Moi ce que je souhaite:
