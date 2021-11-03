@@ -26,20 +26,21 @@ After reading this, you should feel depressed but at least not alone. It's a maj
 
 
 ## Typical schedule
-|  | M | T | W | T | F |
-|--------|--------|----------|----|---------|---------|
-| 8h |  |  |  |  |  |
-| 9h | Focus | Focus | Focus | Focus | Focus |
-| 10h | Focus | Focus | Focus | Focus | Focus |
-| 11h | Focus | Focus | Focus | Focus | Focus |
-| 12h | Lunch | Lunch | Lunch | Lunch | Lunch |
-| 13h | emails | emails | emails | emails | emails |
-|13h30 | whatsapp... | whatsapp...  | whatsapp... | whatsapp... | whatsapp... |
-|14h | similar task | meetings  |  | interview |  |
-|15h | similar task | meetings  |  | interview |  |
-|16h | similar task | meetings  |  | interview | next week planning |
-| 18h30 | daily | daily | daily | daily | daily |
-| 19h |  |  |  |  |  |
+|       | M            | T           | W           | T           | F                  |
+|-------|--------------|-------------|-------------|-------------|--------------------|
+| 8h    |              |             |             |             |                    |
+| 9h    | Focus        | Focus       | Focus       | Focus       | Focus              |
+| 10h   | Focus        | Focus       | Focus       | Focus       | Focus              |
+| 11h   | Focus        | Focus       | Focus       | Focus       | Focus              |
+| 12h   | Lunch        | Lunch       | Lunch       | Lunch       | Lunch              |
+| 13h   | emails       | emails      | emails      | emails      | emails             |
+| 13h30 | whatsapp...  | whatsapp... | whatsapp... | whatsapp... | whatsapp...        |
+| 14h   | similar task | meetings    |             | interview   |                    |
+| 15h   | similar task | meetings    |             | interview   |                    |
+| 16h   | similar task | meetings    |             | interview   | next week planning |
+| 18h30 | daily        | daily       | daily       | daily       | daily              |
+| 19h   |              |             |             |             |                    |
+
 
 
 ### Morning : Focus
