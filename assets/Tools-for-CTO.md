@@ -17,6 +17,7 @@
 ## Monitoring code Errors:
 * Bugsnag
 * Sentry
+* datadog
 
 ## Monitoring server CPU
 * mail alerts from your server provider
@@ -26,11 +27,39 @@
 * Teams
 * email
 
+## Customer support
+* intercom
+
+## Authentification
+* autho0
+* fusionauth
+* keycloak
+
 ## Backoffice:
-* Fforestadmin
+* forestadmin
 
 ## Invoicing:
 * Octobat
+
+## Paiement:
+* stripe
+* mollie
+* paddle
+
+## Blog & Landing page
+* webflow
+* bubble
+
+## Hebergement
+* IAAS
+  * AWS EC2
+  * DigitalOcean
+* PAAS 
+  * Heroku
+  * Netlify
+  * CleverCloud
+  * Scalingo
+* Serverless
 
 ## Feedback between colleagues
 * officevibe
