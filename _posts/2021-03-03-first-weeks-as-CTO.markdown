@@ -92,6 +92,8 @@ That's entirely up to you.
 * Choose appropriate **technologies**
 * Decide to **make or Buy**  (see my [List of tools](/assets/Tools-for-CTO.md))
 
+For trends and adoption of tech, the _[stackoverflow Trends](https://insights.stackoverflow.com/trends?tags=loopbackjs%2Cnestjs%2Cmeteor%2Cexpress%2Csails.js)_ is very useful !
+
 # Lead
 
 Fill your team with **energy** ! There are numerous ways : work with them, inspire them every week, create common goals, excitement, challenges, rewards...
