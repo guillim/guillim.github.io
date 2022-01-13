@@ -14,10 +14,11 @@
 * Confluence
 * Asana
 
-## Monitoring code Errors:
+## Monitoring code Errors / server charge :
 * Bugsnag
 * Sentry
 * datadog
+* New relic
 
 ## Monitoring server CPU
 * mail alerts from your server provider
