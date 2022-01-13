@@ -26,6 +26,7 @@ After reading this, you should feel depressed but at least not alone. It's a maj
 
 
 ## Typical schedule
+
 |       | M            | T           | W           | T           | F                  |
 |-------|--------------|-------------|-------------|-------------|--------------------|
 | 8h    |              |             |             |             |                    |
