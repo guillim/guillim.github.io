@@ -26,6 +26,7 @@ After reading this, you should feel depressed but at least not alone. It's a maj
 
 
 ## Typical schedule
+
 |       | M            | T           | W           | T           | F                  |
 |-------|--------------|-------------|-------------|-------------|--------------------|
 | 8h    |              |             |             |             |                    |
@@ -40,6 +41,22 @@ After reading this, you should feel depressed but at least not alone. It's a maj
 | 16h   | similar task | meetings    |             | interview   | next week planning |
 | 18h30 | daily        | daily       | daily       | daily       | daily              |
 | 19h   |              |             |             |             |                    |
+{: .tablelines}
+
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
+
+| P | Q | P * Q |
+| - | - | - |
+| T | T | T |
+| T | F | F |
+| F | T | F |
+| F | F | F |
+{: .tablelines}
+
 
 
 
