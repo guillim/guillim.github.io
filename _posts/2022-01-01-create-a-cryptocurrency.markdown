@@ -33,7 +33,7 @@ If you think about it, it's easier to set up a token rather than a coin since yo
 For almost every steps, you will need a [metamask wallet](https://metamask.io/).
 
 ## Coding
-I used a free tool from etheruem to help developers build smart contracts, a sort of IDE : [remix.ethereum.org](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.2+commit.661d1103.js)
+I used a free tool from ethereum to help developers build smart contracts, a sort of IDE : [remix.ethereum.org](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.2+commit.661d1103.js)
 As a first step into crypto dev, that is a good shot. The language is called **"solidity"**, and it is the standard language nowadays for smart contract.
 
 The GUIC code is only this page :
