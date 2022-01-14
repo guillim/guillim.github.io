@@ -140,3 +140,4 @@ Holacracy introduction for new management style [Brian Robertson's Tedx](https:/
 Article about the [feedback culture](https://www.radicalcandor.com/introduce-radical-candor-feedback/)  
 code guideline: [best code is no code, or short code](https://blog.codinghorror.com/the-best-code-is-no-code-at-all/)  
 Notes of [interviews I lead with CTOs & lead Devs](/assets/Discussions-avec-dev-CTO.md)  
+Choose a NodeJS framework [Theodo Blog](https://blog.theodo.com/2019/03/choose-best-nodejs-framework/)   
