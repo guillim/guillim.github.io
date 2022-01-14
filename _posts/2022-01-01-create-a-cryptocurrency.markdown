@@ -50,7 +50,7 @@ That's why I went to the BSC (the Binance fork of Ethereum blockchain) and I onl
 Another option would have been to use the Polygon blockchain, a layer 2 on the Ethereum blockchain, even cheaper. It's really up to you to decide. Just keep in mind that the less mainstream the blockchain, the harder for your user it will be to interact with your smart contract.
 
 ## Why do I need to pay the blockchain
-Let's put it that way : the blockchain is our database, belonging to all of us. And every time you want to put something new on it, or update it, it comes with a cost. Because what you want to put on this database requires many computers to spend energy spreading your information. That is why.
+Let's put it that way : the blockchain is our database, belonging to all of us. And every time you want to put something new on it, or update it, it comes with a cost. Because what you want to put on this database requires many computers to spend energy spreading your information (and making sure no cheater can overwrite it). That is why: the blockchain is a big shared database which cost is shared between all of us. The cost is called "gas fee", you will hear about it a lot. It is the main reason why so many blockchain exist.
 
 "Reading" information from the blockchain is free : there is no need for a so-called "consensus" which requires energy. And every computer of the network (network here refers to every computer online, mining the same blockchain) has the database, so reading is free. It's as simple as that.
 
