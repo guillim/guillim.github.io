@@ -41,7 +41,7 @@ The GUIC code is only this page :
 
 Next step, we will compile our code and publish it.
 
-Note : if you want to dig solidity, I recommedn this learning game : [crytpo zombie](https://cryptozombies.io/)
+Note : if you want to dig solidity, I recommend this learning game : [crytpo zombie](https://cryptozombies.io/)
 
 ## Put your code on the blockchain
 Ethereum based smart contract can be published on the Ethereum blockchain, but it is very costly at the moment. It would have cost me around 600\$ to make it live. 
@@ -63,7 +63,7 @@ You will notice that Tracker (GUIC) is the good one : the symbol we created in o
 
 There are many information available here:  
 - Starting from the creator address : it will be yours (mine for the GUIC) ! 
-- The balance is 0\$ because it is worth so little that BSC con't display 0.0001\$
+- The balance is 0\$ because it is worth so little that BSC can't display 0.0001\$
 - The contract address, that was attributed when you pushed your contract on the BSC blockchain. Here it's `0x9590B5fc46A499ad1F6d72D39b5224b1B4986fB3` so if you want to find the GUIC on the BSC blockchain, that's what you need !
 - in the tabs below you can have some info on the contract itself, analytics, number of holders...
 
@@ -80,7 +80,7 @@ To make it easier for people to interact, buy, sell and understand this project,
 ## How can people get some GUIC ?
 
 ### Airdrop
-Well, at the moment the only way is or you to send it to people addresses. If you do it to strangers for free, it's what we call an "airdrop" and it's famous because it is a way to get initial adoption. Well to be very accurate, it's not really free since every time you send tome token, you will have to pay the update fee.
+Well, at the moment it is pretty limited : the only way is you sending some GUIC to people addresses. If you do it to strangers for free, it's what we call an "airdrop" and it's famous because it is a way to get initial adoption. Well to be very accurate, it's not really free since every time you send tome token, you will have to pay the update fee.
 
 ### DEX : decentralized exchange
 Another option is to give some of your token to a platform allowing others to buy and sell your token. For this, you need to become what is called a "liquidity provider" and to create a "pool". In a nutshell, you will deposit on the DEX 50\$ and 50 GUIC to create a pool where 1GUIC = 1\$. 
