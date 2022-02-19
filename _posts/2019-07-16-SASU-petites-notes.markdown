@@ -282,4 +282,5 @@ Livre blanc par Comet: ["Choisir son statut"](/assets/files/Choisir_son_statut.p
 Résumé par Novaa: ["Statuts Freelance"](/assets/files/Statuts_Freelance_Novaa.pdf)  
 Onboarding sur la comptabilité: ["Webinar par l-expert-comptable"](https://youtu.be/l3pflCQQhoo)  
 Définition diverses [Kbis, Siren, TVA, RCS, ACCRE](https://cdn2.hubspot.net/hubfs/4059422/LEC/Contenus%20Premiums/Créateur/décodeur-identifiant-entreprise.pdf)  
-Blog de [Dougs](https://www.dougs.fr/blog/)
+Blog de [Dougs](https://www.dougs.fr/blog/)  
+Comprendre son [rapport de comptes annuels](https://mailchi.mp/l-expert-comptable.com/la-newsletter-l-expert-comptablecom-02-7fwm4urlmo-8795189?e=299cd2cba5)  
