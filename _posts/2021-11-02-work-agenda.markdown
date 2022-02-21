@@ -86,7 +86,7 @@ For iphone users : here is how to [control notification at once](https://mashtip
 ## Work / Life balance
 Jean de la Rochebrochard gives a lot of tips about how to handle this in his book Human machine. If I make it very short, here are the tricks to balance this :
 - Decide how much of your life you want ot spend with your family, work, yourself, and socially.  
-ex : on a typical day, 8am-9am => Y | 9am-12am => W | 12am-1pm => S | 1pm-7pm => W | 7pm-8pm => S | 8pm =>10pm => F | 10pm =>11pm => Y  
+ex : on a typical day, 8-9am = Y | 9-12am = W | 12-1pm = S | 1-7pm = W | 7-8pm = S | 8-10pm = F | 10-11pm = Y  
 ex: on a typical year, 12 weeks of holidays
 - Know yourself. It comes in two parts
   - You must acknowledge how your brain works : instinct VS thinking. The first one is always on, triggers laziness, makes you brain switch too often. The second one is ideal for logical decisions. Both are important, but must be used at different times.
@@ -94,6 +94,7 @@ ex: on a typical year, 12 weeks of holidays
 - Protect your time. Learn how to say no in a respectful way, to protect yourslef and avoid overbooking.
 - Block "free time slot" to give yourself extra hours when late on some task, or dealing with unexpected
 - split your work time into three moments : high intensity work (VIP single task, no sollication), social interactions (open to talk, don't forget 10min break before), inductive (sport, meditation, no-email, no-social)
+- take breaks
 
 # Reference
 BBC [study](https://www.bbc.com/news/business-32628753)  
