@@ -83,9 +83,21 @@ For iphone users : here is how to [control notification at once](https://mashtip
 - if you get distracted by **gmail** on your computer => pause incoming email with this [chrome extension](https://chrome.google.com/webstore/detail/boomerang-for-gmail/mdanidgdpmkimeiiojknlnekblgmpdll?hl=en)
 
 
+## Work / Life balance
+Jean de la Rochebrochard gives a lot of tips about how to handle this in his book Human machine. If I make it very short, here are the tricks to balance this :
+- Decide how much of your life you want ot spend with your family, work, yourself, and socially.  
+ex : on a typical day, 8am-9am => Y | 9am-12am => W | 12am-1pm => S | 1pm-7pm => W | 7pm-8pm => S | 8pm =>10pm => F | 10pm =>11pm => Y  
+ex: on a typical year, 12 weeks of holidays
+- Know yourself. It comes in two parts
+  - You must acknowledge how your brain works : instinct VS thinking. The first one is always on, triggers laziness, makes you brain switch too often. The second one is ideal for logical decisions. Both are important, but must be used at different times.
+  - Know your strenght VS weakness : do it with a positive thinking so that you help yourself by creating the best environment to avoid / sollicitate these caracteristcs. Use your weaknesses in areas where they can be an advantage.
+- Protect your time. Learn how to say no in a respectful way, to protect yourslef and avoid overbooking.
+- Block "free time slot" to give yourself extra hours when late on some task, or dealing with unexpected
+- split your work time into three moments : high intensity work (VIP single task, no sollication), social interactions (open to talk, don't forget 10min break before), inductive (sport, meditation, no-email, no-social)
 
 # Reference
 BBC [study](https://www.bbc.com/news/business-32628753)  
 Pomodoro [wiki](https://en.wikipedia.org/wiki/Pomodoro_Technique)
 Medium of [Liz Huber](https://medium.com/@refinedliz/6-extremely-effective-ways-to-take-control-of-your-day-and-get-more-done-b14eeb5250b1)
-Forbes [tips](https://www.forbes.com/sites/deloitte/2021/10/07/creating-stigma-free-work-cultures-is-key-to-tackling-the-mental-health-crisis/?sh=5b9fb5c271fd)
+Forbes [tips](https://www.forbes.com/sites/deloitte/2021/10/07/creating-stigma-free-work-cultures-is-key-to-tackling-the-mental-health-crisis/?sh=5b9fb5c271fd)  
+Human Machine [by Rochebrochard](https://www.amazon.com/Human-Machine-STO-ESSAIS-DOCU-French-Rochebrochard/dp/2379790418)  
