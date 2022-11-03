@@ -309,6 +309,38 @@ test2
 it's the _the null device in a UNIX system_ : whatever you write to /dev/null will be discarded. more info [here][dev/null]  
 
 Known use : `commande >/dev/null 2>&1` to delete every output (stdout & stderr) of `command`
+
+
+
+## Template from HackerNews
+```bash
+#!/usr/bin/env bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+if [[ "${TRACE-0}" == "1" ]]; then
+    set -o xtrace
+fi
+
+if [[ "${1-}" =~ ^-*h(elp)?$ ]]; then
+    echo 'Usage: ./script.sh arg-one arg-two
+
+This is an awesome bash script to make your life better.
+
+'
+    exit
+fi
+
+cd "$(dirname "$0")"
+
+main() {
+    echo do awesome stuff
+}
+
+main "$@"
+```
+
 # Ressources
 
 More about ps1, ps2 ... [thegeek]([https://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/?utm_source=twitterfeed&utm_medium=twitter])  
@@ -319,7 +351,8 @@ lshw [manual and tips](https://www.howtoforge.com/linux-lshw-command/)
 bg & fg [manual and tips][manual and tips]  
 bg & fg [shorter]((https://til.secretgeek.net/linux/bg_fg_background_and_foreground.html)  
 very 4 to understand [french documentation](https://doc.ubuntu-fr.org/projets/ecole/scripting/initiation_au_shell)  
-explanation & how to use [dev/null][dev/null]
+explanation & how to use [dev/null][dev/null]  
+from HackerNews 10/2022: [best practises](https://sharats.me/posts/shell-script-best-practices/)  
 
 [manual and tips]: https://linuxhint.com/what_is_dev_null/
 [dev/null]: https://linuxhint.com/what_is_dev_null/
