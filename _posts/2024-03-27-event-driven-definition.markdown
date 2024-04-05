@@ -25,3 +25,4 @@ Reading the DB is done differently than writing to the DB. Could be different la
 ### Resources
 
 - 👨🏻‍💻 [uncle bob](https://martinfowler.com/articles/201701-event-driven.html)
+- Define an aggregate: too big ? too short ? entity & value object [kalele](https://kalele.io/wp-content/uploads/2019/01/DDD_COMMUNITY_ESSAY_AGGREGATES_PART_1.pdf)
