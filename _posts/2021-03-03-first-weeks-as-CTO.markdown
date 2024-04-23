@@ -105,6 +105,17 @@ Fill your team with **energy** ! There are numerous ways : work with them, inspi
 * in the end, you report to your shareholders. Make sure you can provide the numbers they expect. **List the success metrics**, and sub-metrics, for your company, and make sure you can calculate them.
 * implement a **feedback culture**. Dig into "Radical Candor" for instance _(see Bellow for a link)_ and use tools like [officevibe](https://officevibe.com/) for instance  
 
+### Manage people
+People need to talk to you, privately. Sometimes of silly sports results, sometimes of their personnal issues and sometimes about other coworkers. It is very important to create a regular weekly moment with as many people as you directly work with, of 30min. They will know you will be really open to  listen to them. It's much more powerful than "My door is always open" translating in no one pushes your door.  
+
+A study from [somanyways](https://www.somanyways.co/lp/5-cles-de-lecture-pour-mieux-comprendre-le-rapport-au-travail) shows people's motivation to work can be split into 5 topics :
+- transform : work is a way to change the company
+- impact : work is a way to change the world
+- rising : work is a way to get a social recognition
+- introspect : work leads to self expression
+- balance : work is a way to meet your needs  
+
+It's important to understand people around you, and this analysis grid helps.
 
 # Culture
 
