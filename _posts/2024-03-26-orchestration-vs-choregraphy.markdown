@@ -60,3 +60,4 @@ The choice between them depends on factors such as the complexity of the system,
 
 - 👨🏻‍💻 [wallarm](https://www.wallarm.com/what/orchestration-vs-choreography)
 - 🦁 [NestJS](https://docs.nestjs.com/microservices/basics)  microservices implementation
+- :▶️ [outbox definition](https://microservices.io/patterns/data/transactional-outbox.html)
