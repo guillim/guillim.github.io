@@ -2,3 +2,13 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+body, .project-name {
+  font-family: "Schibsted Grotesk", sans-serif
+}
+
+.page-header {
+  background-image: url('/assets/img/background-header.png');
+  background-position: right bottom;
+  background-size: cover;
+}
