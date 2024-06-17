@@ -1,9 +1,10 @@
 ---
 layout: default
-title:  "MacOS setup"
-date:   2023-11-05 03:22:48 +0100
+title: "MacOS setup"
+date: 2023-11-05 03:22:48 +0100
 categories: macos
 comments: true
+thumbnail: /assets/img/thumbnails/4.jpg
 ---
 
 Today, my MacOS list of applications I find useful.
@@ -32,9 +33,7 @@ Today, my MacOS list of applications I find useful.
 
 - 🖥️ [Monitor control](https://github.com/MonitorControl/MonitorControl/releases) : Keyboard keys to control monitor brightness
 
-- 🖥️ [Rectangle](https://rectangleapp.com/) : Keyboard keys 
-to Move & resize windows
-
-
+- 🖥️ [Rectangle](https://rectangleapp.com/) : Keyboard keys
+  to Move & resize windows
 
 Please suggest me more applications in the comments below.

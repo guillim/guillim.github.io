@@ -1,15 +1,16 @@
 ---
 layout: default
-title:  "Makefile is useful"
-date:   2018-10-16 19:22:48 +0100
+title: "Makefile is useful"
+date: 2018-10-16 19:22:48 +0100
 categories: docker
 comments: true
+thumbnail: /assets/img/thumbnails/1.jpg
 ---
 
 ## Why ?
 
 I have a simple frontend dockerised app on [http://localhost:8000](http://localhost:8000)  
-I have a simple backend dockerised API on [http://localhost:8001](http://localhost:8001) serving my frontend   
+I have a simple backend dockerised API on [http://localhost:8001](http://localhost:8001) serving my frontend  
 I need to start a database for my backend
 
 How to launch all this at once, in one cmd line ?
@@ -19,19 +20,17 @@ Tested Configuration:
 `Docker: 18.03 CE`  
 `Docker-compose: 1.21.1`
 
-
 # Makefile + Docker
 
-
 ## What is a Makefile:
-**Make** is a tool which controls the generation of executables from the program's source files. Make knows how to build your program by reading a file called the **makefile**.  
+
+**Make** is a tool which controls the generation of executables from the program's source files. Make knows how to build your program by reading a file called the **makefile**.
 
 When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program. _Many automation UI's for build processes use makefiles (or similar) behind the scenes._
 
-
 ## When do I use a Makefile:
-* When I have several micro-services, and they work together. Especially useful When stored on a public github repo: avoid many conf pb
 
+- When I have several micro-services, and they work together. Especially useful When stored on a public github repo: avoid many conf pb
 
 ## Makefile Example:
 
@@ -103,9 +102,9 @@ database-stop:
 
 up: network database backend frontend
 
-down: frontend-stop backend-stop database-stop network-stop  
+down: frontend-stop backend-stop database-stop network-stop
 
-## access the LIUNX current user value. 
+## access the LIUNX current user value.
 ## $USER won't work since it refers to a Makefile variable we haven't defined
 
 printLinuxUser:
@@ -118,31 +117,31 @@ Note: all configuration lays inside the different docker-compose-XXX files.
 ## How to use ?
 
 1. Go to your project folder (where the makefile is stored)
-2. Run ``` make up ```
+2. Run `make up`
 3. That's it, you can go to your browser and see that you frontend works, your backend is actually serving your frontend using the data from your database.
 
 ## One problem: 
+
 Makefile command may be different on the OS you run. For instance, between MacOS and Ubuntu, some command may be different; The reason is the unix shell that will execute the makefile can be different.  
 Here is a list of unix shells:
 
-| Unix shell        | name           | explanation  |
-| ------------- |:-------------:| -----:|
-| sh      | The original Bourne shell | Present on every unix system |
-| ksh      | Original Korn shell | Richer shell programming environment than sh |
-| csh      | Original C-shell | C-like syntax; early versions buggy  |
-| tcsh      | Enhanced C-shell | User-friendly and less buggy csh implementation  |
-| bash      | GNU Bourne-again shell | Enhanced and free sh implementation  |
-| zsh      | Z shell | Enhanced, user-friendly ksh-like shell |
+| Unix shell |           name            |                                     explanation |
+| ---------- | :-----------------------: | ----------------------------------------------: |
+| sh         | The original Bourne shell |                    Present on every unix system |
+| ksh        |    Original Korn shell    |    Richer shell programming environment than sh |
+| csh        |     Original C-shell      |             C-like syntax; early versions buggy |
+| tcsh       |     Enhanced C-shell      | User-friendly and less buggy csh implementation |
+| bash       |  GNU Bourne-again shell   |             Enhanced and free sh implementation |
+| zsh        |          Z shell          |          Enhanced, user-friendly ksh-like shell |
 
 you can try to add this line at the top of your makefile in order to force the use of bash (for instance):
-``` SHELL := /usr/bin/env bash ```  
-
+`SHELL := /usr/bin/env bash`
 
 ## Notes :
-* There is no difference between () and {} for Make
-* If you use $$ in a recipe, then $ is "escaped" and passed to the shell
-* Using $${dir} will send ${dir} to the shell, and the shell will replace it using the env ‘dir’
 
+- There is no difference between () and {} for Make
+- If you use $$ in a recipe, then $ is "escaped" and passed to the shell
+- Using $${dir} will send ${dir} to the shell, and the shell will replace it using the env ‘dir’
 
 # Ressources
 

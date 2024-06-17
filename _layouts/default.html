@@ -44,7 +44,9 @@
 
   </section>
 
-  <section class="main-content">
+  <!-- we want the homepage to be full width, and other pages to be max 800px width,
+   so we base our self on the presence of the comments -->
+  <section class="main-content" {% if page.comments %} style="max-width: 800px;" {% endif %}>
     {{ content }}
 
 

@@ -1,9 +1,10 @@
 ---
 layout: default
-title:  "Pandas: if else on columns"
-date:   2018-10-22 19:22:48 +0100
+title: "Pandas: if else on columns"
+date: 2018-10-22 19:22:48 +0100
 categories: pandas
 comments: true
+thumbnail: /assets/img/thumbnails/4.jpg
 ---
 
 ## Why ?
@@ -58,15 +59,16 @@ df['column_2'] = np.select(conditions, choices, default='null')
 
 This is 100 times faster !
 
-
 ### Why
+
 It's musch faster form 2 reasons:
-* Pandas is a vector library, so columns processing is way more optimised than "row by row"
-* Numpy is designed for large matrices and its mathematical functions are very optimised
+
+- Pandas is a vector library, so columns processing is way more optimised than "row by row"
+- Numpy is designed for large matrices and its mathematical functions are very optimised
 
 # Ressources
 
-Original answer from  [stackoverflow](https://stackoverflow.com/questions/19913659/pandas-conditional-creation-of-a-series-dataframe-column)
+Original answer from [stackoverflow](https://stackoverflow.com/questions/19913659/pandas-conditional-creation-of-a-series-dataframe-column)
 
 Create a [dataframe](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)
 

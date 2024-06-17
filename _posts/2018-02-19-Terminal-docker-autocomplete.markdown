@@ -1,36 +1,35 @@
 ---
 layout: default
-title:  "Terminal docker autocomplete"
-date:   2018-02-19 03:22:48 +0100
+title: "Terminal docker autocomplete"
+date: 2018-02-19 03:22:48 +0100
 categories: terminal
 comments: true
+thumbnail: /assets/img/thumbnails/3.jpg
 ---
 
-You want to get **docker** autocomplete in your **terminal**  ? Here is what you can do  
+You want to get **docker** autocomplete in your **terminal** ? Here is what you can do  
 Tested Configuration:  
 `MacOS:  Sierra 10.12`  
 `Terminal: iTerm2 & Terminal`
 
-# 1.  Open your terminal
-
+# 1. Open your terminal
 
 Type `sudo nano ~/.bash_profile`  
 Write at the end of the file
 `source ~/.docker-completion.bash`  
 And save. (by hiting `Ctrl + X` then hit `Y` to confirm)
 
-This part will automatically load the "docker autocompletion script" when your terminal starts.  
+This part will automatically load the "docker autocompletion script" when your terminal starts.
 
-# 2.  Copy the script
+# 2. Copy the script
 
-
-Copy the content of this [file][gist]  (open the page and hit `Ctrl + A`, then `Ctrl + C`)  
+Copy the content of this [file][gist] (open the page and hit `Ctrl + A`, then `Ctrl + C`)  
 Type: `sudo nano ~/.docker-completion.bash`  
-Paste the content of the file inside ( `Ctrl + V` for instance)  
+Paste the content of the file inside ( `Ctrl + V` for instance)
 
 Save like before
 
-# 3.  Restart your terminal
+# 3. Restart your terminal
 
 To quit Press `Cmd + Q` for instance (you must quit, not simply close)
 And open your terminal again !

@@ -1,33 +1,40 @@
 ---
 layout: default
-title:  "Cron"
-date:   2020-03-20 03:22:48 +0100
+title: "Cron"
+date: 2020-03-20 03:22:48 +0100
 categories: cron
 comments: true
+thumbnail: /assets/img/thumbnails/5.jpg
 ---
 
 You want to know about **cron** fast ? Here are some must-know commands.  
 Tested Configuration:  
-`Linux:  Ubuntu 18.04`  
-
+`Linux:  Ubuntu 18.04`
 
 # Install
-(cron is quite common it may already be installed)  
+
+(cron is quite common it may already be installed)
+
 ```bash
 apt-get install cron
 ```
 
 # Status
+
 cron is a service runnging in the background. To know if it's active, simply type :
+
 ```bash
 systemctl status cron
 ```
+
 it should show _active_
 
 # Configure
+
 ```bash
 crontab -e
 ```
+
 Note :  
 You can also try `nano /etc/crontab` it should lead to the same result if you restart after you save your edit with this command : `systemctl restart cron`
 
@@ -54,18 +61,18 @@ MAILTO=root
 30 * * * * root /script.sh > /cron.log 2>&1
 ```
 
-
 # Log
+
 If you want to know that your cron task executed, you can check the syslog:
+
 ```bash
 grep CRON /var/log/syslog
 ```
 
-
 # Reference
 
-Help with the * * * * * : [crontab](https://crontab.guru/)  
+Help with the \* \* \* \* \* : [crontab](https://crontab.guru/)  
 General definitions : [rosehosting](https://www.rosehosting.com/blog/ubuntu-crontab/)  
 Set up : [liquidweb](https://www.liquidweb.com/kb/create-a-cron-task-in-ubuntu-16-04/)  
 Change email to send the error messages : [cyberciti](https://www.cyberciti.biz/faq/linux-unix-crontab-change-mailto-settings/)  
-Check cron in your logs :  [askubuntu](https://askubuntu.com/questions/56683/where-is-the-cron-crontab-log)  
+Check cron in your logs : [askubuntu](https://askubuntu.com/questions/56683/where-is-the-cron-crontab-log)
