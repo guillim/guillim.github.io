@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Damn VueJs Observer"
 date: 2019-03-20 19:22:48 +0100
 categories: vue

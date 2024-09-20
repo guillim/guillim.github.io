@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "12 factors"
 date: 2021-09-09 03:22:48 +0100
 categories: best-practise

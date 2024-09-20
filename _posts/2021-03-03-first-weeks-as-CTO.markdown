@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "First weeks as CTO"
 date: 2021-03-03 03:22:48 +0100
 categories: cto

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "MacOS setup"
 date: 2023-11-05 03:22:48 +0100
 categories: macos

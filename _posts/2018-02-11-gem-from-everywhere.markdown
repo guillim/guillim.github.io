@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "gem from everywhere"
 date: 2018-02-11 03:22:48 +0100
 categories: gem

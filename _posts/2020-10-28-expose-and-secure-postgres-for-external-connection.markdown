@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Expose and secure postgres for external connection"
 date: 2020-10-28 03:22:48 +0100
 categories: database

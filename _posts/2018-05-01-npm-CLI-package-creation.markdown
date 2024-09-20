@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "npm CLI package creation"
 date: 2018-05-01 03:22:48 +0100
 categories: npm

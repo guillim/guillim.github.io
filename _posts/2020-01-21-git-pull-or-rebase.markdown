@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "git pull or git rebase"
 date: 2020-01-21 03:22:48 +0100
 categories: git

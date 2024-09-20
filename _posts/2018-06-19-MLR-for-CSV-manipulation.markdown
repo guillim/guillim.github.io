@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "MLR for CSV manipulation"
 date: 2018-06-19 03:22:48 +0100
 categories: terminal

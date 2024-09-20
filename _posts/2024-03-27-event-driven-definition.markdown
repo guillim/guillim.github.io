@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Event Driven Definitions"
 date: 2024-03-26 03:22:48 +0100
 categories: event-driven

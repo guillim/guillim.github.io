@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Separate Docker & Data"
 date: 2019-07-29 19:22:48 +0100
 categories: docker

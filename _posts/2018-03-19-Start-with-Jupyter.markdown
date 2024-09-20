@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Start with Jupyter"
 date: 2018-03-19 03:22:48 +0100
 categories: python

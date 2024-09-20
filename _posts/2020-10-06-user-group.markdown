@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "User & Group"
 date: 2020-10-06 03:22:48 +0100
 categories: linux

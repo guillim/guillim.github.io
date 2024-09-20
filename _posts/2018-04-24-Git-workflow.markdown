@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Git workflow, made simple"
 date: 2018-04-24 03:22:48 +0100
 categories: git

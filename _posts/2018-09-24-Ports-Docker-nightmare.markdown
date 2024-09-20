@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Ports binding in Docker is a nightmare"
 date: 2018-09-24 19:22:48 +0100
 categories: docker

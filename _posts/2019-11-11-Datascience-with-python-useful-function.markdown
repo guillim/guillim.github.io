@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Datascience with python : useful function"
 date: 2019-11-11 19:22:48 +0100
 categories: python

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "How to debug a Python server running inside a remote docker container"
 date: 2020-02-20 03:22:48 +0100
 categories: python, docker, django

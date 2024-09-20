@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Orchestration VS Choregraphy"
 date: 2024-03-26 03:22:48 +0100
 categories: domain-driven-design

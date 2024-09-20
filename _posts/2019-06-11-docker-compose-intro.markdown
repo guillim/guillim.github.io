@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Docker Compose: a short introduction"
 date: 2019-06-11 19:22:48 +0100
 categories: docker

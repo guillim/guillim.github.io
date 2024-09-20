@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Licence for my project"
 date: 2018-03-27 03:22:48 +0100
 categories: licence

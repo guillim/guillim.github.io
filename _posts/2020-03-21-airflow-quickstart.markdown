@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Airflow quickstart"
 date: 2020-03-21 03:22:48 +0100
 categories: python

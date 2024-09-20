@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "CSV encoding detection in javascript"
 date: 2020-08-28 03:22:48 +0100
 categories: javascript

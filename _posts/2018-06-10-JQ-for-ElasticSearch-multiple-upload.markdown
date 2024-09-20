@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "JQ for ElasticSearch multiple upload"
 date: 2018-06-10 03:22:48 +0100
 categories: terminal

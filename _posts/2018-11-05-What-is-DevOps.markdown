@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "What is DevOps"
 date: 2018-11-05 19:22:48 +0100
 categories: devops

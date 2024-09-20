@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Lambda function in python"
 date: 2018-04-15 03:22:48 +0100
 categories: python

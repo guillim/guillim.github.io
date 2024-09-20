@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Create VueJS component and use it through npm"
 date: 2019-03-25 19:22:48 +0100
 categories: vue

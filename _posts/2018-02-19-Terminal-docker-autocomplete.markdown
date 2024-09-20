@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Terminal docker autocomplete"
 date: 2018-02-19 03:22:48 +0100
 categories: terminal

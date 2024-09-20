@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Terminal git autocomplete"
 date: 2018-02-17 03:22:48 +0100
 categories: terminal

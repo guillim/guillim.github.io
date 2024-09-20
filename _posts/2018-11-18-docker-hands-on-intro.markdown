@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Docker : a hands on introduction"
 date: 2018-11-18 19:22:48 +0100
 categories: docker

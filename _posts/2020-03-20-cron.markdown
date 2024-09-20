@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Cron"
 date: 2020-03-20 03:22:48 +0100
 categories: cron

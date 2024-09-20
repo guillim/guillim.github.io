@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "ssh port forwarding with docker"
 date: 2020-03-11 03:22:48 +0100
 categories: ssh, docker

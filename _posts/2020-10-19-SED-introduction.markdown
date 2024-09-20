@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "SED introduction"
 date: 2020-10-19 03:22:48 +0100
 categories: linux

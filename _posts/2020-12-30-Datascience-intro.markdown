@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Datascience intro"
 date: 2019-12-30 19:22:48 +0100
 categories: python

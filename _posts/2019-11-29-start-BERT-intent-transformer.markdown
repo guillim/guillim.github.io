@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "BERT, intent and Transformer : why ?"
 date: 2019-11-29 19:22:48 +0100
 categories: python

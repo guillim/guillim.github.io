@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Linkedin growth hacking"
 date: 2023-01-04 03:22:48 +0100
 categories: linkedin

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Bash introduction"
 date: 2018-10-24 19:22:48 +0100
 categories: bash

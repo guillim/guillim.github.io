@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Pair Programming"
 date: 2021-06-18 03:22:48 +0100
 categories: terminal

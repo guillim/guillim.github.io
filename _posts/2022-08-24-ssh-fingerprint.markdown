@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "ssh fingerprint"
 date: 2022-08-24 03:22:48 +0100
 categories: ssh

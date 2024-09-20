@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "PostgREST with free database in 10 minutes"
 date: 2020-01-24 03:22:48 +0100
 categories: postgres

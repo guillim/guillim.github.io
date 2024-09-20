@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "SASU: petites notes"
 date: 2019-07-16 19:22:48 +0100
 categories: sasu

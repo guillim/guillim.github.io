@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Learn Python"
 date: 2018-03-20 03:22:48 +0100
 categories: python

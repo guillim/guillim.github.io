@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Terminal colors and nice layout"
 date: 2018-02-12 03:22:48 +0100
 categories: terminal

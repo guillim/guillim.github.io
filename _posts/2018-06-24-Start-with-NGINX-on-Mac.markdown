@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Start with NGINX on Mac"
 date: 2018-06-24 03:22:48 +0100
 categories: nginx

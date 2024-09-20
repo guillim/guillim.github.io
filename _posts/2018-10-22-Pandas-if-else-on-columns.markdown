@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Pandas: if else on columns"
 date: 2018-10-22 19:22:48 +0100
 categories: pandas

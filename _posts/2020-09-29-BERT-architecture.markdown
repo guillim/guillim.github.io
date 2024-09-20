@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "BERT architecture"
 date: 2020-09-29 03:22:48 +0100
 categories: machine-learning

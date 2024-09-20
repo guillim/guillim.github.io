@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Makefile is useful"
 date: 2018-10-16 19:22:48 +0100
 categories: docker

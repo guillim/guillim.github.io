@@ -21,11 +21,11 @@
 
 <body>
   <section class="page-header">
-    <p class="project-name">{{ site.title | default: site.github.repository_name }}</p>
-    <p class="project-tagline">{{ site.description | default: site.github.project_tagline }}</p>
+    <p class="project-name">{{ page.title | default: site.github.repository_name }}</p>
 
+    <a href="/" class="btn" style="margin-top: 80px;">Home</a>
     <!-- here i want to add a few links with according icons to my Linkedin profiles, github profile and twitter profile, adn reddit profile -->
-    <div style="margin-top: 100px;">
+    <div>
       <a href="https://www.linkedin.com/in/guillaumelancrenon/" style="margin-left: 5px;">
         <img src="/assets/img/social/linkedin.png" width="30px" />
       </a>

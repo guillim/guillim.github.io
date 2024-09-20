@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Create a cryptocurrency"
 date: 2022-01-01 03:22:48 +0100
 categories: crypto

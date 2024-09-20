@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Set up Github Pages with your own domain, and SSL"
 date: 2018-02-14 03:22:48 +0100
 categories: github

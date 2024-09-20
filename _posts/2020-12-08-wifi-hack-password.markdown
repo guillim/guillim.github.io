@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Wifi hack if you don't have its password"
 date: 2020-12-08 03:22:48 +0100
 categories: wifi

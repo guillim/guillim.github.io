@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Work agenda"
 date: 2021-11-02 03:22:48 +0100
 categories: best-practise
