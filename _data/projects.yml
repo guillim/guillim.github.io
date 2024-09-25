@@ -1,0 +1,59 @@
+- title: "Mass Linkedin Profile Scrapper"
+  description: "Import your file and see Linkedin URLs being enriched : LinkedIn infos, emails, phones..."
+  url: "https://apify.com/anchor/linkedin-profile-enrichment"
+  picture: "https://guillim.github.io/assets/img/linkedinlogo.png"
+  active: true
+
+- title: "Email and Phone finder"
+  description: "Extract emails, phones, twitter, linkedIn... from a list of websites you provide"
+  emailurl: "https://apify.com/anchor/email-phone-extractor"
+  picture: "https://guillim.github.io/assets/img/emailfinder.png"
+  active: true
+
+- title: "Linkedin Company Finder"
+  description: "Get LinkedIn pages from Company names, through API."
+  url: "https://apify.com/anchor/linkedin-company-url-finder"
+  picture: "https://guillim.github.io/assets/img/linkedinlogo.png"
+  active: true
+
+- title: "Linkedin People Finder"
+  description: "Get LinkedIn pages from People names, through API."
+  url: "https://apify.com/anchor/linkedin-people-finder"
+  picture: "https://guillim.github.io/assets/img/linkedinlogo.png"
+  active: true
+
+- title: "Linkedin x GPT"
+  description: "Extract LinkedIn profiles, and uses ChatGPT on each profile ! Your prompt, the answer you need, the way you want."
+  url: "https://apify.com/anchor/linkedin-gpt-prompt"
+  picture: "https://guillim.github.io/assets/img/linkedinlogoxgpt.png"
+  active: true
+
+- title: "Email validator"
+  description: "Email verification tool. It helps you validate any email address online. Check if mailbox really exists in seconds ! Upload your CSV."
+  url: "https://apify.com/anchor/email-check-verify-validate"
+  picture: "https://guillim.github.io/assets/img/emailvalidator.png"
+  active: true
+
+- title: "Leboncoin Scrapper"
+  description: "Extract posts from leboncoin.fr : no limitation, you get fast results in CSV, Excel... or API format"
+  url: "https://apify.com/anchor/leboncoin"
+  picture: "https://guillim.github.io/assets/img/leboncoin.png"
+  active: true
+
+- title: "E-retail Radar"
+  description: "We provide digital agencies data on Amazon for automated reporting"
+  url: "https://dontgomanual.com/"
+  picture: "https://dontgomanual.com/img/logo.png"
+  active: true
+
+- title: "Peanut Allergy Translator"
+  description: "Offline translator for people allergic to peanuts"
+  url: "https://apps.apple.com/fr/app/peanut-allergy/id1277373808"
+  picture: "https://guillim.github.io/assets/img/peanutallergy.png"
+  active: false
+
+- title: "MPP"
+  description: "NBA fantasy game with friends only"
+  url: "https://www.facebook.com/monpetitparquet/?locale=fr_FR"
+  picture: "https://guillim.github.io/assets/img/mpp.png"
+  active: false

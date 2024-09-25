@@ -93,11 +93,11 @@ a {
   background-image: url('/assets/img/background-header-small.png');
 
   @include large {
-    padding: 5rem 6rem;
+    padding: 3rem 4rem;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 2rem 3rem;
   }
 
   @include small {

@@ -18,7 +18,7 @@ layout: default
             <div class="card-authors">
               <div style="display:flex; align-items:center">
                 <div style="margin-right:10px;">
-                  <img src="/assets/img/guillaume-lancrenon-small.jpg" alt="Jodi Harmon"
+                  <img src="/assets/img/guillaume-lancrenon-small.jpg" alt="Guillaume Lancrenon"
                   width='26px' heigh='26px' style='border-radius:50%; display:flex;'>
                 </div>
                 <div style="flex-direction:column">

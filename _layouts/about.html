@@ -21,11 +21,16 @@
 
 <body>
   <section class="page-header">
-    <p class="project-name">{{ site.title | default: site.github.repository_name }}</p>
-    <p class="project-tagline">{{ site.description | default: site.github.project_tagline }}</p>
+    <p class="project-name">{{ 'Indie Page' | default: site.github.repository_name }}</p>
+    <p class="project-tagline" style="font-style: italic; margin-top: 0ps; margin-bottom: 0px;">
+      {{ 'Portfolio of my solopreuneur projects' }}</p>
+    <p class="project-tagline" style="margin-top: 0px; margin-bottom: 0px;">
+      {{ 'After 15 years of coding, I am still fascinated by bringing solutions to people around me.' }}
+    </p>
 
-    <a href="/about" class="btn" style="margin-top: 0px;">About me</a>
-    <!-- here i want to add a few links with according icons to my Linkedin profiles, github profile and twitter profile, adn reddit profile -->
+    <a href="/" class="btn" style="margin-top: 0px;">Home</a>
+
+
     <div style="margin-top: 10px;">
       <a href="https://www.linkedin.com/in/guillaumelancrenon/" style="margin-left: 5px;">
         <img src="/assets/img/social/linkedin.png" width="30px" />
