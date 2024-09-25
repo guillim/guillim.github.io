@@ -46,6 +46,18 @@
   picture: "https://dontgomanual.com/img/logo.png"
   active: true
 
+- title: "Wallet2Pseudo"
+  description: "Chrome extension to visually replace crypto wallet of friends, because it can be annoying to remember that 0x9590b5fc46a499ad1f6k72d39b5334b1b4987fb3 is john"
+  url: "https://chromewebstore.google.com/detail/wallet2pseudo/memcmdbbdiajmhemendkhlmcnehbegle"
+  picture: "https://guillim.github.io/assets/img/wallet2pseudo.png"
+  active: true
+
+- title: "GuillimCoin"
+  description: "Open source peer-to-peer cryptocurrency based on the ethereum blockchain"
+  url: "https://guillim.github.io/guillimcoin/"
+  picture: "https://guillim.github.io/guillimcoin/img/logo.png"
+  active: true
+
 - title: "Peanut Allergy Translator"
   description: "Offline translator for people allergic to peanuts"
   url: "https://apps.apple.com/fr/app/peanut-allergy/id1277373808"
@@ -56,4 +68,10 @@
   description: "NBA fantasy game with friends only"
   url: "https://www.facebook.com/monpetitparquet/?locale=fr_FR"
   picture: "https://guillim.github.io/assets/img/mpp.png"
+  active: false
+
+- title: "Arachnida"
+  description: "Scrape the web easily, with a web interface to pilot powerful crawlers on your computer"
+  url: "https://github.com/guillim/Arachnida"
+  picture: "https://raw.githubusercontent.com/guillim/Arachnida/refs/heads/master/public/apple-icon-72x72.png"
   active: false
