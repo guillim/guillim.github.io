@@ -6,7 +6,7 @@
 
 - title: "Email and Phone finder"
   description: "Extract emails, phones, twitter, linkedIn... from a list of websites you provide"
-  emailurl: "https://apify.com/anchor/email-phone-extractor"
+  url: "https://apify.com/anchor/email-phone-extractor"
   picture: "https://guillim.github.io/assets/img/emailfinder.png"
   active: true
 
