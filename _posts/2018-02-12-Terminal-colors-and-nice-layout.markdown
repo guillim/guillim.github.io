@@ -53,14 +53,12 @@ For that, we will install [micro][micro]. It's an alternative to VI or NANO that
 
 Type `brew install micro`
 
-Only for iTerm2 users: use 'xterm Defaults' configuration as shown bellow
-![screenshot2](https://ibin.co/3rSgoi67wTnQ.png){:class="img-responsive"}
+Only for iTerm2 users: use 'xterm Defaults' configuration.
 
 Add your favorite shortcuts:  
 Type `micro ~/.config/micro/bindings.json`
 
-and inside this file, just write down  
-![screenshot](https://ibin.co/3rSiCZPp3tuf.png){:class="img-responsive"}
+and inside this file, just write down what you want as shortcuts.
 
 If you want to custom more shortcuts, [click here][shortcuts]
 
@@ -72,7 +70,7 @@ Let's set up our Terminal so that we can go directly to the end of line, or jump
 Like in the previous part, open the preferences on the Profiles > Keys,  
 then click "+"  
 then fill as bellow:  
-![add a shortcut](https://ibin.co/3rSuB1axn7ii.png){:class="img-responsive"}
+![add a shortcut](/assets/img/keymap.png){:class="img-responsive"}
 This will allow you to use ⌘→ to reach the end of line.
 
 Here is what I suggest:  
