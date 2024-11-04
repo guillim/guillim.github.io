@@ -79,6 +79,10 @@ Here is what I suggest:
 ⌥← b will do "go to left word"  
 ⌥→ f will do "go to right word"
 
+
+[More info](https://stackoverflow.com/questions/6205157/how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line)  
+
+
 # 5. Print sizes of directories
 
 To print the size of current files and directories (sorted by size)
