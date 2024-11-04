@@ -28,14 +28,23 @@ Set the terminal colors to xterm-256color.
 Here is how you can do it:  
 ![colors](/assets/img/terminal-colors.png){:class="img-responsive"}
 
-Then type `sudo nano ~/.bash_profile`  
-And add at the end of the file
-`export CLICOLOR=1`
-
-and add also this `source ~/.bash_prompt` at the end
+Then open "bash_profile" by typing 
+```bash 
+sudo nano ~/.bash_profile
+```
+And add this at the end of the file
+```bash
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+source ~/.bash_prompt
+```
 
 Finally, copy the content of this [file][gist]  
-type: `sudo nano ~/.bash_prompt`  
+type: 
+```bash
+sudo nano ~/.bash_prompt
+```
+  
 and paste the content of the file inside the bash_prompt
 
 # 3. Use your terminal as if it was Microsoft Word
@@ -114,3 +123,15 @@ Other plugins (for JSON...) are available [here][link]
 [plugin]: https://github.com/p2/quicklook-csv/releases/download/1.3/QuickLookCSV-1.3.dmg
 [csv]: https://github.com/p2/quicklook-csv
 [link]: http://www.quicklookplugins.com/
+
+
+# 8. VS code default profile  
+As mentionned in [this stackoverflow](https://stackoverflow.com/questions/44435697/change-the-default-terminal-in-visual-studio-code) we can select a default terminal profile as bash instead of zsh for macOS users. Easy by typing in VScode `Terminal: Select Default Profile` and selecting bash.  
+
+# 9. MacOS bash as default instead of zsh  
+To change your default shell from Zsh to Bash, simply run the `chsh -s /bin/bash` command in Terminal and reopen it. See more [here](https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/#:~:text=Apple%20now%20uses%20Zsh%20as,in%20Terminal%20and%20reopen%20it.)  
+
+
+Note : Revert to zsh by typing `chsh -s /bin/zsh`
+
+
