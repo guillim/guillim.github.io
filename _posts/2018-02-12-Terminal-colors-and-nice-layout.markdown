@@ -26,7 +26,7 @@ No big difference for what we will do.
 Set the terminal colors to xterm-256color.
 
 Here is how you can do it:  
-![screenshot](https://ibin.co/3rScPWGjTtfM.png){:class="img-responsive"}
+![colors](/assets/img/terminal-colors.png){:class="img-responsive"}
 
 Then type `sudo nano ~/.bash_profile`  
 And add at the end of the file
