@@ -133,7 +133,11 @@ As mentionned in [this stackoverflow](https://stackoverflow.com/questions/444356
 # 9. MacOS bash as default instead of zsh  
 To change your default shell from Zsh to Bash, simply run the `chsh -s /bin/bash` command in Terminal and reopen it. See more [here](https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/#:~:text=Apple%20now%20uses%20Zsh%20as,in%20Terminal%20and%20reopen%20it.)  
 
-
 Note : Revert to zsh by typing `chsh -s /bin/zsh`
+
+# 10. Command history search 
+For more visual search in your command history, install [fzf](https://junegunn.github.io/fzf/) and replace the old CTRL-R way with fzf
+
+
 
 
