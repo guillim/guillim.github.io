@@ -11,7 +11,7 @@ Today, my MacOS list of applications I find useful.
 
 # Useful applications for MacOS
 
-- 👨🏻‍💻 [iTerm2](https://iterm2.com/) : Terminal replacement. See also my post on terminal customisation [here](https://guillim.github.io/teminal/2018-02-12-Terminal-colors-and-nice-layout)
+- 👨🏻‍💻 [iTerm2](https://iterm2.com/) : Terminal replacement. See also my post on terminal customisation [here](https://guillim.github.io/terminal/2018/02/12/Terminal-colors-and-nice-layout.html)
 
 - 🔑 [Bitwarden](https://bitwarden.com/) : Password manager, unlock with TouchID
 
