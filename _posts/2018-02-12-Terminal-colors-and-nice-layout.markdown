@@ -141,7 +141,10 @@ For more visual search in your command history, install [fzf](https://junegunn.g
 # 11. New terminal in the same folder as the previous one
 Select "Reuse previous session's directory" from the Settings > Profiles > General > 'Workind Directory'. More info [here](https://apple.stackexchange.com/questions/148508/how-to-open-a-new-tab-in-iterm-in-the-same-folder-as-the-one-that-is-open)
 
-
+# 12. Faster keyboard
+If you want the arrow left cursor to go faster, you can update your settings. For macOS users  
+Settings > Keyboard >  `Key repeat rate` : Fast
+Settings > Keyboard >  `Delay until repeat` : Short
 
 
 
