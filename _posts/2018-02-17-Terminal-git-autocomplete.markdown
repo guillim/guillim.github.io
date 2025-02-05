@@ -7,10 +7,57 @@ comments: true
 thumbnail: /assets/img/thumbnails/2.jpg
 ---
 
-You want to get **git** autocomplete in your **terminal** ? Here is what you can do  
-Tested Configuration:  
-`MacOS:  Sierra 10.12`  
-`Terminal: iTerm2 & Terminal`
+You want to get **git** autocomplete in your **terminal** ? Here is what you can do with `Terminal: iTerm2 & Terminal`
+
+We tested two set of configuration : 
+- `MacOS:  Sierra 14.6`  
+- `MacOS:  Sierra 10.12`  
+
+# Configuration:  `MacOS:  Sierra 14.6`  
+
+# 1. Open your terminal
+MacOS does not comewith bash 4 (or later) due to GPL restrictions. But it's easy to install it:  
+`brew install bash`
+
+# 2. Bash 4 as your default shell
+To find the path of your executable, use  `which bash`
+I got `/opt/homebrew/bin/bash` but other users reported having `/usr/local/bin/bash`
+
+Then you need to do 2 more steps
+1. allow bash 4 as a login shell:
+`sudo nano shells`  
+and add your bash path. It should look like this
+```md
+# List of acceptable shells for chpass(1).
+# Ftpd will not allow users to connect who are not using
+# one of these shells.
+
+/bin/bash
+/bin/csh
+/bin/ksh
+/bin/sh
+/bin/tcsh
+/bin/zsh
+/usr/local/bin/bash
+```
+2. change default shell (change with your own bash path):
+`chsh -s /opt/homebrew/bin/bash`
+
+You can check that everything is allright by typeing `bash --version` and make sure you have more than 3.
+
+
+# 3. install git autocomplete
+Type :  
+`brew install bash-completion@2`
+
+And then add to your `~/.bash_profile`:  
+```bash
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
+```
+
+Do not forget to open a new terminal to try ! or simply "source .bash_profile"
+
+# Configuration:  `MacOS:  Sierra 10.12`  
 
 # 1. Open your terminal
 
@@ -37,3 +84,9 @@ And open your terminal again !
 Now you can write `git stat` and press `tab` -> it will autocomplete into `git status`
 
 [gist]: https://gist.githubusercontent.com/guillim/c7cc6fe2915fbd3891338f43244bffcc/raw/bd23090594b82806f87e4c6d69689f103dfa7a85/git-completion.bash
+
+
+## Reference
+[update-bash-to-version-4](https://apple.stackexchange.com/questions/193411/update-bash-to-version-4-0-on-osx)
+[bash-completion@2](https://formulae.brew.sh/formula/bash-completion@2)
+[MacOS git bash command line completion](https://stackoverflow.com/questions/12399002/how-to-configure-git-bash-command-line-completion)
