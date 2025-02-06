@@ -27,11 +27,8 @@ Then you need to do 2 more steps
 1. allow bash 4 as a login shell:
 `sudo nano shells`  
 and add your bash path. It should look like this
-```md
-# List of acceptable shells for chpass(1).
-# Ftpd will not allow users to connect who are not using
-# one of these shells.
 
+`  
 /bin/bash
 /bin/csh
 /bin/ksh
@@ -39,7 +36,8 @@ and add your bash path. It should look like this
 /bin/tcsh
 /bin/zsh
 /usr/local/bin/bash
-```
+`
+
 2. change default shell (change with your own bash path):
 `chsh -s /opt/homebrew/bin/bash`
 
