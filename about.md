@@ -9,7 +9,7 @@ permalink: /about
   {% if project.active == true %}
     <div style="flex: 0 0 auto;" class="responsive">
       <div style="margin:10px">
-        <a href="{{ site.baseurl }}{{project.url}}" style="color: inherit;text-decoration: inherit;">
+        <a href="{{ site.baseurl }}{{project.url}}" style="color: inherit;text-decoration: inherit;" target="_blank">
           <div style="padding:24px; border-radius:1rem; background-color: #ecf9ff;" class="zoom">
             <div class="card-meta">
               <div class="card-authors">
@@ -46,7 +46,7 @@ permalink: /about
     {% if project.active == false %}
     <div style="flex: 0 0 auto;" class="responsive">
       <div style="margin:10px">
-        <a href="{{ site.baseurl }}{{project.url}}" style="color: inherit;text-decoration: inherit;">
+        <a href="{{ site.baseurl }}{{project.url}}" style="color: inherit;text-decoration: inherit;" target="_blank">
           <div style="padding:24px; border-radius:1rem; background-color: #ecf9ff;" class="zoom">
             <div class="card-meta">
               <div class="card-authors">
