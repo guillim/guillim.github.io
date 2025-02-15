@@ -133,7 +133,18 @@ As mentionned in [this stackoverflow](https://stackoverflow.com/questions/444356
 # 9. MacOS bash as default instead of zsh  
 To change your default shell from Zsh to Bash, simply run the `chsh -s /bin/bash` command in Terminal and reopen it. See more [here](https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/#:~:text=Apple%20now%20uses%20Zsh%20as,in%20Terminal%20and%20reopen%20it.)  
 
-
 Note : Revert to zsh by typing `chsh -s /bin/zsh`
+
+# 10. Command history search 
+For more visual search in your command history, install [fzf](https://junegunn.github.io/fzf/) and replace the old CTRL-R way with fzf
+
+# 11. New terminal in the same folder as the previous one
+Select "Reuse previous session's directory" from the Settings > Profiles > General > 'Workind Directory'. More info [here](https://apple.stackexchange.com/questions/148508/how-to-open-a-new-tab-in-iterm-in-the-same-folder-as-the-one-that-is-open)
+
+# 12. Faster keyboard
+If you want the arrow left cursor to go faster, you can update your settings. For macOS users  
+Settings > Keyboard >  `Key repeat rate` : Fast
+Settings > Keyboard >  `Delay until repeat` : Short
+
 
 
