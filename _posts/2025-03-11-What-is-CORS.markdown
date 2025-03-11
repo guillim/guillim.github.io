@@ -22,7 +22,7 @@ fetch("https://api.example.com/delete-all-customers", {
 });
 ```
 
-Here, the browser, adhering to standard behavior, attaches **AUTOMATOCALLY** the user’s credentials (like cookies or JWTs) associated with api.example.com to the request. Consequently, api.example.com might process this unauthorized request, leading to potential data breaches or loss.
+Here, the browser attaches **AUTOMATOCALLY** the user’s credentials (like cookies or JWTs stored on the browser) associated with api.example.com to the request. Consequently, api.example.com might process this unauthorized request, leading to potential data breaches or loss.
 
 <img src="/assets/img/cors.png" alt="CORS" width="320"/>
 
