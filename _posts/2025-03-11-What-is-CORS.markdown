@@ -40,9 +40,8 @@ Access-Control-Allow-Origin: https://example.com
 Access-Control-Allow-Credentials: true
 ```
 
-- Restrict Methods and Headers: Limit the HTTP methods and headers to those necessary for legitimate operations.
 - Utilize SameSite Cookies: Set cookies with the SameSite attribute to Lax or Strict, ensuring they aren’t sent with cross-origin requests.
 
 ## Conclusion
 
-Proper implementation of CORS is vital in web application development. It acts as a defense mechanism, preventing unauthorized websites from exploiting user credentials and interacting with your application’s API. By meticulously configuring CORS policies, developers can uphold the security and integrity of user data.
+CORS acts as a defense mechanism, preventing unauthorized websites from exploiting user credentials and interacting with your application’s API.
