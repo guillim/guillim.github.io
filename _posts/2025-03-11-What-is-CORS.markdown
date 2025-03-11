@@ -24,6 +24,9 @@ fetch("https://api.example.com/delete-all-customers", {
 
 Here, the browser, adhering to standard behavior, attaches **AUTOMATOCALLY** the user’s credentials (like cookies or JWTs) associated with api.example.com to the request. Consequently, api.example.com might process this unauthorized request, leading to potential data breaches or loss.
 
+<img src="/assets/img/cors.png" alt="CORS" width="320"/>
+
+
 ## The Role of CORS in Mitigation
 
 CORS serves as a safeguard against such vulnerabilities. By configuring the server at api.example.com to allow requests only from trusted origins, the malicious request from malicious-website.com would be blocked by the browser, preventing unauthorized actions.
