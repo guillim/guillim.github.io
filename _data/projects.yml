@@ -76,6 +76,12 @@
   picture: "https://salestoolsai.top/favicon.png"
   active: true
 
+- title: "Just Page it"
+  description: "Your Blog on full autopilot"
+  url: "https://justpageit.lt/"
+  picture: "https://justpageit.lt/favicon.ico"
+  active: true
+
 
 - title: "Peanut Allergy Translator"
   description: "Offline translator for people allergic to peanuts"
