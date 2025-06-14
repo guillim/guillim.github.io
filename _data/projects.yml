@@ -77,9 +77,9 @@
   active: true
 
 - title: "Just Page it"
-  description: "Your Blog on full autopilot"
+  description: "Your Blog on full autopilot: writes and publishes articles for you"
   url: "https://justpageit.lt/"
-  picture: "https://justpageit.lt/favicon.ico"
+  picture: "https://guillim.github.io/assets/img/justpageit.png"
   active: true
 
 
