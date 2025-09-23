@@ -70,7 +70,7 @@
   active: true
 
 - title: "Next.js StarterKit"
-  description: "Open Source Next.js Boilerplate for SoloPreneurs"
+  description: "Open Source Next.js Boilerplate for SoloPreneurs - +100 ⭐ on Github"
   url: "https://github.com/guillim/nextjs-boilerplate"
   picture: "https://github.com/guillim/nextjs-boilerplate/raw/main/public/landingFeatures.png"
   rating: "100+ Github ⭐"
@@ -80,6 +80,12 @@
   description: "Increase your Sales, Improve efficiency, Drive revenue growth"
   url: "https://salestoolsai.top/"
   picture: "https://salestoolsai.top/favicon.png"
+  active: true
+
+- title: "Just Page it"
+  description: "Your Blog on full autopilot: writes and publishes articles for you"
+  url: "https://justpageit.lt/"
+  picture: "https://guillim.github.io/assets/img/justpageit.png"
   active: true
 
 
@@ -101,5 +107,4 @@
   description: "Scrape the web easily, with a web interface to pilot powerful crawlers on your computer"
   url: "https://github.com/guillim/Arachnida"
   picture: "https://raw.githubusercontent.com/guillim/Arachnida/refs/heads/master/public/apple-icon-72x72.png"
-  stars: 4.7
   active: false
