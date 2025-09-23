@@ -66,11 +66,11 @@
 - title: "BackLinks"
   description: "BackLinks for your Product: Submit your Saas to 300+ Directories"
   url: "https://guillim-backlinks.netlify.app/"
-  picture: "https://guillim.github.io/guillimcoin/img/backlinks-logo.svg"
+  picture: "https://guillim.github.io/assets/img/backlinks-logo.svg"
   active: true
 
 - title: "Next.js StarterKit"
-  description: "Open Source Next.js Boilerplate for SoloPreneurs - +100 ⭐ on Github"
+  description: "Open Source Next.js Boilerplate for SoloPreneurs"
   url: "https://github.com/guillim/nextjs-boilerplate"
   picture: "https://github.com/guillim/nextjs-boilerplate/raw/main/public/landingFeatures.png"
   rating: "100+ Github ⭐"
