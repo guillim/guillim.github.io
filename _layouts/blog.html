@@ -47,8 +47,12 @@
   <!-- we want the homepage to be full width, and other pages to be max 800px width,
    so we base our self on the presence of the comments -->
   <section class="main-content" {% if page.comments %} style="max-width: 800px;" {% endif %}>
-    {{ content }}
+    <!-- ChatGPT Summarize Button -->
+    <div class="chatgpt-button-container">
+      <a class="chatgpt-btn" href="https://chatgpt.com/?q=Summarize+this+page+in+a+few+sentences:+https://guillim.github.io{{ page.url }}">✨ Summarize with ChatGPT</a>
+    </div>
 
+    {{ content }}
 
     {% if page.comments %}
     <div id="disqus_thread"></div>

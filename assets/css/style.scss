@@ -30,3 +30,28 @@ body, .project-name {
 .zoom:hover {
   transform: scale(1.05);
 }
+
+.chatgpt-button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.chatgpt-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 4px 4px 4px 0;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: rgb(62, 62, 62);
+    text-decoration: none;
+  }
+}
