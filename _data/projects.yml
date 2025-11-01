@@ -88,6 +88,11 @@
   picture: "https://guillim.github.io/assets/img/justpageit.png"
   active: true
 
+- title: "Hubspot MCP server"
+  description: "Search, create anyting in Hubspot directly in ChatGPT, Claude or Cursor"
+  url: "https://apify.com/anchor/hubspot-apify-mcp-server"
+  picture: "https://guillim.github.io/assets/img/hubspot-mcp.jpg"
+  active: true
 
 - title: "Peanut Allergy Translator"
   description: "Offline translator for people allergic to peanuts"
