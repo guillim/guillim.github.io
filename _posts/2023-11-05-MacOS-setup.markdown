@@ -11,7 +11,9 @@ Today, my MacOS list of applications I find useful.
 
 # Useful applications for MacOS
 
-- 👨🏻‍💻 [iTerm2](https://iterm2.com/) : Terminal replacement. See also my post on terminal customisation [here](https://guillim.github.io/terminal/2018/02/12/Terminal-colors-and-nice-layout.html)
+- 👨🏻‍💻 [iTerm2](https://iterm2.com/) : Terminal replacement. See also my post on terminal customisation [here](https://guillim.github.io/terminal/2018/02/12/Terminal-colors-and-nice-layout.html)  
+
+- 👨🏻‍💻 [Cursor](https://www.cursor.com/) : IDE no brainer
 
 - 🔑 [Bitwarden](https://bitwarden.com/) : Password manager, unlock with TouchID
 
@@ -38,6 +40,14 @@ Today, my MacOS list of applications I find useful.
 - 🖥️ [Rectangle](https://rectangleapp.com/) : Keyboard keys
   to Move & resize windows
   
-- 🔍 [Raycast](https://www.raycast.com/) : Customisable Spotlight replacement
+- 🔍 [Raycast](https://www.raycast.com/) : Customisable Spotlight replacement  
+
+- 🎥 [CleanShot](https://cleanshot.com/) : Screenshot and screen recording ++  
+
+
+Other specific tools :
+- 👨🏻‍💻 NoSQLBooster for MongoDB
+- 👨🏻‍💻 PGadmin
+- 🎥 Stremio
 
 Please suggest me more applications in the comments below.
