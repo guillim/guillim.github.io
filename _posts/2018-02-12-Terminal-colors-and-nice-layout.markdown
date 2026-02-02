@@ -28,24 +28,35 @@ Set the terminal colors to xterm-256color.
 Here is how you can do it:  
 ![colors](/assets/img/terminal-colors.png){:class="img-responsive"}
 
-Then open "bash_profile" by typing 
-```bash 
-sudo nano ~/.bash_profile # or .profile 
+The best practice is to put all your terminal customization in `.bashrc` file, and make sure `.bash_profile` imports it. This way all interactive shells (new tabs of iterm) and login shells share all the configuration.
+
+Create your `.bashrc` by typing:
+```bash
+nano ~/.bashrc
 ```
-And add this at the end of the file
+Add these lines at the end of the file:
 ```bash
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 source ~/.bash_prompt
 ```
 
-Finally, copy the content of this [file][gist]  
-type: 
+Now, make sure your `.bash_profile` loads your `.bashrc` file:
 ```bash
-sudo nano ~/.bash_prompt
+nano ~/.bash_profile
+```  
+Add these lines:  
+```bash
+if [ -f ~/.bashrc ]; then
+  source ~/.bashrc
+fi
 ```
-  
-and paste the content of the file inside the bash_prompt
+
+Finally, copy the content of this [file][gist]  
+and paste it inside the `.bash_prompt` file:
+```bash
+nano ~/.bash_prompt
+```
 
 # 3. Use your terminal as if it was Microsoft Word
 
