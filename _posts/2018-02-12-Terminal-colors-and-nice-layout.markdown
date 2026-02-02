@@ -30,7 +30,7 @@ Here is how you can do it:
 
 Then open "bash_profile" by typing 
 ```bash 
-sudo nano ~/.bash_profile
+sudo nano ~/.bash_profile # or .profile 
 ```
 And add this at the end of the file
 ```bash
@@ -134,6 +134,10 @@ As mentionned in [this stackoverflow](https://stackoverflow.com/questions/444356
 To change your default shell from Zsh to Bash, simply run the `chsh -s /bin/bash` command in Terminal and reopen it. See more [here](https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/#:~:text=Apple%20now%20uses%20Zsh%20as,in%20Terminal%20and%20reopen%20it.)  
 
 Note : Revert to zsh by typing `chsh -s /bin/zsh`
+
+To avoid the warning "The default interactive shell is now zsh." simply add in the `.profile` file the line:  
+`export BASH_SILENCE_DEPRECATION_WARNING=1`  
+and reload your terminal
 
 # 10. Command history search 
 For more visual search in your command history, install [fzf](https://junegunn.github.io/fzf/) and replace the old CTRL-R way with fzf
