@@ -4,7 +4,7 @@ title: "Git Working tree"
 date: 2026-02-05 03:22:48 +0100
 categories: git
 comments: true
-thumbnail: /assets/img/thumbnails/5.jpg
+thumbnail: /assets/img/worktrees.png
 ---
 
 You already use **branches**, and you heard about **worktrees**, but you never used them before ? Here is a short explanation.
@@ -19,7 +19,7 @@ A **branch** is a name that points to a commit. You have one working tree (one f
 
 One constraint: each added worktree must be on a **different** branch. Git does not allow the same branch in two worktrees.
 
-<img src="/assets/img/wortreess.png" alt="worktrees" width="320"/>
+<img src="/assets/img/worktrees.png" alt="worktrees" width="320"/>
 
 # Worktrees vs stashing
 

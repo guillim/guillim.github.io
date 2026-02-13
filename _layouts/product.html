@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta charset="UTF-8">
+  {% seo %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#159957">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192007350-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-192007350-1');
+  </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .product-header {
+      padding: 20px 40px;
+      background-color: #fff;
+      border-bottom: 1px solid #eff0f1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .product-header a {
+      color: #159957;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .product-header a:hover {
+      text-decoration: underline;
+    }
+    .product-content {
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .product-footer {
+      background-color: #f7f9fa;
+      border-top: 1px solid #eff0f1;
+      padding: 40px 20px;
+      text-align: center;
+      margin-top: 60px;
+    }
+    .product-footer a {
+      color: #159957;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    .product-footer a:hover {
+      text-decoration: underline;
+    }
+    .product-footer-social {
+      margin-top: 20px;
+    }
+    .product-footer-social a {
+      margin: 0 8px;
+      display: inline-block;
+    }
+    .product-footer-social img {
+      width: 24px;
+      height: 24px;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+    .product-footer-social img:hover {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Minimal Header -->
+  <div class="product-header">
+    <a href="/">← guillim.github.io</a>
+    <div>
+      <a href="/about" style="margin-left: 20px;">About</a>
+    </div>
+  </div>
+
+  <!-- Product Content -->
+  <div class="product-content">
+    {{ content }}
+  </div>
+
+  <!-- Clean Footer -->
+  <div class="product-footer">
+    <div>
+      <a href="/">Blog</a>
+      <a href="/about">Projects</a>
+      <a href="https://www.linkedin.com/in/guillaumelancrenon/">Contact</a>
+    </div>
+    <div class="product-footer-social">
+      <a href="https://www.linkedin.com/in/guillaumelancrenon/">
+        <img src="/assets/img/social/linkedin.png" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/guillim/">
+        <img src="/assets/img/social/github.png" alt="GitHub" style="background-color: white; border-radius: 50%;" />
+      </a>
+      <a href="https://twitter.com/maxiguillim">
+        <img src="/assets/img/social/twitter.png" alt="Twitter" />
+      </a>
+      <a href="https://www.reddit.com/user/guillim">
+        <img src="/assets/img/social/reddit.png" alt="Reddit" />
+      </a>
+    </div>
+    <p style="margin-top: 30px; font-size: 14px; color: #999;">
+      © {{ 'now' | date: "%Y" }} Guillaume Lancrenon
+    </p>
+  </div>
+
+  {% if site.google_analytics %}
+  <script type="text/javascript">
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+
+</body>
+
+</html>

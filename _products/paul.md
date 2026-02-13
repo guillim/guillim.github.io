@@ -1,22 +1,40 @@
 ---
-layout: default
+layout: product
 title: Paul - PostgreSQL User Data Viewer
 permalink: /products/paul
 ---
 
 <div style="text-align: center; padding: 40px 0 20px 0;">
   <img src="/assets/img/paul-logo.svg" alt="Paul Logo" style="width: 120px; height: 120px; margin-bottom: 20px;">
-  <h1 style="font-size: 2.5em; margin-bottom: 0.3em; font-weight: 700;">Paul</h1>
-  <p style="font-size: 1.3em; color: #606c71; margin-bottom: 2em;">Investigate user data in PostgreSQL—without writing SQL</p>
+  <h1 style="font-size: 2.5em; margin-bottom: 0.3em; font-weight: 700;">Paul Gres</h1>
+  <p style="font-size: 1.3em; color: #606c71; margin-bottom: 2em;">Minimal Readonly PostGres GUI</p>
   <div style="margin: 30px 0;">
-    <a href="https://github.com/guillim/paul" class="btn" style="font-size: 1.1em; padding: 12px 30px; margin: 0 10px;">
+    <a href="/assets/files/Choisir_son_statut.pdf" class="btn" style="font-size: 1.1em; padding: 12px 30px; margin: 0 10px;">
       Download for macOS
-    </a>
-    <a href="https://github.com/guillim/paul" class="btn" style="font-size: 1.1em; padding: 12px 30px; margin: 0 10px;">
-      View on GitHub
     </a>
   </div>
   <p style="font-size: 0.9em; color: #999;">macOS 10.15+  •  Intel & Apple Silicon</p>
+</div>
+
+<div style="border-top: 1px solid #eff0f1; padding: 60px 20px;">
+  <div style="max-width: 1000px; margin: auto;">
+    <h2 style="text-align: center; font-size: 2em; margin-bottom: 0.5em;">What it looks like</h2>
+    <p style="text-align: center; font-size: 1.1em; color: #606c71; margin-bottom: 2em;">From connecting to your database to browsing tables and running SQL.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; align-items: start;">
+      <div style="text-align: center;">
+        <img src="/assets/img/paul-3.png" alt="Paul — saved connections and Add Connection" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 12px;">
+        <p style="font-size: 0.95em; color: #606c71; margin: 0;">Saved connections & add new</p>
+      </div>
+      <div style="text-align: center;">
+        <img src="/assets/img/paul-1.png" alt="Paul — table view with filters" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 12px;">
+        <p style="font-size: 0.95em; color: #606c71; margin: 0;">Browse & filter table data</p>
+      </div>
+      <div style="text-align: center;">
+        <img src="/assets/img/paul-2.png" alt="Paul — raw SQL editor and results" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 12px;">
+        <p style="font-size: 0.95em; color: #606c71; margin: 0;">Run SQL when you need it</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div style="border-top: 1px solid #eff0f1; padding: 60px 0;">
@@ -108,18 +126,7 @@ permalink: /products/paul
 <div style="background: linear-gradient(135deg, #159957 0%, #155799 100%); color: white; text-align: center; padding: 80px 20px; margin-top: 60px;">
   <h2 style="font-size: 2.2em; margin-bottom: 0.5em; color: white;">Ready to investigate faster?</h2>
   <p style="font-size: 1.2em; margin-bottom: 2em; opacity: 0.9;">Download Paul and connect to your PostgreSQL database in 2 minutes.</p>
-  <div>
-    <a href="https://github.com/guillim/paul" class="btn" style="font-size: 1.2em; padding: 15px 40px; background-color: white; color: #159957; border: none; font-weight: 600;">
-      Get Started
-    </a>
-  </div>
-  <p style="font-size: 0.9em; margin-top: 30px; opacity: 0.8;">Free and open source  •  macOS 10.15 or later</p>
+  <p style="font-size: 0.9em; margin-top: 30px; opacity: 0.8;">macOS 10.15 or later</p>
 </div>
 
-<div style="text-align: center; padding: 40px 20px;">
-  <h3 style="color: #606c71; font-weight: 400; margin-bottom: 20px;">Questions or feedback?</h3>
-  <p style="color: #606c71;">
-    <a href="https://github.com/guillim/paul/issues" style="color: #159957;">Open an issue on GitHub</a> or
-    <a href="https://www.linkedin.com/in/guillaumelancrenon/" style="color: #159957;">reach out on LinkedIn</a>
-  </p>
-</div>
+

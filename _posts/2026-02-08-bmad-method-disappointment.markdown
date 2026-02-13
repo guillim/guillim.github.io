@@ -4,7 +4,7 @@ title: "BMAD Method: Too Slow"
 date: 2026-02-08 10:00:00 +0100
 categories: ai development
 comments: true
-thumbnail: /assets/img/thumbnails/5.jpg
+thumbnail: /assets/img/bmadlogo.png
 ---
 
 I tried **BMAD Method** for AI-driven development. I'm disappointed.
