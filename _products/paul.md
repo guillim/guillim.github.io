@@ -23,11 +23,11 @@ permalink: /products/paul
   </div>
 </section>
 
-<section class="product-section">
+<section class="product-section" id="screenshots">
   <div class="product-section-inner">
-    <h2 class="product-section-title">What it looks like</h2>
+    <h2 class="product-section-title">See it in action</h2>
     <p class="product-section-lead">
-      From connecting to your database to browsing tables and running SQL.
+      Connect in seconds, then browse tables, filter data, and run SQL when you need it.
     </p>
     <div class="product-grid">
       <div class="product-screenshot">
@@ -48,9 +48,9 @@ permalink: /products/paul
 
 <section class="product-section">
   <div class="product-section-inner">
-    <h2 class="product-section-title">Built for on‑call engineers</h2>
+    <h2 class="product-section-title">Built for the way you work</h2>
     <p class="product-section-lead">
-      Paul is a fast, read‑only macOS app for on‑call, support and debugging sessions.
+      Fast, read‑only, and focused. Perfect for on‑call, support, and debugging—without touching production.
     </p>
     <div class="product-grid">
       <div class="product-card" style="text-align: center;">
@@ -75,11 +75,10 @@ permalink: /products/paul
 <section class="product-section product-section-muted">
   <div class="product-section-inner">
     <h2 class="product-section-title">Perfect for</h2>
+    <p class="product-section-lead">
+      Works with any PostgreSQL database—local, staging, or production. Read‑only by design, so you can move fast and stay safe.
+    </p>
     <div class="product-grid">
-      <div class="product-card">
-        <h4 style="color: #159957;">✓ Support investigations</h4>
-        <p>"Can you check what we have for user X?"</p>
-      </div>
       <div class="product-card">
         <h4 style="color: #159957;">✓ Debugging user issues</h4>
         <p>Trace data relationships to understand bugs and edge cases.</p>
@@ -124,8 +123,11 @@ permalink: /products/paul
 
 <section class="product-cta-banner">
   <div class="product-cta-banner-inner">
-    <h2>Ready to investigate faster?</h2>
-    <p>Download Paul and connect to your PostgreSQL database in a couple of minutes.</p>
-    <p style="font-size: 0.9em; margin-top: 24px;">macOS 10.15 or later · Intel &amp; Apple Silicon</p>
+    <h2>Ready to inspect your data?</h2>
+    <p>Download Paul and connect to any PostgreSQL database in a couple of minutes. Free, no account required.</p>
+    <p class="product-cta-banner-actions">
+      <a href="/assets/files/Paul.dmg" class="product-cta-secondary">Download for macOS</a>
+    </p>
+    <p class="product-cta-banner-meta">macOS 10.15 or later · Intel &amp; Apple Silicon</p>
   </div>
 </section>
