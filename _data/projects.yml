@@ -88,6 +88,12 @@
   picture: "https://guillim.github.io/assets/img/justpageit.png"
   active: true
 
+- title: "Paul"
+  description: "Fast, read-only macOS app to investigate user data in Postgres—without writing SQL. Built for on-call engineers and support teams."
+  url: "https://guillim.github.io/products/paul"
+  picture: "https://guillim.github.io/assets/img/paul-logo.svg"
+  active: true
+
 - title: "Hubspot MCP server"
   description: "Search, create anyting in Hubspot directly in ChatGPT, Claude or Cursor"
   url: "https://apify.com/anchor/hubspot-apify-mcp-server"

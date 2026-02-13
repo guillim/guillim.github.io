@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Pin ffi to a version compatible with Ruby 2.x (1.17+ requires Ruby 3+)
+gem "ffi", "~> 1.15.0"
+
 gemspec
 
 

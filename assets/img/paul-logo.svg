@@ -1,0 +1,47 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- PostgreSQL Blue: #336791 -->
+  <defs>
+    <style>
+      .elephant-fill { fill: #336791; }
+      .background { fill: #f5f5f5; }
+    </style>
+  </defs>
+  
+  <!-- Optional subtle background -->
+  <rect width="200" height="200" class="background" rx="20"/>
+  
+  <!-- Elephant Icon -->
+  <g transform="translate(100, 100)">
+    <!-- Head/Face -->
+    <circle cx="0" cy="-12" r="32" class="elephant-fill"/>
+    
+    <!-- Large distinctive ears -->
+    <ellipse cx="-38" cy="-8" rx="22" ry="40" class="elephant-fill" transform="rotate(-20 -38 -8)"/>
+    <ellipse cx="38" cy="-8" rx="22" ry="40" class="elephant-fill" transform="rotate(20 38 -8)"/>
+    
+    <!-- Ear inner details (white accent) -->
+    <ellipse cx="-38" cy="-8" rx="14" ry="26" fill="white" opacity="0.15" transform="rotate(-20 -38 -8)"/>
+    <ellipse cx="38" cy="-8" rx="14" ry="26" fill="white" opacity="0.15" transform="rotate(20 38 -8)"/>
+    
+    <!-- Trunk - medium curved feature -->
+    <path d="M -6 14 Q -18 28 -18 50 Q -16 62 -10 70" 
+          stroke="#336791" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Trunk tip curl - more visible -->
+    <path d="M -10 70 Q -6 76 -2 74" 
+          stroke="#336791" stroke-width="16" fill="none" stroke-linecap="round"/>
+    
+    <!-- Left eye -->
+    <circle cx="-12" cy="-18" r="4.5" fill="white"/>
+    <circle cx="-12" cy="-18" r="2.5" fill="#336791"/>
+    
+    <!-- Right eye -->
+    <circle cx="12" cy="-18" r="4.5" fill="white"/>
+    <circle cx="12" cy="-18" r="2.5" fill="#336791"/>
+    
+    
+    <!-- Forehead/face contour line -->
+    <path d="M -24 -20 Q 0 -44 24 -20" 
+          stroke="#336791" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+  </g>
+</svg>
