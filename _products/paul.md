@@ -121,6 +121,18 @@ permalink: /products/paul
   </div>
 </section>
 
+<section class="product-section product-section-muted">
+  <div class="product-section-inner">
+    <h2 class="product-section-title">Feedback</h2>
+    <p class="product-section-lead">
+      Using Paul? We’d love to hear from you—bugs, ideas, or anything else.
+    </p>
+    <p class="product-section-lead">
+      <a href="https://guillim.notion.site/4622de7119464bae8c4adb7aeffadee9?pvs=105" target="_blank" rel="noopener noreferrer" class="btn product-cta-primary">Share your feedback</a>
+    </p>
+  </div>
+</section>
+
 <section class="product-cta-banner">
   <div class="product-cta-banner-inner">
     <h2>Ready to inspect your data?</h2>
