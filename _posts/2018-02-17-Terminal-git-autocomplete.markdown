@@ -14,7 +14,7 @@ We tested three set of configuration :
 - `MacOS:  Sierra 14.6`
 - `MacOS:  Sierra 10.12`
 
-# Configuration:  `MacOS:  Darwin 26.2` (Latest)
+# Configuration:  `MacOS:  Darwin 26.2`
 
 # 1. Download Git Completion Script
 Git comes with a built-in completion script. Download it directly:
@@ -40,32 +40,13 @@ fi
 
 Save and exit (`Ctrl+O`, `Enter`, `Ctrl+X` in `nano`).
 
-# 3. Enable Completion in Bash
-Ensure your `~/.bash_profile` also includes:
-
-```bash
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
-```
-
-# 4. Reload Your Bash Profile
+# 3. Reload Your Bash Profile
 Run the following to apply changes:
 
 ```bash
 source ~/.bash_profile
 ```
 
-## Troubleshooting
-- If completion doesn't work, ensure the script is sourced correctly and your Bash version supports it.
-- For macOS Catalina and later, ensure you're using Bash (not Zsh, which is the default shell). You can switch back to Bash with:
-  ```bash
-  chsh -s /bin/bash
-  ```
 
 # Configuration:  `MacOS:  Sierra 14.6`  
 
@@ -141,4 +122,5 @@ Now you can write `git stat` and press `tab` -> it will autocomplete into `git s
 ## Reference
 [update-bash-to-version-4](https://apple.stackexchange.com/questions/193411/update-bash-to-version-4-0-on-osx)
 [bash-completion@2](https://formulae.brew.sh/formula/bash-completion@2)
-[MacOS git bash command line completion](https://stackoverflow.com/questions/12399002/how-to-configure-git-bash-command-line-completion)
+[MacOS git bash command line completion](https://stackoverflow.com/questions/12399002/how-to-configure-git-bash-command-line-completion)  
+[macinstruct: macos 26](https://www.macinstruct.com/tutorials/how-to-enable-git-tab-autocomplete-on-your-mac/)  
