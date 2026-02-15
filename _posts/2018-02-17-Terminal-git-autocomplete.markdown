@@ -9,9 +9,63 @@ thumbnail: /assets/img/thumbnails/2.jpg
 
 You want to get **git** autocomplete in your **terminal** ? Here is what you can do with `Terminal: iTerm2 & Terminal`
 
-We tested two set of configuration : 
-- `MacOS:  Sierra 14.6`  
-- `MacOS:  Sierra 10.12`  
+We tested three set of configuration :
+- `MacOS:  Darwin 26.2` (Latest)
+- `MacOS:  Sierra 14.6`
+- `MacOS:  Sierra 10.12`
+
+# Configuration:  `MacOS:  Darwin 26.2` (Latest)
+
+# 1. Download Git Completion Script
+Git comes with a built-in completion script. Download it directly:
+
+```bash
+curl -o ~/.git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+```
+
+# 2. Add the Script to Your Bash Profile
+Open your `~/.bash_profile` (or `~/.bashrc` if you use that instead) in a text editor:
+
+```bash
+nano ~/.bash_profile
+```
+
+Add the following lines:
+
+```bash
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash
+fi
+```
+
+Save and exit (`Ctrl+O`, `Enter`, `Ctrl+X` in `nano`).
+
+# 3. Enable Completion in Bash
+Ensure your `~/.bash_profile` also includes:
+
+```bash
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+```
+
+# 4. Reload Your Bash Profile
+Run the following to apply changes:
+
+```bash
+source ~/.bash_profile
+```
+
+## Troubleshooting
+- If completion doesn't work, ensure the script is sourced correctly and your Bash version supports it.
+- For macOS Catalina and later, ensure you're using Bash (not Zsh, which is the default shell). You can switch back to Bash with:
+  ```bash
+  chsh -s /bin/bash
+  ```
 
 # Configuration:  `MacOS:  Sierra 14.6`  
 
