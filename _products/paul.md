@@ -12,7 +12,8 @@ permalink: /products/paul
     <p class="product-badge">Free macOS app · Read‑only PostgreSQL</p>
     <h1 class="product-hero-title">Paul</h1>
     <p class="product-hero-subtitle">
-      Minimal GUI for investigating PostgreSQL
+      Investigate FAST with confidence.<br>
+      Read‑only, visual, light.
     </p>
     <div class="product-hero-actions">
       <a href="/assets/files/Paul.dmg" class="btn product-cta-primary">
@@ -20,6 +21,19 @@ permalink: /products/paul
       </a>
       <span class="product-hero-meta">macOS 10.15+ · Intel &amp; Apple Silicon</span>
     </div>
+  </div>
+</section>
+
+<section class="product-section product-section-muted">
+  <div class="product-section-inner">
+    <h2 class="product-section-title">The Problem</h2>
+    <p class="product-section-lead">
+      You get an urgent user support ticket. You must check their data.
+      But opening pgAdmin or DBeaver takes ages... You only need a quick look first without waiting 5 minutes.
+    </p>
+    <p class="product-section-lead">
+      Paul gives you a fast, focused, visual way navigate data and investigate issues in seconds.
+    </p>
   </div>
 </section>
 
@@ -32,7 +46,7 @@ permalink: /products/paul
     <div class="product-grid">
       <div class="product-screenshot">
         <img src="/assets/img/paul-3.png" alt="Paul — saved connections and Add Connection">
-        <p class="product-screenshot-caption">Saved connections &amp; quick “Add connection” flow</p>
+        <p class="product-screenshot-caption">Saved connections &amp; quick "Add connection" flow</p>
       </div>
       <div class="product-screenshot">
         <img src="/assets/img/paul-1.png" alt="Paul — table view with filters">
@@ -42,13 +56,29 @@ permalink: /products/paul
         <img src="/assets/img/paul-2.png" alt="Paul — raw SQL editor and results">
         <p class="product-screenshot-caption">Drop to SQL when you need more control</p>
       </div>
+      <div class="product-screenshot">
+        <img src="/assets/img/paul-5-split-view.png" alt="Paul — split-view navigation with multiple tables">
+        <p class="product-screenshot-caption">Split-view navigation keeps context as you explore related tables</p>
+      </div>
+      <div class="product-screenshot">
+        <img src="/assets/img/paul-6-filter-sort.png" alt="Paul — filter and sort table data">
+        <p class="product-screenshot-caption">Filter &amp; sort table data with intuitive controls</p>
+      </div>
+      <div class="product-screenshot">
+        <img src="/assets/img/paul-4-export-csv.png" alt="Paul — export data to CSV">
+        <p class="product-screenshot-caption">Export filtered data to CSV for further analysis</p>
+      </div>
+      <div class="product-screenshot">
+        <img src="/assets/img/paul-7-agent.png" alt="Paul — agent mode">
+        <p class="product-screenshot-caption">Agent mode</p>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="product-section">
   <div class="product-section-inner">
-    <h2 class="product-section-title">Built for the way you work</h2>
+    <h2 class="product-section-title">Built for debugging, not database admin</h2>
     <p class="product-section-lead">
       Fast, read‑only, and focused. Perfect for on‑call, support, and debugging—without touching production.
     </p>
@@ -73,6 +103,32 @@ permalink: /products/paul
 </section>
 
 <section class="product-section product-section-muted">
+  <div class="product-section-inner">
+    <h2 class="product-section-title">Paul vs. traditional database tools</h2>
+    <p class="product-section-lead">
+      When you need to investigate user data, not manage schemas or run complex analytics.
+    </p>
+    <div class="product-grid">
+      <div class="product-card">
+        <h4 style="color: #159957;">⚡ Lightweight & Fast</h4>
+        <p><strong>Paul:</strong> &lt;20MB, opens in 2 seconds</p>
+        <p><strong>Traditional tools:</strong> 200MB+, slow startup</p>
+      </div>
+      <div class="product-card">
+        <h4 style="color: #159957;">🔒 Read‑only by design</h4>
+        <p><strong>Paul:</strong> Safe for production, no accidental edits</p>
+        <p><strong>Traditional tools:</strong> Full admin access, risky</p>
+      </div>
+      <div class="product-card">
+        <h4 style="color: #159957;">🎯 Focused workflow</h4>
+        <p><strong>Paul:</strong> Visual navigation, no SQL needed</p>
+        <p><strong>Traditional tools:</strong> Complex UI, requires SQL expertise</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="product-section">
   <div class="product-section-inner">
     <h2 class="product-section-title">Perfect for</h2>
     <p class="product-section-lead">
