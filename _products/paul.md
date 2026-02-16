@@ -26,32 +26,26 @@ permalink: /products/paul
 
 <section class="product-section product-section-muted">
   <div class="product-section-inner">
-    <h2 class="product-section-title">Classic DB Tools sucks for quick investigation</h2>
+    <h2 class="product-section-title">Classic DB Tools suck for quick investigation</h2>
+    <p class="product-section-lead">
+      Great for admins, terrible for “I need to check this user”.
+    </p>
 
-    <div class="product-grid product-grid-two">
-      <div class="product-grid-item">
-        <div class="product-grid-icon">⏱️</div>
-        <h3 class="product-grid-title">Slow Start</h3>
-        <p class="product-grid-text">
-          PgAdmin, DBeaver... take minutes to open when you just need a quick look.
-        </p>
+    <div class="product-grid">
+      <div class="product-card" style="text-align: center;">
+        <div class="product-feature-icon">⏱️</div>
+        <h3>Slow Start</h3>
+        <p>PgAdmin, DBeaver… take minutes to open when you just need a quick look.</p>
       </div>
-      <div class="product-grid-item">
-        <div class="product-grid-icon">🧩</div>
-        <h3 class="product-grid-title">Too Complex</h3>
-        <p class="product-grid-text">
-          Schemas, connections, queries—great for admins, painful for fast support.
-        </p>
+      <div class="product-card" style="text-align: center;">
+        <div class="product-feature-icon">🧩</div>
+        <h3>Too Complex</h3>
+        <p>Schemas, connections, queries... are great for admins, but painful for fast support.</p>
       </div>
-    </div>
-
-    <div class="product-idea-card">
-      <div class="product-idea-icon">💡</div>
-      <div class="product-idea-content">
-        <h3 class="product-idea-title">There’s a better way</h3>
-        <p class="product-idea-text">
-          Paul is fast & simple: search a user, instantly see the data. Answer your customer in seconds.
-        </p>
+      <div class="product-card product-idea-card" style="grid-column: span 2; text-align: center;">
+        <div class="product-feature-icon">💡</div>
+        <h3>There’s a better way</h3>
+        <p>Paul is fast &amp; simple: search a user, instantly see the data, answer your customer in seconds.</p>
       </div>
     </div>
   </div>
