@@ -26,14 +26,34 @@ permalink: /products/paul
 
 <section class="product-section product-section-muted">
   <div class="product-section-inner">
-    <h2 class="product-section-title">The Problem</h2>
-    <p class="product-section-lead">
-      You get an urgent user support ticket. You must check their data.
-      But opening pgAdmin or DBeaver takes ages... You only need a quick look first without waiting 5 minutes.
-    </p>
-    <p class="product-section-lead">
-      Paul gives you a fast, focused, visual way navigate data and investigate issues in seconds.
-    </p>
+    <h2 class="product-section-title">Classic DB Tools sucks for quick investigation</h2>
+
+    <div class="product-grid product-grid-two">
+      <div class="product-grid-item">
+        <div class="product-grid-icon">⏱️</div>
+        <h3 class="product-grid-title">Slow Start</h3>
+        <p class="product-grid-text">
+          PgAdmin, DBeaver... take minutes to open when you just need a quick look.
+        </p>
+      </div>
+      <div class="product-grid-item">
+        <div class="product-grid-icon">🧩</div>
+        <h3 class="product-grid-title">Too Complex</h3>
+        <p class="product-grid-text">
+          Schemas, connections, queries—great for admins, painful for fast support.
+        </p>
+      </div>
+    </div>
+
+    <div class="product-idea-card">
+      <div class="product-idea-icon">💡</div>
+      <div class="product-idea-content">
+        <h3 class="product-idea-title">There’s a better way</h3>
+        <p class="product-idea-text">
+          Paul is fast & simple: search a user, instantly see the data. Answer your customer in seconds.
+        </p>
+      </div>
+    </div>
   </div>
 </section>
 
