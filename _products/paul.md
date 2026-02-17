@@ -55,7 +55,7 @@ permalink: /products/paul
     <p class="product-section-lead">
       Connect in seconds, then browse tables, filter data, and run SQL when you need it.
     </p>
-    <div class="product-grid">
+    <div class="product-screenshots">
       <div class="product-screenshot">
         <img src="/assets/img/paul-3.png" alt="Paul — saved connections and Add Connection">
         <p class="product-screenshot-caption">Saved connections &amp; quick "Add connection" flow</p>
