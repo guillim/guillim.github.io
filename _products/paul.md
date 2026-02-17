@@ -13,13 +13,11 @@ permalink: /products/paul
     <h1 class="product-hero-title">Paul</h1>
     <p class="product-hero-subtitle">
       Investigate FAST with confidence.<br>
-      Read‑only, visual, light.
     </p>
     <div class="product-hero-actions">
       <a href="/assets/files/Paul.dmg" class="btn product-cta-primary">
         Download for macOS
       </a>
-      <span class="product-hero-meta">macOS 10.15+ · Intel &amp; Apple Silicon</span>
     </div>
   </div>
 </section>
@@ -205,11 +203,13 @@ permalink: /products/paul
 
 <section class="product-cta-banner">
   <div class="product-cta-banner-inner">
-    <h2>Ready to inspect your data?</h2>
-    <p>Download Paul and connect to any PostgreSQL database in a couple of minutes. Free, no account required.</p>
+    <h2>Ready for FAST data investigation?</h2>
+    <p>Free. No account required.</p>
     <p class="product-cta-banner-actions">
       <a href="/assets/files/Paul.dmg" class="product-cta-secondary">Download for macOS</a>
     </p>
-    <p class="product-cta-banner-meta">macOS 10.15 or later · Intel &amp; Apple Silicon</p>
+    <p class="product-cta-banner-meta">
+      Problem opening the app? <a href="https://support.apple.com/en-us/102445" target="_blank" rel="noopener noreferrer" style="color:white; text-decoration: underline; transition: color 0.2s, text-decoration-color 0.2s;" onmouseover="this.style.color='#ffd700'; this.style.textDecorationColor='#ffd700';" onmouseout="this.style.color='white'; this.style.textDecorationColor='white';">Refer to this Apple instructions</a>
+    </p>
   </div>
 </section>
