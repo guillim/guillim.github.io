@@ -8,6 +8,9 @@
   <meta name="theme-color" content="#159957">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% if page.favicon %}
+  <link rel="icon" href="{{ page.favicon | relative_url }}" type="image/svg+xml">
+  {% endif %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192007350-1"></script>
   <script>
@@ -52,11 +55,6 @@
     .product-hero-inner {
       max-width: 880px;
       margin: 0 auto;
-    }
-    .product-hero-logo img {
-      width: 110px;
-      height: 110px;
-      margin-bottom: 18px;
     }
     .product-badge {
       display: inline-block;

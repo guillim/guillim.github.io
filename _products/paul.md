@@ -2,6 +2,7 @@
 layout: product
 title: Paul - PostgreSQL User Data Viewer
 permalink: /products/paul
+favicon: /assets/img/paul-logo.svg
 ---
 
 <div class="product-page product-page-paul product-page-variant-1">
@@ -29,6 +30,29 @@ permalink: /products/paul
       max-width: 520px;
     }
 
+    .product-page-variant-1 .product-hero-brand-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .product-page-variant-1 .product-hero-logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .product-page-variant-1 .product-hero-logo img {
+      width: 34px;
+      height: 34px;
+      display: flex;
+    }
+
     .product-page-variant-1 .product-hero-tagline {
       display: inline-flex;
       align-items: center;
@@ -41,7 +65,7 @@ permalink: /products/paul
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #e5e7eb;
-      margin-bottom: 16px;
+      margin-bottom: 0;
       opacity: 0.9;
     }
 
@@ -318,9 +342,14 @@ permalink: /products/paul
   <section class="product-hero">
     <div class="product-hero-inner">
       <div class="product-hero-left">
-        <div class="product-hero-tagline" data-animate="hero-badge">
-          <span class="product-hero-tagline-dot"></span>
-          Read‑only PostgreSQL for on‑call
+        <div class="product-hero-brand-row" data-animate="hero-badge">
+          <div class="product-hero-logo">
+            <img src="/assets/img/paul-logo.svg" alt="Paul logo">
+          </div>
+          <div class="product-hero-tagline">
+            <span class="product-hero-tagline-dot"></span>
+            Read‑only PostgreSQL for on‑call
+          </div>
         </div>
         <h1 class="product-hero-title" data-animate="hero-title">
           Investigate user data in seconds, not minutes.
