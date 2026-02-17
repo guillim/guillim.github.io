@@ -4,17 +4,99 @@ title: Paul - PostgreSQL User Data Viewer
 permalink: /products/paul
 ---
 
+<div class="product-page product-page-paul">
+
+<style>
+  /* Page-level wrapper to scope Paul-specific overrides */
+  .product-page-paul {
+    --paul-accent: #159957;
+    --paul-accent-soft: rgba(21, 153, 87, 0.12);
+    --paul-text-muted: #606c71;
+  }
+
+  /* Hero: subtle gradient glow + entrance (uses shared keyframes) */
+  .product-page-paul .product-hero {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .product-page-paul .product-hero::before {
+    content: "";
+    position: absolute;
+    inset: -40%;
+    background:
+      radial-gradient(circle at 0% 0%, rgba(21, 153, 87, 0.22), transparent 55%),
+      radial-gradient(circle at 100% 0%, rgba(0, 132, 255, 0.16), transparent 55%);
+    opacity: 0.9;
+    transform: translate3d(0, 0, 0);
+    animation: productGradientDrift 18s ease-in-out infinite alternate;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .product-page-paul .product-hero-inner {
+    animation: productFadeInUp 0.8s ease-out 0.05s both;
+    transform-origin: top center;
+  }
+
+  .product-page-paul .product-hero-logo img {
+    filter: drop-shadow(0 18px 45px rgba(0, 0, 0, 0.25));
+    transform-origin: center;
+    animation: productLogoFloat 9s ease-in-out infinite;
+  }
+
+  .product-page-paul .product-hero-title {
+    letter-spacing: 0.03em;
+  }
+
+  .product-page-paul .product-hero-subtitle {
+    max-width: 32rem;
+    margin-inline: auto;
+  }
+
+  /* Paul: richer card background on top of shared hover */
+  .product-page-paul .product-card {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.97), rgba(248, 252, 250, 0.95));
+  }
+
+  .product-page-paul .product-card::before {
+    background: radial-gradient(circle at 0 0, var(--paul-accent-soft), transparent 55%);
+  }
+
+  .product-page-paul .product-feature-icon {
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.14));
+  }
+
+  .product-page-paul .product-screenshot-caption {
+    color: var(--paul-text-muted);
+  }
+
+  /* CTA banner: soft breathing effect on top of shared CTA styling */
+  .product-page-paul .product-cta-banner-inner::before {
+    content: "";
+    position: absolute;
+    inset: -30%;
+    background:
+      radial-gradient(circle at 0 0, rgba(255, 255, 255, 0.22), transparent 55%),
+      radial-gradient(circle at 100% 100%, rgba(255, 215, 0, 0.18), transparent 60%);
+    opacity: 0.65;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    animation: productCtaGlow 16s ease-in-out infinite alternate;
+  }
+</style>
+
 <section class="product-hero">
   <div class="product-hero-inner">
     <div class="product-hero-logo">
       <img src="/assets/img/paul-logo.svg" alt="Paul logo">
     </div>
-    <p class="product-badge">Free macOS app · Read‑only PostgreSQL</p>
-    <h1 class="product-hero-title">Paul</h1>
-    <p class="product-hero-subtitle">
+    <p class="product-badge" data-animate="hero-badge">Free macOS app · Read‑only PostgreSQL</p>
+    <h1 class="product-hero-title" data-animate="hero-title">Paul</h1>
+    <p class="product-hero-subtitle" data-animate="hero-subtitle">
       Investigate FAST with confidence.<br>
     </p>
-    <div class="product-hero-actions">
+    <div class="product-hero-actions" data-animate="hero-cta">
       <a href="/assets/files/Paul.dmg" class="btn product-cta-primary">
         Download for macOS
       </a>
@@ -24,23 +106,23 @@ permalink: /products/paul
 
 <section class="product-section product-section-muted">
   <div class="product-section-inner">
-    <h2 class="product-section-title">Classic DB Tools suck for quick investigation</h2>
-    <p class="product-section-lead">
+    <h2 class="product-section-title" data-animate="section-title">Classic DB Tools suck for quick investigation</h2>
+    <p class="product-section-lead" data-animate="section-lead">
       Great for admins, terrible for “I need to check this user”.
     </p>
 
     <div class="product-grid">
-      <div class="product-card" style="text-align: center;">
+      <div class="product-card" style="text-align: center;" data-animate="feature-1">
         <div class="product-feature-icon">⏱️</div>
         <h3>Slow Start</h3>
         <p>PgAdmin, DBeaver… take minutes to open when you just need a quick look.</p>
       </div>
-      <div class="product-card" style="text-align: center;">
+      <div class="product-card" style="text-align: center;" data-animate="feature-2">
         <div class="product-feature-icon">🧩</div>
         <h3>Too Complex</h3>
         <p>Schemas, connections, queries... are great for admins, but painful for fast support.</p>
       </div>
-      <div class="product-card product-idea-card" style="grid-column: span 2; text-align: center;">
+      <div class="product-card product-idea-card" style="grid-column: span 2; text-align: center;" data-animate="feature-3">
         <div class="product-feature-icon">💡</div>
         <h3>There’s a better way</h3>
         <p>Paul is fast &amp; simple: search a user, instantly see the data, answer your customer in seconds.</p>
@@ -51,8 +133,8 @@ permalink: /products/paul
 
 <section class="product-section" id="screenshots">
   <div class="product-section-inner">
-    <h2 class="product-section-title">See it in action</h2>
-    <p class="product-section-lead">
+    <h2 class="product-section-title" data-animate="section-title">See it in action</h2>
+    <p class="product-section-lead" data-animate="section-lead">
       Connect in seconds, then browse tables, filter data, and run SQL when you need it.
     </p>
     <div class="product-screenshots">
@@ -90,8 +172,8 @@ permalink: /products/paul
 
 <section class="product-section">
   <div class="product-section-inner">
-    <h2 class="product-section-title">Built for debugging, not database admin</h2>
-    <p class="product-section-lead">
+    <h2 class="product-section-title" data-animate="section-title">Built for debugging, not database admin</h2>
+    <p class="product-section-lead" data-animate="section-lead">
       Fast, read‑only, and focused. Perfect for on‑call, support, and debugging—without touching production.
     </p>
     <div class="product-grid">
@@ -116,8 +198,8 @@ permalink: /products/paul
 
 <section class="product-section product-section-muted">
   <div class="product-section-inner">
-    <h2 class="product-section-title">Paul vs. traditional database tools</h2>
-    <p class="product-section-lead">
+    <h2 class="product-section-title" data-animate="section-title">Paul vs. traditional database tools</h2>
+    <p class="product-section-lead" data-animate="section-lead">
       When you need to investigate user data, not manage schemas or run complex analytics.
     </p>
     <div class="product-grid">
@@ -142,8 +224,8 @@ permalink: /products/paul
 
 <section class="product-section">
   <div class="product-section-inner">
-    <h2 class="product-section-title">Perfect for</h2>
-    <p class="product-section-lead">
+    <h2 class="product-section-title" data-animate="section-title">Perfect for</h2>
+    <p class="product-section-lead" data-animate="section-lead">
       Works with any PostgreSQL database—local, staging, or production. Read‑only by design, so you can move fast and stay safe.
     </p>
     <div class="product-grid">
@@ -165,7 +247,7 @@ permalink: /products/paul
 
 <section class="product-section">
   <div class="product-section-inner">
-    <h2 class="product-section-title">What it is (and isn’t)</h2>
+    <h2 class="product-section-title" data-animate="section-title">What it is (and isn’t)</h2>
     <div class="product-grid">
       <div class="product-card">
         <h3 style="color: #159957;">✓ It is</h3>
@@ -191,8 +273,8 @@ permalink: /products/paul
 
 <section class="product-section product-section-muted">
   <div class="product-section-inner">
-    <h2 class="product-section-title">Feedback</h2>
-    <p class="product-section-lead">
+    <h2 class="product-section-title" data-animate="section-title">Feedback</h2>
+    <p class="product-section-lead" data-animate="section-lead">
       Using Paul? We’d love to hear from you—bugs, ideas, or anything else.
     </p>
     <p class="product-section-lead">
@@ -213,3 +295,5 @@ permalink: /products/paul
     </p>
   </div>
 </section>
+
+</div>
