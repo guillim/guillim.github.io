@@ -214,7 +214,7 @@ favicon: /assets/img/paul-logo.svg
     /* 3-column problem section */
     .product-page-variant-1 .problem-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(2, 1fr);
       gap: 20px;
       margin-top: 24px;
     }
@@ -229,6 +229,10 @@ favicon: /assets/img/paul-logo.svg
 
     .product-page-variant-1 .product-idea-card {
       border: 1px solid rgba(21, 153, 87, 0.25);
+    }
+
+    .product-page-variant-1 .product-idea-card-wide {
+      grid-column: span 2;
     }
 
     /* How it works */
@@ -330,11 +334,64 @@ favicon: /assets/img/paul-logo.svg
 
       .product-page-variant-1 .product-hero {
         text-align: left;
-        padding-top: 72px;
+        padding: 32px 16px 28px;
       }
 
       .product-page-variant-1 .product-hero-left {
         max-width: 100%;
+      }
+
+      .product-page-variant-1 .product-section {
+        padding: 28px 16px;
+      }
+
+      .product-page-variant-1 .product-cta-banner {
+        padding: 32px 16px 36px;
+      }
+
+      .product-page-variant-1 .product-hero-title {
+        font-size: clamp(1.8rem, 5vw, 2.6rem);
+        margin-bottom: 0.4em;
+      }
+
+      .product-page-variant-1 .product-hero-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 1.2em;
+      }
+
+      .product-page-variant-1 .problem-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 16px;
+      }
+
+      .product-page-variant-1 .product-idea-card-wide {
+        grid-column: span 1;
+      }
+
+      .product-page-variant-1 .product-card {
+        padding: 18px 16px 16px;
+      }
+
+      .product-page-variant-1 .product-card h3 {
+        font-size: 1.1rem;
+        margin-top: 0;
+        margin-bottom: 0.4em;
+      }
+
+      .product-page-variant-1 .product-feature-icon {
+        font-size: 2rem;
+        margin-bottom: 8px;
+      }
+
+      .product-page-variant-1 .product-section-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.4em;
+      }
+
+      .product-page-variant-1 .product-section-lead {
+        font-size: 0.95rem;
+        margin-bottom: 1.2em;
       }
     }
   </style>
@@ -356,7 +413,7 @@ favicon: /assets/img/paul-logo.svg
         </h1>
         <p class="product-hero-subtitle" data-animate="hero-subtitle">
           <strong>Paul</strong> is a fast, read‑only PostgreSQL viewer for engineers and support teams
-          who need to answer “what’s happening with this user?” without juggling admin tools or writing SQL.
+          who need to answer "what's happening with this user?"
         </p>
         <div class="product-hero-actions" data-animate="hero-cta">
           <a href="/assets/files/Paul.dmg" class="btn product-cta-primary">
@@ -385,7 +442,7 @@ favicon: /assets/img/paul-logo.svg
         Great for admins, terrible for “I need to check this user”.
       </p>
 
-      <div class="product-grid">
+      <div class="problem-grid">
         <div class="product-card" style="text-align: center;" data-animate="feature-1">
           <div class="product-feature-icon">⏱️</div>
           <h3>Slow Start</h3>
@@ -396,9 +453,9 @@ favicon: /assets/img/paul-logo.svg
           <h3>Too Complex</h3>
           <p>Schemas, connections, queries... are great for admins, but painful for fast support.</p>
         </div>
-        <div class="product-card product-idea-card" style="grid-column: span 2; text-align: center;" data-animate="feature-3">
+        <div class="product-card product-idea-card product-idea-card-wide" style="text-align: center;" data-animate="feature-3">
           <div class="product-feature-icon">💡</div>
-          <h3>There’s a better way</h3>
+          <h3>There's a better way</h3>
           <p>Paul is fast &amp; simple: search a user, instantly see the data, answer your customer in seconds.</p>
         </div>
       </div>
