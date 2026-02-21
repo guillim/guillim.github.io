@@ -624,6 +624,11 @@ favicon: /assets/img/paul-logo.svg
       <p class="product-cta-banner-meta">
         Problem opening the app? <a href="https://support.apple.com/en-us/102445" target="_blank" rel="noopener noreferrer" style="color:white; text-decoration: underline; transition: color 0.2s, text-decoration-color 0.2s;" onmouseover="this.style.color='#ffd700'; this.style.textDecorationColor='#ffd700';" onmouseout="this.style.color='white'; this.style.textDecorationColor='white';">Refer to this Apple instructions</a>
       </p>
+      <p class="product-cta-banner-meta" style="margin-top: 1em;">
+        <a href="/products/paul/privacy" style="color:white; text-decoration: underline; opacity: 0.9;">Privacy</a>
+        <span style="opacity: 0.8;"> · </span>
+        <a href="/products/paul/support" style="color:white; text-decoration: underline; opacity: 0.9;">Support</a>
+      </p>
     </div>
   </section>
 
