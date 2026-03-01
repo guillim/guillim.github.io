@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Engineeringification of Job Titles</title>
+  <desc id="desc">A gradient banner with title text about engineeringification.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <rect x="64" y="64" width="1072" height="547" rx="20" fill="none" stroke="#93c5fd" stroke-width="3" opacity="0.9" />
+
+  <text x="100" y="190" fill="#bfdbfe" font-size="32" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="2">
+    LINKEDIN TITLE SHIFT
+  </text>
+  <text x="100" y="280" fill="#ffffff" font-size="70" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    THE ENGINEERINGIFICATION
+  </text>
+  <text x="100" y="360" fill="#ffffff" font-size="70" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    OF JOB TITLES
+  </text>
+  <text x="100" y="455" fill="#e2e8f0" font-size="34" font-family="Arial, Helvetica, sans-serif">
+    Tools are changing jobs faster than titles can keep up.
+  </text>
+  <text x="100" y="535" fill="#e2e8f0" font-size="28" font-family="Arial, Helvetica, sans-serif" opacity="0.95">
+    designer -> design engineer | support -> support engineer | sales -> sales engineer
+  </text>
+</svg>
