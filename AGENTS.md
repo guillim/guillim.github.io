@@ -2,7 +2,17 @@
 
 ## Cursor Cloud specific instructions
 
-This is a **Jekyll static blog** hosted on GitHub Pages using the Cayman theme. There is one service: the Jekyll dev server.
+This is a **Jekyll website** hosted on GitHub Pages using the Cayman theme. There is one service: the Jekyll dev server. The site has **two distinct parts**:
+
+1. **Blog** — developer notes on JavaScript, Python, Docker, DevOps, etc.
+   - Posts live in `_posts/` as Markdown files (naming: `YYYY-MM-DD-slug.markdown` or `.md`).
+   - Layout: `_layouts/blog.html`. The homepage (`index.md`) lists all posts.
+2. **Portfolio** — a listing of products the owner builds and maintains.
+   - Product data is in `_data/projects.yml` (title, description, url, picture, stars, active flag).
+   - The portfolio page is `about.md` (route: `/about`), layout: `_layouts/about.html`. It loops over `site.data.projects` and renders cards for active products.
+   - Individual product pages can exist as a Jekyll collection in `_products/` (configured in `_config.yml` under `collections.products`, permalink `/products/:name`). Example: `_products/paul.md`.
+
+Depending on the task, you may be working on either part — or both.
 
 ### Running the dev server
 
