@@ -412,8 +412,8 @@ favicon: /assets/img/paul-logo.svg
           Investigate user data in seconds, not minutes.
         </h1>
         <p class="product-hero-subtitle" data-animate="hero-subtitle">
-          <strong>Paul</strong> is a fast, read‑only PostgreSQL viewer for engineers and support teams
-          who need to answer "what's happening with this user?"
+          <strong>Paul</strong> is an AI‑first, read‑only PostgreSQL viewer for engineers and support teams
+          who need to answer "what's happening with this user?" through an interactive agent UI, not endless tables.
         </p>
         <div class="product-hero-actions" data-animate="hero-cta">
           <a href="/assets/files/Paul.dmg" class="btn product-cta-primary">
@@ -495,7 +495,7 @@ favicon: /assets/img/paul-logo.svg
         </div>
         <div class="product-screenshot">
           <img src="/assets/img/paul-7-agent.png" alt="Paul — agent mode">
-          <p class="product-screenshot-caption">Agent mode</p>
+          <p class="product-screenshot-caption">AI‑first agent mode: ask questions in plain language instead of clicking through static tables</p>
         </div>
       </div>
     </div>
@@ -546,8 +546,8 @@ favicon: /assets/img/paul-logo.svg
         </div>
         <div class="product-card">
           <h4 style="color: #159957;">🎯 Focused workflow</h4>
-          <p><strong>Paul:</strong> Visual navigation, no SQL needed</p>
-          <p><strong>Traditional tools:</strong> Complex UI, requires SQL expertise</p>
+          <p><strong>Paul:</strong> AI‑driven, interactive GUI; visual navigation, no SQL needed</p>
+          <p><strong>Traditional tools:</strong> Static table viewers with complex UI, requires SQL expertise</p>
         </div>
       </div>
     </div>
@@ -583,6 +583,7 @@ favicon: /assets/img/paul-logo.svg
         <div class="product-card">
           <h3 style="color: #159957;">✓ It is</h3>
           <ul style="color: #606c71; line-height: 2;">
+            <li>An AI‑first agent interface on top of your PostgreSQL data</li>
             <li>A purpose‑built user investigation viewer</li>
             <li>Read‑only and safe for production</li>
             <li>Fast and focused workflow</li>
