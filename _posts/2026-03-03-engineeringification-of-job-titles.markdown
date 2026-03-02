@@ -4,14 +4,16 @@ title: "The engineeringification of job titles"
 date: 2026-03-03 09:00:00 +0100
 categories: linkedin career
 comments: true
-thumbnail: /assets/img/engineeringification-job-titles.svg
+thumbnail: /assets/img/engineeringification-cover.jpg
 ---
 
-Last week, I posted this on LinkedIn:
+Lately, I noticed a trend on LinkedIn:
 
 - Designers -> Design engineer
 - Support -> Support engineer
 - Sales -> Sales engineer
+
+<img src="/assets/img/engineeringification-cover.jpg" alt="Engineering professionals collaborating" width="720" />
 
 If you scroll LinkedIn long enough, this pattern is obvious: job titles are moving from `JOB` to `JOB engineer`.
 
@@ -42,8 +44,6 @@ If in 5 years every designer uses Figma Make, every salesperson uses Clay or lem
 
 At that point, adding "engineer" to the title may not differentiate much anymore.
 
-It will become like saying "computer literate" in 2026: expected, not exceptional.
-
 # What will matter more than your title
 
 Instead of debating labels, focus on leverage:
@@ -63,7 +63,7 @@ If you want to stay ahead:
 2. Build 2-3 real workflows that save time or create measurable output.
 3. Document before/after impact (time saved, conversion uplift, response quality, etc.).
 4. Share your playbook internally. Teaching compounds your advantage.
-5. Use "engineer" in your title only if it reflects your actual operating model.
+5. Use "engineer" in your title if you like, it's more a self-branding title than a strong meaning.
 
 Because eventually, everyone will have access to the same tools. The edge is no longer access. The edge is execution.
 
