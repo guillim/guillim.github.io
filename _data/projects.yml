@@ -94,6 +94,12 @@
   picture: "https://guillim.github.io/assets/img/paul-logo.svg"
   active: true
 
+- title: "Glimpse"
+  description: "Pixel-art desktop companions for your Claude Code sessions. See what every agent is doing, click to jump to its terminal."
+  url: "https://guillim.github.io/products/glimpse"
+  picture: "https://guillim.github.io/assets/img/glimpse-logo.png"
+  active: true
+
 - title: "Hubspot MCP server"
   description: "Search, create anyting in Hubspot directly in ChatGPT, Claude or Cursor"
   url: "https://apify.com/anchor/hubspot-apify-mcp-server"
