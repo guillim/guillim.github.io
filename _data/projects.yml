@@ -89,7 +89,7 @@
   active: true
 
 - title: "Paul"
-  description: "Fast, read-only macOS app to investigate user data in Postgres—without writing SQL. Built for on-call engineers and support teams."
+  description: "The simple, AI-first PostgreSQL client for Mac. Browse, investigate, and edit your data — without the complexity of traditional tools."
   url: "https://guillim.github.io/products/paul"
   picture: "https://guillim.github.io/assets/img/paul-logo.svg"
   active: true

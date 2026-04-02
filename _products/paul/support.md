@@ -24,6 +24,12 @@ favicon: /assets/img/paul-logo.svg
 
   <p>We'll try to get back to you within a few days.</p>
 
+  <h2 style="font-size: 1.35em; margin-top: 1.5em;">Feedback</h2>
+
+  <p>Using Paul? We'd love to hear from you — bugs, ideas, or anything else.</p>
+
+  <p><a href="https://guillim.notion.site/4622de7119464bae8c4adb7aeffadee9?pvs=105" target="_blank" rel="noopener noreferrer" class="btn product-cta-primary">Share your feedback</a></p>
+
   <p style="margin-top: 1.5em; font-size: 0.95em; color: #606c71;"><strong>Guillaume Lancrenon</strong></p>
 
   <p style="margin-top: 2.5em;">

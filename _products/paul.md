@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Paul - PostgreSQL User Data Viewer
+title: Paul - The Simple PostgreSQL Client for Mac
 permalink: /products/paul
 favicon: /assets/img/paul-logo.svg
 ---
@@ -405,31 +405,34 @@ favicon: /assets/img/paul-logo.svg
           </div>
           <div class="product-hero-tagline">
             <span class="product-hero-tagline-dot"></span>
-            Read‑only PostgreSQL for on‑call
+            Simple PostgreSQL client for Mac
           </div>
         </div>
         <h1 class="product-hero-title" data-animate="hero-title">
-          Investigate user data in seconds, not minutes.
+          The PostgreSQL client for people who aren't DBAs.
         </h1>
         <p class="product-hero-subtitle" data-animate="hero-subtitle">
-          <strong>Paul</strong> is an AI‑first, read‑only PostgreSQL viewer for engineers and support teams
-          who need to answer "what's happening with this user?" through an interactive agent UI, not endless tables.
+          <strong>Paul</strong> is an AI-first PostgreSQL client for engineers, support teams, and anyone
+          who needs fast answers from their database &mdash; without the complexity of traditional tools.
+          Read-only by default. Edit when you need to.
         </p>
         <div class="product-hero-actions" data-animate="hero-cta">
           <a href="/assets/files/Paul.dmg" class="btn product-cta-primary">
             Download for macOS
           </a>
+          <a href="#screenshots" class="product-hero-secondary-link">See it in action &darr;</a>
         </div>
         <div class="product-hero-metadata" data-animate="hero-cta">
           <span>Free macOS app</span>
-          <span>Read‑only by design</span>
+          <span>Read-only by default</span>
+          <span>Edit mode when you need it</span>
           <span>No account, no tracking</span>
         </div>
       </div>
 
       <div class="product-hero-right" data-animate="feature-1">
         <div class="product-hero-mock" style="border-radius: 15px; overflow: hidden; box-shadow: 0 2px 18px 0 rgba(19,30,45,0.13);">
-          <img src="/assets/img/paul-filter-cropped.png" alt="Paul — table view with filters" style="display: block; width: 100%; border-radius: 15px;">
+          <img src="/assets/img/paul-hero-agent.png" alt="Paul &mdash; AI agent mode" style="display: block; width: 100%; border-radius: 15px;">
         </div>
       </div>
     </div>
@@ -437,117 +440,26 @@ favicon: /assets/img/paul-logo.svg
 
   <section class="product-section product-section-muted">
     <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">Classic DB Tools suck for quick investigation</h2>
+      <h2 class="product-section-title" data-animate="section-title">Classic DB tools were not built for you</h2>
       <p class="product-section-lead" data-animate="section-lead">
-        Great for admins, terrible for “I need to check this user”.
+        Great for database admins. Overkill for everyone else.
       </p>
 
       <div class="problem-grid">
         <div class="product-card" style="text-align: center;" data-animate="feature-1">
-          <div class="product-feature-icon">⏱️</div>
-          <h3>Slow Start</h3>
-          <p>PgAdmin, DBeaver… take minutes to open when you just need a quick look.</p>
+          <div class="product-feature-icon">&#x23F1;&#xFE0F;</div>
+          <h3>Slow &amp; Heavy</h3>
+          <p>pgAdmin takes 900MB and minutes to open. DBeaver eats your RAM. DataGrip needs 30 seconds to cold start.</p>
         </div>
         <div class="product-card" style="text-align: center;" data-animate="feature-2">
-          <div class="product-feature-icon">🧩</div>
+          <div class="product-feature-icon">&#x1F9E9;</div>
           <h3>Too Complex</h3>
-          <p>Schemas, connections, queries... are great for admins, but painful for fast support.</p>
+          <p>Dozens of panels, menus, and settings designed for DBAs &mdash; when you just need to check a user or fix a row.</p>
         </div>
         <div class="product-card product-idea-card product-idea-card-wide" style="text-align: center;" data-animate="feature-3">
-          <div class="product-feature-icon">💡</div>
-          <h3>There's a better way</h3>
-          <p>Paul is fast &amp; simple: search a user, instantly see the data, answer your customer in seconds.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="product-section" id="screenshots">
-    <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">See it in action</h2>
-      <p class="product-section-lead" data-animate="section-lead">
-        Connect in seconds, then browse tables, filter data, and run SQL when you need it.
-      </p>
-      <div class="product-screenshots">
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-3.png" alt="Paul — saved connections and Add Connection">
-          <p class="product-screenshot-caption">Saved connections &amp; quick "Add connection" flow</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-1.png" alt="Paul — table view with filters">
-          <p class="product-screenshot-caption">Browse &amp; filter table data without writing SQL</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-2.png" alt="Paul — raw SQL editor and results">
-          <p class="product-screenshot-caption">Drop to SQL when you need more control</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-5-split-view.png" alt="Paul — split-view navigation with multiple tables">
-          <p class="product-screenshot-caption">Split-view navigation keeps context as you explore related tables</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-6-filter-sort.png" alt="Paul — filter and sort table data">
-          <p class="product-screenshot-caption">Filter &amp; sort table data with intuitive controls</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-4-export-csv.png" alt="Paul — export data to CSV">
-          <p class="product-screenshot-caption">Export filtered data to CSV for further analysis</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-7-agent.png" alt="Paul — agent mode">
-          <p class="product-screenshot-caption">AI‑first agent mode: ask questions in plain language instead of clicking through static tables</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="product-section">
-    <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">Built for debugging, not database admin</h2>
-      <p class="product-section-lead" data-animate="section-lead">
-        Fast, read‑only, and focused. Perfect for on‑call, support, and debugging—without touching production.
-      </p>
-      <div class="product-grid">
-        <div class="product-card" style="text-align: center;">
-          <div class="product-feature-icon">🔍</div>
-          <h3>Trace user data</h3>
-          <p>Follow foreign keys row‑by‑row across related tables. No SQL needed.</p>
-        </div>
-        <div class="product-card" style="text-align: center;">
-          <div class="product-feature-icon">🔒</div>
-          <h3>Read‑only by design</h3>
-          <p>Move fast and stay safe. No accidental edits in production data.</p>
-        </div>
-        <div class="product-card" style="text-align: center;">
-          <div class="product-feature-icon">⚡</div>
-          <h3>Keep context</h3>
-          <p>Split‑view navigation so you never lose track of where you came from.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="product-section product-section-muted">
-    <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">Paul vs. traditional database tools</h2>
-      <p class="product-section-lead" data-animate="section-lead">
-        When you need to investigate user data, not manage schemas or run complex analytics.
-      </p>
-      <div class="product-grid">
-        <div class="product-card">
-          <h4 style="color: #159957;">⚡ Lightweight & Fast</h4>
-          <p><strong>Paul:</strong> &lt;20MB, opens in 2 seconds</p>
-          <p><strong>Traditional tools:</strong> 200MB+, slow startup</p>
-        </div>
-        <div class="product-card">
-          <h4 style="color: #159957;">🔒 Read‑only by design</h4>
-          <p><strong>Paul:</strong> Safe for production, no accidental edits</p>
-          <p><strong>Traditional tools:</strong> Full admin access, risky</p>
-        </div>
-        <div class="product-card">
-          <h4 style="color: #159957;">🎯 Focused workflow</h4>
-          <p><strong>Paul:</strong> AI‑driven, interactive GUI; visual navigation, no SQL needed</p>
-          <p><strong>Traditional tools:</strong> Static table viewers with complex UI, requires SQL expertise</p>
+          <div class="product-feature-icon">&#x1F4A1;</div>
+          <h3>Paul is different</h3>
+          <p>Opens in 2 seconds. Ask in plain language. Safe by default. Simple as that.</p>
         </div>
       </div>
     </div>
@@ -557,20 +469,51 @@ favicon: /assets/img/paul-logo.svg
     <div class="product-section-inner">
       <h2 class="product-section-title" data-animate="section-title">Perfect for</h2>
       <p class="product-section-lead" data-animate="section-lead">
-        Works with any PostgreSQL database—local, staging, or production. Read‑only by design, so you can move fast and stay safe.
+        Works with any PostgreSQL database &mdash; local, staging, or production.
       </p>
       <div class="product-grid">
         <div class="product-card">
-          <h4 style="color: #159957;">✓ Debugging user issues</h4>
-          <p>Trace data relationships to understand bugs and edge cases.</p>
+          <h4 style="color: #159957;">&#x2713; On-call engineers</h4>
+          <p>Investigate user issues in seconds. Trace data relationships across tables without writing SQL under pressure.</p>
         </div>
         <div class="product-card">
-          <h4 style="color: #159957;">✓ Quick data investigations</h4>
-          <p>Answer questions quickly without crafting ad‑hoc queries.</p>
+          <h4 style="color: #159957;">&#x2713; Support &amp; success teams</h4>
+          <p>Look up customer data yourself. Ask in plain language, get answers &mdash; no need to wait for an engineer.</p>
         </div>
         <div class="product-card">
-          <h4 style="color: #159957;">✓ Exploring table relationships</h4>
-          <p>Navigate foreign keys visually across your database schema.</p>
+          <h4 style="color: #159957;">&#x2713; Startup teams</h4>
+          <p>Give your team safe database access without building internal tools. Simpler than Metabase, safer than DBeaver.</p>
+        </div>
+        <div class="product-card">
+          <h4 style="color: #159957;">&#x2713; Quick data fixes</h4>
+          <p>Switch to edit mode to INSERT, UPDATE, or DELETE rows directly &mdash; with a clear safety toggle so you never edit by accident.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-section product-section-muted" id="screenshots">
+    <div class="product-section-inner">
+      <h2 class="product-section-title" data-animate="section-title">See it in action</h2>
+      <p class="product-section-lead" data-animate="section-lead">
+        Connect in seconds, browse tables, ask in plain language, and edit when you need to.
+      </p>
+      <div class="product-screenshots">
+        <div class="product-screenshot">
+          <img src="/assets/img/paul-7-agent.png" alt="Paul &mdash; AI agent mode">
+          <p class="product-screenshot-caption">AI agent mode: ask questions in plain language instead of writing SQL</p>
+        </div>
+        <div class="product-screenshot">
+          <img src="/assets/img/paul-8-edit-mode.png" alt="Paul &mdash; edit mode with inline editing">
+          <p class="product-screenshot-caption">Edit mode: INSERT, UPDATE &amp; DELETE rows &mdash; read-only by default, edit when you need to</p>
+        </div>
+        <div class="product-screenshot">
+          <img src="/assets/img/paul-1.png" alt="Paul &mdash; table view with filters">
+          <p class="product-screenshot-caption">Browse &amp; filter table data without writing SQL</p>
+        </div>
+        <div class="product-screenshot">
+          <img src="/assets/img/paul-5-split-view.png" alt="Paul &mdash; split-view navigation">
+          <p class="product-screenshot-caption">Split-view navigation keeps context as you explore related tables</p>
         </div>
       </div>
     </div>
@@ -578,47 +521,97 @@ favicon: /assets/img/paul-logo.svg
 
   <section class="product-section">
     <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">What it is (and isn’t)</h2>
+      <h2 class="product-section-title" data-animate="section-title">Built for simplicity, not database admin</h2>
+      <p class="product-section-lead" data-animate="section-lead">
+        Fast, safe, and focused &mdash; without the complexity of traditional tools.
+      </p>
       <div class="product-grid">
-        <div class="product-card">
-          <h3 style="color: #159957;">✓ It is</h3>
-          <ul style="color: #606c71; line-height: 2;">
-            <li>An AI‑first agent interface on top of your PostgreSQL data</li>
-            <li>A purpose‑built user investigation viewer</li>
-            <li>Read‑only and safe for production</li>
-            <li>Fast and focused workflow</li>
-            <li>Visual foreign key navigation</li>
-          </ul>
+        <div class="product-card" style="text-align: center;">
+          <div class="product-feature-icon">&#x1F916;</div>
+          <h3>AI-first</h3>
+          <p>Ask questions in plain language. Paul turns your words into queries &mdash; no SQL needed.</p>
         </div>
-        <div class="product-card">
-          <h3 style="color: #dc143c;">✗ It isn’t</h3>
-          <ul style="color: #606c71; line-height: 2;">
-            <li>A general database admin tool</li>
-            <li>For schema design or migrations</li>
-            <li>For editing or modifying data</li>
-            <li>For writing complex queries</li>
-          </ul>
+        <div class="product-card" style="text-align: center;">
+          <div class="product-feature-icon">&#x1F512;</div>
+          <h3>Safe by default</h3>
+          <p>Read-only mode by default. Switch to edit mode when you need it &mdash; INSERT, UPDATE, DELETE with full control.</p>
         </div>
+        <div class="product-card" style="text-align: center;">
+          <div class="product-feature-icon">&#x26A1;</div>
+          <h3>Opens in 2 seconds</h3>
+          <p>Under 20MB. No loading screens, no bloated setup. Connect and start working immediately.</p>
+        </div>
+        <div class="product-card" style="text-align: center;">
+          <div class="product-feature-icon">&#x1F50D;</div>
+          <h3>Visual navigation</h3>
+          <p>Follow foreign keys, split-view across tables, filter &amp; sort &mdash; all without writing a single query.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 36px;" data-animate="hero-cta">
+        <a href="/assets/files/Paul.dmg" class="btn product-cta-primary">Download for macOS</a>
+        <p style="margin-top: 10px; font-size: 0.85rem; color: #9ca3af;">Free. No account required.</p>
       </div>
     </div>
   </section>
 
   <section class="product-section product-section-muted">
     <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">Feedback</h2>
+      <h2 class="product-section-title" data-animate="section-title">Paul vs. the rest</h2>
       <p class="product-section-lead" data-animate="section-lead">
-        Using Paul? We’d love to hear from you—bugs, ideas, or anything else.
+        Built for people who use a database, not people who administer one.
       </p>
-      <p class="product-section-lead">
-        <a href="https://guillim.notion.site/4622de7119464bae8c4adb7aeffadee9?pvs=105" target="_blank" rel="noopener noreferrer" class="btn product-cta-primary">Share your feedback</a>
-      </p>
+      <div style="overflow-x: auto; margin-top: 24px;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+          <thead>
+            <tr style="border-bottom: 2px solid #e5e7eb;">
+              <th style="text-align: left; padding: 12px 16px; color: #6b7280; font-weight: 500;"></th>
+              <th style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 700;">Paul</th>
+              <th style="text-align: center; padding: 12px 16px; color: #6b7280; font-weight: 500;">pgAdmin / DBeaver</th>
+              <th style="text-align: center; padding: 12px 16px; color: #6b7280; font-weight: 500;">TablePlus / DataGrip</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #e5e7eb;">
+              <td style="padding: 12px 16px; font-weight: 500;">Startup time</td>
+              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">2 seconds</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Minutes</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">15&ndash;30 seconds</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e5e7eb;">
+              <td style="padding: 12px 16px; font-weight: 500;">App size</td>
+              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">&lt;20 MB</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">200&ndash;900 MB</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">100&ndash;400 MB</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e5e7eb;">
+              <td style="padding: 12px 16px; font-weight: 500;">AI / natural language</td>
+              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">Built-in agent</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">No</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Plugin / paid add-on</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e5e7eb;">
+              <td style="padding: 12px 16px; font-weight: 500;">Production safety</td>
+              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">Read-only by default</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Full write access</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Full write access</td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 16px; font-weight: 500;">Price</td>
+              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">Free</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Free (bloated)</td>
+              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">$99+ / subscription</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </section>
 
   <section class="product-cta-banner">
     <div class="product-cta-banner-inner">
-      <h2>Ready for FAST data investigation?</h2>
-      <p>Free. No account required.</p>
+      <h2>Ready to ditch the bloat?</h2>
+      <p>Free. No account. Opens in 2 seconds.</p>
       <p class="product-cta-banner-actions">
         <a href="/assets/files/Paul.dmg" class="product-cta-secondary">Download for macOS</a>
       </p>
@@ -627,7 +620,7 @@ favicon: /assets/img/paul-logo.svg
       </p>
       <p class="product-cta-banner-meta" style="margin-top: 1em;">
         <a href="/products/paul/privacy" style="color:white; text-decoration: underline; opacity: 0.9;">Privacy</a>
-        <span style="opacity: 0.8;"> · </span>
+        <span style="opacity: 0.8;"> &middot; </span>
         <a href="/products/paul/support" style="color:white; text-decoration: underline; opacity: 0.9;">Support</a>
       </p>
     </div>
