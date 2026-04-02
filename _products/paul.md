@@ -438,6 +438,28 @@ favicon: /assets/img/paul-logo.svg
     </div>
   </section>
 
+  <div class="product-logo-ribbon">
+    <p class="product-logo-ribbon-label">Trusted by teams at</p>
+    <div class="product-logo-ribbon-logos">
+      <div class="product-logo-ribbon-item">
+        <img src="/assets/img/logos/alan.webp" alt="Alan">
+        <span>Alan</span>
+      </div>
+      <div class="product-logo-ribbon-item">
+        <img src="/assets/img/logos/twenty.webp" alt="Twenty">
+        <span>Twenty</span>
+      </div>
+      <div class="product-logo-ribbon-item">
+        <img src="/assets/img/logos/korint.webp" alt="Korint">
+        <span>Korint</span>
+      </div>
+      <div class="product-logo-ribbon-item">
+        <img src="/assets/img/logos/certo.webp" alt="Certo">
+        <span>Certo</span>
+      </div>
+    </div>
+  </div>
+
   <section class="product-section product-section-muted">
     <div class="product-section-inner">
       <h2 class="product-section-title" data-animate="section-title">Classic DB tools were not built for you</h2>
@@ -456,10 +478,12 @@ favicon: /assets/img/paul-logo.svg
           <h3>Too Complex</h3>
           <p>Dozens of panels, menus, and settings designed for DBAs &mdash; when you just need to check a user or fix a row.</p>
         </div>
-        <div class="product-card product-idea-card product-idea-card-wide" style="text-align: center;" data-animate="feature-3">
-          <div class="product-feature-icon">&#x1F4A1;</div>
-          <h3>Paul is different</h3>
-          <p>Opens in 2 seconds. Ask in plain language. Safe by default. Simple as that.</p>
+        <div class="product-card product-idea-card product-idea-card-wide" style="text-align: center; background: linear-gradient(135deg, rgba(21, 153, 87, 0.06) 0%, rgba(21, 87, 153, 0.04) 100%); border: 2px solid rgba(21, 153, 87, 0.35);" data-animate="feature-3">
+          <div style="display: inline-flex; align-items: center; gap: 10px; margin-bottom: 4px;">
+            <img src="/assets/img/paul-logo.svg" alt="" style="width: 24px; height: 24px;">
+            <h3 style="margin: 0; font-size: 1.15rem;">Paul is different</h3>
+          </div>
+          <p style="font-size: 1.05rem; font-weight: 500; color: #374151;">Opens in 2 seconds. Ask in plain language. Safe by default. Simple as that.</p>
         </div>
       </div>
     </div>
@@ -471,21 +495,21 @@ favicon: /assets/img/paul-logo.svg
       <p class="product-section-lead" data-animate="section-lead">
         Works with any PostgreSQL database &mdash; local, staging, or production.
       </p>
-      <div class="product-grid">
-        <div class="product-card">
-          <h4 style="color: #159957;">&#x2713; On-call engineers</h4>
+      <div class="product-audience-grid">
+        <div class="product-audience-card">
+          <h4>On-call engineers</h4>
           <p>Investigate user issues in seconds. Trace data relationships across tables without writing SQL under pressure.</p>
         </div>
-        <div class="product-card">
-          <h4 style="color: #159957;">&#x2713; Support &amp; success teams</h4>
+        <div class="product-audience-card">
+          <h4>Support &amp; success teams</h4>
           <p>Look up customer data yourself. Ask in plain language, get answers &mdash; no need to wait for an engineer.</p>
         </div>
-        <div class="product-card">
-          <h4 style="color: #159957;">&#x2713; Startup teams</h4>
+        <div class="product-audience-card">
+          <h4>Startup teams</h4>
           <p>Give your team safe database access without building internal tools. Simpler than Metabase, safer than DBeaver.</p>
         </div>
-        <div class="product-card">
-          <h4 style="color: #159957;">&#x2713; Quick data fixes</h4>
+        <div class="product-audience-card">
+          <h4>Quick data fixes</h4>
           <p>Switch to edit mode to INSERT, UPDATE, or DELETE rows directly &mdash; with a clear safety toggle so you never edit by accident.</p>
         </div>
       </div>
@@ -498,22 +522,31 @@ favicon: /assets/img/paul-logo.svg
       <p class="product-section-lead" data-animate="section-lead">
         Connect in seconds, browse tables, ask in plain language, and edit when you need to.
       </p>
-      <div class="product-screenshots">
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-7-agent.png" alt="Paul &mdash; AI agent mode">
-          <p class="product-screenshot-caption">AI agent mode: ask questions in plain language instead of writing SQL</p>
+      <div class="product-carousel">
+        <div class="product-carousel-track">
+          <div class="product-carousel-slides">
+            <div class="product-carousel-slide" data-caption="AI agent mode: ask questions in plain language instead of writing SQL">
+              <img src="/assets/img/paul-7-agent.png" alt="Paul &mdash; AI agent mode">
+            </div>
+            <div class="product-carousel-slide" data-caption="Edit mode: INSERT, UPDATE &amp; DELETE rows &mdash; read-only by default, edit when you need to">
+              <img src="/assets/img/paul-8-edit-mode.png" alt="Paul &mdash; edit mode">
+            </div>
+            <div class="product-carousel-slide" data-caption="Browse &amp; filter table data without writing SQL">
+              <img src="/assets/img/paul-1.png" alt="Paul &mdash; table view with filters">
+            </div>
+            <div class="product-carousel-slide" data-caption="Split-view navigation keeps context as you explore related tables">
+              <img src="/assets/img/paul-5-split-view.png" alt="Paul &mdash; split-view navigation">
+            </div>
+          </div>
         </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-8-edit-mode.png" alt="Paul &mdash; edit mode with inline editing">
-          <p class="product-screenshot-caption">Edit mode: INSERT, UPDATE &amp; DELETE rows &mdash; read-only by default, edit when you need to</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-1.png" alt="Paul &mdash; table view with filters">
-          <p class="product-screenshot-caption">Browse &amp; filter table data without writing SQL</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/paul-5-split-view.png" alt="Paul &mdash; split-view navigation">
-          <p class="product-screenshot-caption">Split-view navigation keeps context as you explore related tables</p>
+        <button class="product-carousel-btn product-carousel-btn--prev" aria-label="Previous screenshot">&lsaquo;</button>
+        <button class="product-carousel-btn product-carousel-btn--next" aria-label="Next screenshot">&rsaquo;</button>
+        <p class="product-carousel-caption"></p>
+        <div class="product-carousel-dots">
+          <button class="product-carousel-dot is-active" aria-label="Slide 1"></button>
+          <button class="product-carousel-dot" aria-label="Slide 2"></button>
+          <button class="product-carousel-dot" aria-label="Slide 3"></button>
+          <button class="product-carousel-dot" aria-label="Slide 4"></button>
         </div>
       </div>
     </div>
@@ -548,9 +581,9 @@ favicon: /assets/img/paul-logo.svg
         </div>
       </div>
 
-      <div style="text-align: center; margin-top: 36px;" data-animate="hero-cta">
+      <div class="product-mid-cta" data-animate="hero-cta">
         <a href="/assets/files/Paul.dmg" class="btn product-cta-primary">Download for macOS</a>
-        <p style="margin-top: 10px; font-size: 0.85rem; color: #9ca3af;">Free. No account required.</p>
+        <p>Try it now &mdash; takes 30 seconds to set up. Free, no account required.</p>
       </div>
     </div>
   </section>
@@ -562,45 +595,45 @@ favicon: /assets/img/paul-logo.svg
         Built for people who use a database, not people who administer one.
       </p>
       <div style="overflow-x: auto; margin-top: 24px;">
-        <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+        <table class="product-comparison-table" style="width: 100%; border-collapse: separate; border-spacing: 0; font-size: 0.95rem; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
           <thead>
-            <tr style="border-bottom: 2px solid #e5e7eb;">
-              <th style="text-align: left; padding: 12px 16px; color: #6b7280; font-weight: 500;"></th>
-              <th style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 700;">Paul</th>
-              <th style="text-align: center; padding: 12px 16px; color: #6b7280; font-weight: 500;">pgAdmin / DBeaver</th>
-              <th style="text-align: center; padding: 12px 16px; color: #6b7280; font-weight: 500;">TablePlus / DataGrip</th>
+            <tr>
+              <th style="text-align: left; padding: 14px 18px; background: #f9fafb; color: #6b7280; font-weight: 500; border-bottom: 2px solid #e5e7eb;"></th>
+              <th style="text-align: center; padding: 14px 18px; background: rgba(21, 153, 87, 0.08); color: #159957; font-weight: 700; font-size: 1.05rem; border-bottom: 2px solid #159957;">Paul</th>
+              <th style="text-align: center; padding: 14px 18px; background: #f9fafb; color: #6b7280; font-weight: 500; border-bottom: 2px solid #e5e7eb;">pgAdmin / DBeaver</th>
+              <th style="text-align: center; padding: 14px 18px; background: #f9fafb; color: #6b7280; font-weight: 500; border-bottom: 2px solid #e5e7eb;">TablePlus / DataGrip</th>
             </tr>
           </thead>
           <tbody>
-            <tr style="border-bottom: 1px solid #e5e7eb;">
-              <td style="padding: 12px 16px; font-weight: 500;">Startup time</td>
-              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">2 seconds</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Minutes</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">15&ndash;30 seconds</td>
-            </tr>
-            <tr style="border-bottom: 1px solid #e5e7eb;">
-              <td style="padding: 12px 16px; font-weight: 500;">App size</td>
-              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">&lt;20 MB</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">200&ndash;900 MB</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">100&ndash;400 MB</td>
-            </tr>
-            <tr style="border-bottom: 1px solid #e5e7eb;">
-              <td style="padding: 12px 16px; font-weight: 500;">AI / natural language</td>
-              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">Built-in agent</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">No</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Plugin / paid add-on</td>
-            </tr>
-            <tr style="border-bottom: 1px solid #e5e7eb;">
-              <td style="padding: 12px 16px; font-weight: 500;">Production safety</td>
-              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">Read-only by default</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Full write access</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Full write access</td>
+            <tr>
+              <td style="padding: 14px 18px; font-weight: 600; color: #374151; border-bottom: 1px solid #f0f0f0;">Startup time</td>
+              <td style="text-align: center; padding: 14px 18px; color: #159957; font-weight: 700; background: rgba(21, 153, 87, 0.04); border-bottom: 1px solid #f0f0f0;">2 seconds</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af; border-bottom: 1px solid #f0f0f0;">Minutes</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af; border-bottom: 1px solid #f0f0f0;">15&ndash;30 sec</td>
             </tr>
             <tr>
-              <td style="padding: 12px 16px; font-weight: 500;">Price</td>
-              <td style="text-align: center; padding: 12px 16px; color: #159957; font-weight: 600;">Free</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">Free (bloated)</td>
-              <td style="text-align: center; padding: 12px 16px; color: #9ca3af;">$99+ / subscription</td>
+              <td style="padding: 14px 18px; font-weight: 600; color: #374151; border-bottom: 1px solid #f0f0f0;">App size</td>
+              <td style="text-align: center; padding: 14px 18px; color: #159957; font-weight: 700; background: rgba(21, 153, 87, 0.04); border-bottom: 1px solid #f0f0f0;">&lt;20 MB</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af; border-bottom: 1px solid #f0f0f0;">200&ndash;900 MB</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af; border-bottom: 1px solid #f0f0f0;">100&ndash;400 MB</td>
+            </tr>
+            <tr>
+              <td style="padding: 14px 18px; font-weight: 600; color: #374151; border-bottom: 1px solid #f0f0f0;">AI / natural language</td>
+              <td style="text-align: center; padding: 14px 18px; color: #159957; font-weight: 700; background: rgba(21, 153, 87, 0.04); border-bottom: 1px solid #f0f0f0;">Built-in agent</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af; border-bottom: 1px solid #f0f0f0;">No</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af; border-bottom: 1px solid #f0f0f0;">Plugin / paid</td>
+            </tr>
+            <tr>
+              <td style="padding: 14px 18px; font-weight: 600; color: #374151; border-bottom: 1px solid #f0f0f0;">Production safety</td>
+              <td style="text-align: center; padding: 14px 18px; color: #159957; font-weight: 700; background: rgba(21, 153, 87, 0.04); border-bottom: 1px solid #f0f0f0;">Read-only default</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af; border-bottom: 1px solid #f0f0f0;">Full write access</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af; border-bottom: 1px solid #f0f0f0;">Full write access</td>
+            </tr>
+            <tr>
+              <td style="padding: 14px 18px; font-weight: 600; color: #374151;">Price</td>
+              <td style="text-align: center; padding: 14px 18px; color: #159957; font-weight: 700; background: rgba(21, 153, 87, 0.04);">Free</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af;">Free (bloated)</td>
+              <td style="text-align: center; padding: 14px 18px; color: #9ca3af;">$99+ / year</td>
             </tr>
           </tbody>
         </table>
