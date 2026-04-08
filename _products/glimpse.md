@@ -446,7 +446,7 @@ favicon: /assets/img/glimpse-logo.png
           <a href="/assets/files/Glimpse.dmg" class="glimpse-download-btn">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0;"><path d="M8 1v9.5M8 10.5L4.5 7M8 10.5L11.5 7M3 13h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             Download for macOS
-            <span style="opacity: 0.7; font-size: 0.8rem; font-weight: 400;">&lt; 1 MB</span>
+            <span style="opacity: 0.7; font-size: 0.8rem; font-weight: 400;">1.4 MB</span>
           </a>
           <a href="https://github.com/guillim/Glimpse" class="product-hero-secondary-link" target="_blank" rel="noopener noreferrer">
             View on GitHub &rarr;
@@ -474,8 +474,8 @@ favicon: /assets/img/glimpse-logo.png
       <p class="product-section-lead" data-animate="section-lead">
         30 seconds to understand why you'll never check your terminals the same way again.
       </p>
-      <div class="glimpse-video-wrapper" style="position: relative; width: 100%; max-width: 800px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 16px; box-shadow: 0 24px 70px rgba(15, 23, 42, 0.3); cursor: pointer; background: #000;">
-        <iframe srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:68px;width:68px;left:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(255,0,0,.85);border-radius:14px;font-size:30px}</style><a href=https://www.youtube.com/embed/ui-DR_9oKoY?autoplay=1><img src=https://img.youtube.com/vi/ui-DR_9oKoY/maxresdefault.jpg alt='Glimpse demo'><span>&#9654;</span></a>" title="Glimpse — Desktop Companions for Claude Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+      <div style="position: relative; width: 100%; max-width: 800px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 16px; box-shadow: 0 24px 70px rgba(15, 23, 42, 0.3);">
+        <iframe src="https://www.youtube.com/embed/ui-DR_9oKoY?vq=hd1080" title="Glimpse — Desktop Companions for Claude Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
       </div>
     </div>
   </section>
