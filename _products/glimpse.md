@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Glimpse - Pixel-Art Desktop Companions for Claude Code
+title: Glimpse - Desktop Companions for Claude Code
 permalink: /products/glimpse
 favicon: /assets/img/glimpse-logo.png
 ---
@@ -316,6 +316,34 @@ favicon: /assets/img/glimpse-logo.png
       margin-bottom: 4px;
     }
 
+    /* Download button */
+    .product-page-variant-1 .glimpse-download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 28px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #fff;
+      background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5), 0 4px 14px rgba(34, 197, 94, 0.3);
+      animation: glimpse-glow 2.5s ease-in-out infinite;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .product-page-variant-1 .glimpse-download-btn:hover {
+      transform: translateY(-1px) scale(1.03);
+      box-shadow: 0 0 20px 4px rgba(34, 197, 94, 0.35), 0 8px 24px rgba(34, 197, 94, 0.3);
+      animation: none;
+    }
+
+    @keyframes glimpse-glow {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4), 0 4px 14px rgba(34, 197, 94, 0.3); }
+      50% { box-shadow: 0 0 18px 4px rgba(34, 197, 94, 0.25), 0 4px 14px rgba(34, 197, 94, 0.3); }
+    }
+
     /* Final CTA tweaks (reuse shared CTA animations) */
     .product-page-variant-1 .product-cta-banner {
       background: radial-gradient(circle at 0 0, rgba(34, 197, 94, 0.2), transparent 55%),
@@ -405,26 +433,27 @@ favicon: /assets/img/glimpse-logo.png
           </div>
           <div class="product-hero-tagline">
             <span class="product-hero-tagline-dot"></span>
-            Pixel-art companions for Claude Code
+            Desktop companions for Claude Code
           </div>
         </div>
         <h1 class="product-hero-title" data-animate="hero-title">
-          See your AI agents come alive on your desktop.
+          Your AI agents alive on your desktop.
         </h1>
         <p class="product-hero-subtitle" data-animate="hero-subtitle">
-          <strong>Glimpse</strong> displays your active Claude Code sessions as pixel-art characters
-          right on your desktop. Click a character to jump to its terminal window.
+          Know what every agent is doing — without leaving your editor.
         </p>
         <div class="product-hero-actions" data-animate="hero-cta">
-          <a href="/assets/files/Glimpse.dmg" class="btn product-cta-primary">
+          <a href="/assets/files/Glimpse.dmg" class="glimpse-download-btn">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0;"><path d="M8 1v9.5M8 10.5L4.5 7M8 10.5L11.5 7M3 13h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             Download for macOS
+            <span style="opacity: 0.7; font-size: 0.8rem; font-weight: 400;">&lt; 1 MB</span>
           </a>
           <a href="https://github.com/guillim/Glimpse" class="product-hero-secondary-link" target="_blank" rel="noopener noreferrer">
             View on GitHub &rarr;
           </a>
         </div>
         <div class="product-hero-metadata" data-animate="hero-cta">
-          <span>Free macOS app</span>
+          <span>Free &amp; open source</span>
           <span>100% on-device</span>
           <span>No account, no tracking</span>
         </div>
@@ -432,218 +461,68 @@ favicon: /assets/img/glimpse-logo.png
 
       <div class="product-hero-right" data-animate="feature-1">
         <div class="product-hero-mock" style="border-radius: 15px; overflow: hidden; box-shadow: 0 2px 18px 0 rgba(19,30,45,0.13);">
-          <img src="/assets/img/glimpse-raw.png" alt="Glimpse — pixel-art characters on your desktop" style="display: block; width: 100%; border-radius: 15px;">
+          <img src="/assets/img/glimpse-hero.gif" alt="Glimpse — animated characters on your desktop" style="display: block; width: 100%; border-radius: 15px;">
         </div>
       </div>
     </div>
   </section>
 
-  <section class="product-section product-section-muted">
-    <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">Running agents are invisible</h2>
-      <p class="product-section-lead" data-animate="section-lead">
-        You launch multiple Claude Code sessions, then forget which is which.
-      </p>
 
-      <div class="problem-grid">
-        <div class="product-card" style="text-align: center;" data-animate="feature-1">
-          <div class="product-feature-icon">🪟</div>
-          <h3>Lost in tabs</h3>
-          <p>Multiple terminal windows, no way to tell which session is doing what.</p>
-        </div>
-        <div class="product-card" style="text-align: center;" data-animate="feature-2">
-          <div class="product-feature-icon">⏳</div>
-          <h3>Waiting blind</h3>
-          <p>Is the agent thinking, waiting for input, or done? You have to switch tabs to find out.</p>
-        </div>
-        <div class="product-card product-idea-card product-idea-card-wide" style="text-align: center;" data-animate="feature-3">
-          <div class="product-feature-icon">👾</div>
-          <h3>There's a better way</h3>
-          <p>Glimpse puts a pixel-art character on your desktop for each session. Glance at your screen and know instantly what every agent is doing.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="product-section" id="screenshots">
+  <section class="product-section" id="demo">
     <div class="product-section-inner">
       <h2 class="product-section-title" data-animate="section-title">See it in action</h2>
       <p class="product-section-lead" data-animate="section-lead">
-        Pixel-art characters on your desktop, each representing a live Claude Code session.
+        30 seconds to understand why you'll never check your terminals the same way again.
       </p>
-      <div class="product-screenshots">
-        <div class="product-screenshot">
-          <img src="/assets/img/glimpse-raw.png" alt="Glimpse — four agents on desktop with different statuses">
-          <p class="product-screenshot-caption">From 1 to 20+ agents — the grid adapts automatically, each with its own character &amp; status</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/glimpse-status.png" alt="Glimpse — agent status indicator">
-          <p class="product-screenshot-caption">Color-coded status: done, idle, asking — visible at a glance</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/glimpse-asking.png" alt="Glimpse — agent waiting for user input">
-          <p class="product-screenshot-caption">Orange glow when an agent is waiting for your input</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/glimpse-conversation.png" alt="Glimpse — conversation preview on a character card">
-          <p class="product-screenshot-caption">Conversation preview shows what the agent is working on</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/glimpse-notification.png" alt="Glimpse — menu bar notification">
-          <p class="product-screenshot-caption">Menu bar notification keeps you informed without switching windows</p>
-        </div>
-        <div class="product-screenshot">
-          <img src="/assets/img/glimpse-cta.png" alt="Glimpse — click to redirect to terminal">
-          <p class="product-screenshot-caption">Click any character to jump straight to its terminal window</p>
-        </div>
+      <div class="glimpse-video-wrapper" style="position: relative; width: 100%; max-width: 800px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 16px; box-shadow: 0 24px 70px rgba(15, 23, 42, 0.3); cursor: pointer; background: #000;">
+        <iframe srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:68px;width:68px;left:0;right:0;display:flex;align-items:center;justify-content:center;background:rgba(255,0,0,.85);border-radius:14px;font-size:30px}</style><a href=https://www.youtube.com/embed/ui-DR_9oKoY?autoplay=1><img src=https://img.youtube.com/vi/ui-DR_9oKoY/maxresdefault.jpg alt='Glimpse demo'><span>&#9654;</span></a>" title="Glimpse — Desktop Companions for Claude Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
       </div>
     </div>
   </section>
 
-  <section class="product-section">
-    <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">How it works</h2>
-      <p class="product-section-lead" data-animate="section-lead">
-        Download, open, and your agents appear. No configuration needed.
-      </p>
-      <div class="steps-grid">
-        <div class="product-card" data-animate="feature-1">
-          <div class="step-index">1</div>
-          <h3>Install &amp; launch</h3>
-          <p>Download the app and open it. Glimpse runs in the background with a menu bar icon — no Dock clutter.</p>
-        </div>
-        <div class="product-card" data-animate="feature-2">
-          <div class="step-index">2</div>
-          <h3>Characters appear</h3>
-          <p>Each active Claude Code session gets a unique pixel-art character on your desktop, showing live activity status.</p>
-        </div>
-        <div class="product-card" data-animate="feature-3">
-          <div class="step-index">3</div>
-          <h3>Click to jump</h3>
-          <p>Click any character to instantly activate its terminal window or IDE tab. Works with iTerm2, Terminal, and Cursor.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="product-section">
-    <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">Built to stay out of your way</h2>
-      <p class="product-section-lead" data-animate="section-lead">
-        Lightweight, always visible, and designed for engineers running multiple agents.
-      </p>
-      <div class="product-grid">
-        <div class="product-card" style="text-align: center;">
-          <div class="product-feature-icon">👾</div>
-          <h3>Unique characters</h3>
-          <p>Procedurally generated pixel-art avatars — deterministic per session ID, so each agent has its own look.</p>
-        </div>
-        <div class="product-card" style="text-align: center;">
-          <div class="product-feature-icon">🔴</div>
-          <h3>Live status</h3>
-          <p>Color-coded dots show reading, writing, thinking, asking, done — at a glance, no tab switching.</p>
-        </div>
-        <div class="product-card" style="text-align: center;">
-          <div class="product-feature-icon">🖥️</div>
-          <h3>Multi-monitor</h3>
-          <p>Characters appear on all connected screens. Click from any monitor to jump to the right window.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <section class="product-section product-section-muted">
     <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">Glimpse vs. checking your terminals</h2>
-      <p class="product-section-lead" data-animate="section-lead">
-        When you're running 3+ agents, context-switching kills your flow.
-      </p>
-      <div class="product-grid">
-        <div class="product-card">
-          <h4 style="color: #159957;">👾 Always visible</h4>
-          <p><strong>Glimpse:</strong> Characters live on your desktop, visible at all times</p>
-          <p><strong>Without:</strong> Buried in terminal tabs, must switch to check</p>
+      <h2 class="product-section-title" data-animate="section-title">Why developers download it</h2>
+      <div class="product-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
+        <div class="product-card" style="text-align: center; padding: 20px 16px;">
+          <div style="font-size: 1.5rem; margin-bottom: 6px;">👾</div>
+          <h4 style="color: #159957; margin: 0 0 4px;">7 character styles</h4>
+          <p style="margin: 0; font-size: 0.9rem;">Kawaii, Star Wars, One Piece, Dragon Ball Z, The Office, Marvel, Demon Slayer</p>
         </div>
-        <div class="product-card">
-          <h4 style="color: #159957;">⚡ Instant context</h4>
-          <p><strong>Glimpse:</strong> Status + project name + keyword summary at a glance</p>
-          <p><strong>Without:</strong> Read terminal output to figure out what each session is doing</p>
+        <div class="product-card" style="text-align: center; padding: 20px 16px;">
+          <div style="font-size: 1.5rem; margin-bottom: 6px;">🟠</div>
+          <h4 style="color: #159957; margin: 0 0 4px;">Subtle notifications</h4>
+          <p style="margin: 0; font-size: 0.9rem;">An orange dot in the menu bar when an agent needs you. No popups, no sounds.</p>
         </div>
-        <div class="product-card">
-          <h4 style="color: #159957;">🪶 Near-zero overhead</h4>
-          <p><strong>Glimpse:</strong> &lt;10% CPU, &lt;100 MB RAM, 3 fps idle</p>
-          <p><strong>Without:</strong> No overhead, but constant manual tab-switching instead</p>
+        <div class="product-card" style="text-align: center; padding: 20px 16px;">
+          <div style="font-size: 1.5rem; margin-bottom: 6px;">🪶</div>
+          <h4 style="color: #159957; margin: 0 0 4px;">Under 1% CPU</h4>
+          <p style="margin: 0; font-size: 0.9rem;">Minimal RAM. No Dock icon. Just your menu bar.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="product-section">
-    <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">Perfect for</h2>
-      <p class="product-section-lead" data-animate="section-lead">
-        Works with any Claude Code session — Terminal, iTerm2, or Cursor IDE. macOS 13.0+.
-      </p>
-      <div class="product-grid">
-        <div class="product-card">
-          <h4 style="color: #159957;">✓ Multi-agent workflows</h4>
-          <p>Running several Claude Code sessions in parallel? See them all without switching windows.</p>
+        <div class="product-card" style="text-align: center; padding: 20px 16px;">
+          <div style="font-size: 1.5rem; margin-bottom: 6px;">🔓</div>
+          <h4 style="color: #159957; margin: 0 0 4px;">Open source &amp; private</h4>
+          <p style="margin: 0; font-size: 0.9rem;">100% on-device. No network, no account. <a href="https://github.com/guillim/Glimpse" target="_blank" rel="noopener noreferrer">Read every line.</a></p>
         </div>
-        <div class="product-card">
-          <h4 style="color: #159957;">✓ Waiting for input</h4>
-          <p>The asking state glows orange so you never miss when an agent needs your attention.</p>
-        </div>
-        <div class="product-card">
-          <h4 style="color: #159957;">✓ Staying in flow</h4>
-          <p>Keep working in your editor while your agents' status floats on the desktop.</p>
+        <div class="product-card" style="text-align: center; padding: 20px 16px;">
+          <div style="font-size: 1.5rem; margin-bottom: 6px;">🖥️</div>
+          <h4 style="color: #159957; margin: 0 0 4px;">Works with everything</h4>
+          <p style="margin: 0; font-size: 0.9rem;">Terminal, iTerm2, Cursor IDE. macOS 13.0+.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="product-section">
-    <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">What it is (and isn't)</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <h3 style="color: #159957;">✓ It is</h3>
-          <ul style="color: #606c71; line-height: 2;">
-            <li>A desktop companion that visualises Claude Code sessions</li>
-            <li>Pixel-art characters with live activity status</li>
-            <li>Click-to-activate for instant window switching</li>
-            <li>100% on-device — no network, no account, no tracking</li>
-            <li>Multi-monitor aware</li>
-          </ul>
-        </div>
-        <div class="product-card">
-          <h3 style="color: #dc143c;">✗ It isn't</h3>
-          <ul style="color: #606c71; line-height: 2;">
-            <li>A terminal emulator or IDE</li>
-            <li>A Claude Code replacement or wrapper</li>
-            <li>A session manager or orchestrator</li>
-            <li>Available on Windows or Linux (macOS only)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="product-section product-section-muted">
-    <div class="product-section-inner">
-      <h2 class="product-section-title" data-animate="section-title">Feedback</h2>
-      <p class="product-section-lead" data-animate="section-lead">
-        Using Glimpse? We'd love to hear from you — bugs, ideas, or anything else.
-      </p>
-      <p class="product-section-lead">
-        <a href="https://guillim.notion.site/cb03a89ec49b825a98f1010b6aa3d085?pvs=105" target="_blank" rel="noopener noreferrer" class="btn product-cta-primary">Share your feedback</a>
+      <p style="text-align: center; margin-top: 20px; color: #6b7280; font-size: 0.85rem;">
+        Something wrong? Something missing? <a href="https://guillim.notion.site/cb03a89ec49b825a98f1010b6aa3d085?pvs=105" target="_blank" rel="noopener noreferrer" style="color: #159957;">Share your feedback</a>
       </p>
     </div>
   </section>
 
   <section class="product-cta-banner">
     <div class="product-cta-banner-inner">
-      <h2>See your agents at a glance.</h2>
-      <p>Free. No account required.</p>
+      <h2>10-second install. Zero config. Just open it.</h2>
+      <p>Free, open source, no account required.</p>
       <p class="product-cta-banner-actions">
         <a href="/assets/files/Glimpse.dmg" class="product-cta-secondary">Download for macOS</a>
       </p>
