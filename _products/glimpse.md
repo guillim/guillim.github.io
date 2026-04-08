@@ -3,6 +3,8 @@ layout: product
 title: Glimpse - Desktop Companions for Claude Code
 permalink: /products/glimpse
 favicon: /assets/img/glimpse-logo.png
+description: "Your Claude Code agents as living characters on your desktop. See who's working, who's stuck, who needs you — without switching tabs. Free, open source, macOS."
+image: /assets/img/glimpse-raw.png
 ---
 
 <div class="product-page product-page-glimpse product-page-variant-1">
@@ -456,6 +458,8 @@ favicon: /assets/img/glimpse-logo.png
           <span>Free &amp; open source</span>
           <span>100% on-device</span>
           <span>No account, no tracking</span>
+          <span>Works with Cursor</span>
+          <span><a href="https://github.com/guillim/Glimpse" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;"><img src="https://img.shields.io/github/stars/guillim/Glimpse?style=flat&logo=github&label=Stars&color=22c55e" alt="GitHub stars" style="vertical-align: middle; height: 18px;"></a></span>
         </div>
       </div>
 
