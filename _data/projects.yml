@@ -127,3 +127,9 @@
   url: "https://github.com/guillim/Arachnida"
   picture: "https://raw.githubusercontent.com/guillim/Arachnida/refs/heads/master/public/apple-icon-72x72.png"
   active: false
+
+- title: "Chapitre un"
+  description: "Your baby's first-year photo book, made automatically from the photos on your iPhone"
+  url: "/products/baby-photobook/"
+  picture: "https://guillim.github.io/assets/img/chapitreun.svg"
+  active: false
