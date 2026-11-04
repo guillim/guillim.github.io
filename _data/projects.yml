@@ -2,7 +2,7 @@
   description: "Import your file and see Linkedin URLs being enriched : LinkedIn infos, emails, phones..."
   url: "https://apify.com/anchor/linkedin-profile-enrichment"
   picture: "https://guillim.github.io/assets/img/linkedinlogo.png"
-  stars: 4.1
+  stars: 4.9
   active: true
 
 - title: "Email and Phone finder"
@@ -15,19 +15,21 @@
   description: "Get LinkedIn pages from Company names, through API."
   url: "https://apify.com/anchor/linkedin-company-url-finder"
   picture: "https://guillim.github.io/assets/img/linkedinlogo.png"
-  stars: 4.1
+  stars: 4.8
   active: true
 
 - title: "Linkedin People Finder"
   description: "Get LinkedIn pages from People names, through API."
   url: "https://apify.com/anchor/linkedin-people-finder"
   picture: "https://guillim.github.io/assets/img/linkedinlogo.png"
+  stars: 4.8
   active: true
 
 - title: "Linkedin x GPT"
   description: "Extract LinkedIn profiles, and uses ChatGPT on each profile ! Your prompt, the answer you need, the way you want."
   url: "https://apify.com/anchor/linkedin-gpt-prompt"
   picture: "https://guillim.github.io/assets/img/linkedinlogoxgpt.png"
+  stars: 4.1
   active: true
 
 - title: "Email validator"
