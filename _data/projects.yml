@@ -30,7 +30,7 @@
   url: "https://apify.com/anchor/linkedin-gpt-prompt"
   picture: "https://guillim.github.io/assets/img/linkedinlogoxgpt.png"
   stars: 4.1
-  active: true
+  active: false
 
 - title: "Email validator"
   description: "Email verification tool. It helps you validate any email address online. Check if mailbox really exists in seconds ! Upload your CSV."
