@@ -102,6 +102,12 @@
   picture: "https://guillim.github.io/assets/img/glimpse-logo.png"
   active: true
 
+- title: "NuzzleCam"
+  description: "The baby monitor made of the iPhones you already own. Picture and sound go straight from one device to the other: no server, no account. Open source."
+  url: "https://guillim.github.io/products/nuzzlecam"
+  picture: "https://guillim.github.io/assets/img/nuzzlecam-logo.png"
+  active: true
+
 - title: "Hubspot MCP server"
   description: "Search, create anyting in Hubspot directly in ChatGPT, Claude or Cursor"
   url: "https://apify.com/anchor/hubspot-apify-mcp-server"
