@@ -402,7 +402,7 @@ image: /assets/img/fyrestore-overview.png
 
   <section class="fy-cta">
     <h2>Download it, sign in, browse</h2>
-    <p>Free and open source. Or clone the repository and run <code style="font-family: var(--fy-mono); font-size: 0.9em;">swift run Fyrestore</code>.</p>
+    <p>Free and open source under the MIT licence. Or clone the repository and run <code style="font-family: var(--fy-mono); font-size: 0.9em;">swift run Fyrestore</code>.</p>
     <div class="fy-actions">
       <a href="https://github.com/guillim/fyrestore/releases" class="fy-btn" target="_blank" rel="noopener noreferrer">Download for macOS</a>
       <a href="https://github.com/guillim/fyrestore" class="fy-link" target="_blank" rel="noopener noreferrer">Read the source</a>

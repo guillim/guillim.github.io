@@ -3,7 +3,7 @@ layout: product
 title: NuzzleCam - The Baby Monitor Made of the iPhones You Already Own
 permalink: /products/nuzzlecam
 favicon: /assets/img/nuzzlecam-logo.png
-description: "Turn two iPhones or iPads into a baby monitor. Picture and sound go straight from one device to the other: no server, no relay, no account. Open source."
+description: "Turn two iPhones or iPads into a baby monitor. Picture and sound go straight from one device to the other: no server, no relay, no account. Free and open source."
 image: /assets/img/nuzzlecam-logo.png
 ---
 
@@ -496,7 +496,7 @@ image: /assets/img/nuzzlecam-logo.png
         <h1>A baby monitor made of the iPhones <em>you already own</em>.</h1>
         <p class="nz-hero-sub">
           One device stays in the baby's room, up to two others stay with the parents.
-          Picture and sound go straight from one device to the other. No server, no relay, no account.
+          Picture and sound go straight from one device to the other. No server, no relay, no account. And it is free.
         </p>
         <div class="nz-actions">
           <a href="https://github.com/guillim/babyphone" class="nz-btn" target="_blank" rel="noopener noreferrer">
@@ -506,7 +506,7 @@ image: /assets/img/nuzzlecam-logo.png
           <a href="#how" class="nz-link">How it works &darr;</a>
         </div>
         <ul class="nz-facts">
-          <li>Open source</li>
+          <li>Free &amp; open source</li>
           <li>iPhone &amp; iPad, iOS 16+</li>
           <li>Works without internet at home</li>
           <li>English &amp; French</li>
@@ -626,8 +626,8 @@ image: /assets/img/nuzzlecam-logo.png
           Pairing runs a password-authenticated key exchange. The resulting 256-bit key lives in the Keychain, and only the paired device gets through.
         </li>
         <li>
-          <strong>No account, no tracking</strong>
-          Nothing to sign up for, and every line is on GitHub for you to read.
+          <strong>Free, no account, no tracking</strong>
+          Nothing to pay, nothing to sign up for, and every line is on GitHub for you to read.
         </li>
       </ul>
     </div>
@@ -642,7 +642,7 @@ image: /assets/img/nuzzlecam-logo.png
 
   <section class="nz-cta">
     <h2>Build it tonight</h2>
-    <p>NuzzleCam is not on the App Store yet. The whole app is open source: clone it, open it in Xcode, and run it on your own devices.</p>
+    <p>NuzzleCam is not on the App Store yet. The whole app is free and open source under the MIT licence: clone it, open it in Xcode, and run it on your own devices.</p>
     <div class="nz-actions">
       <a href="https://github.com/guillim/babyphone" class="nz-btn" target="_blank" rel="noopener noreferrer">Get the code on GitHub</a>
       <a href="https://github.com/guillim/babyphone/issues" class="nz-link" target="_blank" rel="noopener noreferrer">Report an issue</a>

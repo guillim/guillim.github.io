@@ -103,7 +103,7 @@
   active: true
 
 - title: "NuzzleCam"
-  description: "The baby monitor made of the iPhones you already own. Picture and sound go straight from one device to the other: no server, no account. Open source."
+  description: "The baby monitor made of the iPhones you already own. Picture and sound go straight from one device to the other: no server, no account. Free and open source."
   url: "https://guillim.github.io/products/nuzzlecam"
   picture: "https://guillim.github.io/assets/img/nuzzlecam-logo.png"
   active: true
