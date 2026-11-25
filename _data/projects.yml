@@ -108,6 +108,12 @@
   picture: "https://guillim.github.io/assets/img/nuzzlecam-logo.png"
   active: true
 
+- title: "Fyrestore"
+  description: "A light, read-only Firestore browser for Mac. Sign in with Google, filter, drill into sub-collections, copy as JSON. Free and open source."
+  url: "https://guillim.github.io/products/fyrestore"
+  picture: "https://guillim.github.io/assets/img/fyrestore-logo.svg"
+  active: true
+
 - title: "Hubspot MCP server"
   description: "Search, create anyting in Hubspot directly in ChatGPT, Claude or Cursor"
   url: "https://apify.com/anchor/hubspot-apify-mcp-server"
