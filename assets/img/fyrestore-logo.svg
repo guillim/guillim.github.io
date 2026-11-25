@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Fyrestore">
+  <rect width="64" height="64" rx="15" fill="#2373b4"/>
+  <rect x="18" y="16" width="30" height="7" rx="3.5" fill="#fbfaf7"/>
+  <rect x="18" y="28.5" width="21" height="7" rx="3.5" fill="#fbfaf7"/>
+  <rect x="18" y="41" width="9" height="7" rx="3.5" fill="#f2a65a"/>
+</svg>
