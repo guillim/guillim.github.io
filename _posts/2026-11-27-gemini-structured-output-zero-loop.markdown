@@ -17,6 +17,8 @@ Here is what happened, why I think it happens, how to reproduce it in 2 minutes,
 
 # The symptom
 
+This week Jean Duquenne spotted weird results in our production logs and sent me the extract. I spent half a day on it. I ended up calling the bug **degenerate repetition under constraint**.
+
 At [Certo](https://askcerto.com) we check the compliance of products and raw materials. The call is a boring one: read a couple of supplier documents, return the composition of a raw material as JSON. Structured output, a schema, temperature `0.1`, model `gemini-3.1-pro-preview` on Vertex AI.
 
 Most of the time it works. Sometimes the reply looks like this:
@@ -48,42 +50,46 @@ My schema declares the three percentage fields in the order a human reads them:
 typicalPct → minPct → maxPct
 ```
 
-All three are optional. And when you don't say otherwise, Vertex does not keep your order: it **sorts the optional properties alphabetically**. So the grammar that constrains the output expects:
+All three are optional. And Vertex's constrained decoder ignores that order. Without `propertyOrdering`, it forces the **required keys first, then the optional keys alphabetically**:
 
 ```
 maxPct → minPct → … → typicalPct
 ```
 
-`typicalPct` is now the **last** key of the row.
+One rule on top: **once a key is passed, the model cannot go back to it.** What is printed is printed.
 
-In my test case, one document says `23.5 %` and the other says `15 à 35 %`. The right answer has all three: `typicalPct: 23.5`, `minPct: 15`, `maxPct: 35`.
+In my test case, one document says `23.5 %` and the other says `15 to 35 %`. The right answer has all three: `typicalPct: 23.5`, `minPct: 15`, `maxPct: 35`.
 
-Here is my reading of what goes wrong. In the run recorded above, the model skips `maxPct`, writes `"minPct": 15.0`, then `"typicalPct": 23.5`. The grammar lets it skip, since the three fields are optional. But skipping is final: `maxPct` came first in the sorted order, and there is no going back. Once `23.5` is written, the only things the grammar accepts are closing the row, or one more digit.
+Here is what the model writes in the recording above:
 
-The model does not want to close the row: it still has a max of 35 to write. With `--thoughts` on, the reasoning summary shows it intends to write all three. So it takes the only other exit, a digit. And the only digit that does not change the value is `0`. Then the same dead end again. And again. A few thousand times.
+1. **It writes `minPct: 15.0` first.** That already passes `maxPct`, which sits before `minPct` in the forced order. I don't know why it starts there, to be honest.
+2. **It wants `maxPct` next**, as my schema declares it. Too late: that key is behind it. So it is skipped.
+3. **It writes `typicalPct: 23.5`.** That is the last allowed key.
+
+Then the big dilemma. It still has a value to give, the max of 35, but no key left to put it in. With `--thoughts` on, the reasoning summary shows it intends to write all three. Two options remain: closing the object, or one more digit.
+
+It picks a digit. And the only digit that does not change the value is `0`. `23.50`, `23.500`, and so on until the token limit.
 
 To be clear: the mechanism is my interpretation. The trigger is measured.
 
 # The proof
 
-I narrowed the production request down to something small enough to share:
+I narrowed the production request down to something small enough to share: a short system prompt, two short documents, the real production schema. Then I ran it again and again.
 
-- a **316-character** system prompt
-- **two short documents**
-- a schema with **9 keys**
-- about **840 input tokens**
+**The control.** Same request, with my declared order sent as `propertyOrdering`: **0 loops in 8 tries**.
 
-Results:
+**The sneaky part.** Even when it does not loop, the model often drops the max value. No zeros, a valid JSON, and a field silently missing. That is bad as well, and much harder to notice.
 
-| Request | Looped |
+**Other models.** Same request, default key order:
+
+| Model | Looped |
 |---|---|
-| Minimal schema (9 keys), default key order | **3 of 5** |
-| Same prompt, full production schema | **3 of 3** |
-| Same request + `propertyOrdering` | **0 of 2** and **0 of 4** |
+| `gemini-3.1-pro-preview` | **9 of 10** |
+| `gemini-4-neon` | 1 of 23 |
+| `gemini-4-hydrogen` | 0 of 40 |
+| `gemini-3.8-flash` | 0 of 27 |
 
-The file I share below is the second line: the short prompt with the real production schema, because that is the one that looped every time.
-
-Small numbers, I know. Each try costs 1 to 5 cents and the whole investigation was 57 calls for about USD 2.47. But a bug that shows up more than half the time on an 840-token request is not a rare sampling accident.
+Small numbers, I know. Each try costs 1 to 5 cents. But a bug that shows up 9 times out of 10 on a tiny request is not a rare sampling accident.
 
 # How to reproduce
 
@@ -171,7 +177,11 @@ If you debug structured output, **print the real request**.
 - **Key order is part of your prompt.** The model writes left to right. The order of the fields is the order of its reasoning. Don't let a default sort it for you.
 - **A loop is silent.** No exception, a valid HTTP 200, a `finishReason` you have to look at. Check it.
 
-I will report it to Google. I will update this post when I hear back.
+# Google DeepMind, want to talk?
+
+I tried to give you a minimal setup above, and a video of the zeros piling up. Happy to share more details if you need them.
+
+And if you have seen the same thing on other models, tell me.
 
 ### Resources
 
