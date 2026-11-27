@@ -58,9 +58,9 @@ maxPct → minPct → … → typicalPct
 
 In my test case, one document says `23.5 %` and the other says `15 à 35 %`. The right answer has all three: `typicalPct: 23.5`, `minPct: 15`, `maxPct: 35`.
 
-Here is my reading of what goes wrong. The model starts with the value it read first, the way the schema and the prompt present it: `"typicalPct": 23.5`. The grammar lets it, since `maxPct` and `minPct` are optional and can be skipped. But skipping is final. Once `23.5` is written, the only things the grammar accepts are closing the row, or one more digit.
+Here is my reading of what goes wrong. In the run recorded above, the model skips `maxPct`, writes `"minPct": 15.0`, then `"typicalPct": 23.5`. The grammar lets it skip, since the three fields are optional. But skipping is final: `maxPct` came first in the sorted order, and there is no going back. Once `23.5` is written, the only things the grammar accepts are closing the row, or one more digit.
 
-The model does not want to close the row: it still has a min and a max to write. With `--thoughts` on, the reasoning summary shows it intends to write all three. So it takes the only other exit, a digit. And the only digit that does not change the value is `0`. Then the same dead end again. And again. A few thousand times.
+The model does not want to close the row: it still has a max of 35 to write. With `--thoughts` on, the reasoning summary shows it intends to write all three. So it takes the only other exit, a digit. And the only digit that does not change the value is `0`. Then the same dead end again. And again. A few thousand times.
 
 To be clear: the mechanism is my interpretation. The trigger is measured.
 
