@@ -1,0 +1,320 @@
+{
+ "thinking": "medium",
+ "temperature": 0.1,
+ "maxTokens": 4000,
+ "system": "Extract the composition of the raw material from the documents. One row per substance. When one document gives a precise value and another gives a range for the same substance, keep both in the same row: the precise value in typicalPct, the range in minPct and maxPct. Example: \"0.25-1%\" → minPct: 0.25, maxPct: 1.0.",
+ "user": "Analyze this raw material from all its documents:\n\n=== DOCUMENT NAME: ALL PARF 81 HE POIVRE NOIR.pdf ===\n# CERTIFICAT ALLERGENES 81\n## HE POIVRE NOIR\n\n| | N° CAS | Nom | % |\n| :--- | :--- | :--- | :--- |\n| 16 | 87-44-5 | Beta Caryophyllene | 23.5000 |\n=== DOCUMENT NAME: FDS HE POIVRE NOIR.pdf ===\n# FICHE DE DONNEES DE SECURITE\n## 3.1 Substances\n| Nom | N° CAS | N° CE | Classification | % |\n| :--- | :--- | :--- | :--- | :--- |\n| Pepper oil | 8006-82-4 | 284-584-7 | AH1 H304 EHA1 H400 EHC1 H410 FL3 H226 SCI2 H315 SS1A H317 | >=100 |\n\n## 9.1 Informations sur les propriétés physiques et chimiques essentielles\nm) REMARQUES Caryophylène: 15 à 35%\n",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "constituents": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "name": {
+       "type": "string",
+       "description": "INCI CE name of the constituent (e.g., 'PHENOXYETHANOL') [REQUIRED]"
+      },
+      "cas": {
+       "anyOf": [
+        {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "description": "List of CAS numbers for THIS substance. If multiple CAS are printed together by the supplier, split them into separate list items (e.g., ['80-56-8', '127-91-3']). Include all CAS listed for this specific substance (stereoisomers, salt forms). Do not invent or split CAS; if absent, leave null."
+      },
+      "typicalPct": {
+       "type": [
+        "number",
+        "null"
+       ],
+       "description": "Typical percentage (% w/w) when an exact value is given. Examples: 'typical 93%' → 93, '500 ppm' → 0.05. Never an average of batches: batch results go in notes."
+      },
+      "minPct": {
+       "type": [
+        "number",
+        "null"
+       ],
+       "description": "Minimum percentage (% w/w). Examples: '<0.3%' → 0, '0.25-1%' → 0.25"
+      },
+      "maxPct": {
+       "type": [
+        "number",
+        "null"
+       ],
+       "description": "Maximum percentage (% w/w). Examples: '<0.3%' → 0.3, '≤ 10 ppm' → 0.001, '0.25-1%' → 1.0"
+      },
+      "notes": {
+       "type": [
+        "string",
+        "null"
+       ],
+       "description": "Free-form notes: rationale for chosen values, conflict explanations and precedence decisions between documents, caveats, original units before conversion. Different precision across docs is expected — explain your choice here, not in issues."
+      },
+      "sources": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "filename": {
+          "type": "string",
+          "description": "The file you READ `raw_text` OUT OF — never the document the fact is merely ABOUT. If a table inside document A gives specifications for raw material B, the filename is A, even when the table is titled with B's name and even when B has its own datasheet in the dossier. A reviewer opens this file expecting to find this exact text in it."
+         },
+         "raw_text": {
+          "type": "string",
+          "description": "Exact text extract from the source document where this information was found"
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ],
+          "description": "Additional notes about data conversion, normalization, or interpretation applied to the raw text. Can also include location information (e.g., 'Section 3.1', 'Page 2', 'Table 1')"
+         }
+        },
+        "required": [
+         "filename",
+         "raw_text"
+        ]
+       },
+       "minItems": 1,
+       "description": "REQUIRED, at least one. One source per document that names this substance as present, including documents whose value you did not use. Quote the supplier's exact wording."
+      },
+      "issues": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "status": {
+          "type": "string",
+          "enum": [
+           "warning",
+           "error"
+          ],
+          "description": "warning = true contradiction between documents (mutually exclusive values), error = clearly incorrect data (e.g., value > 100%). Issues are RARE — most rows should have zero issues."
+         },
+         "message": {
+          "type": "string",
+          "description": "Concise description of the contradiction. Reference the conflicting documents, e.g., 'Conflicting: [TDS] says France vs [SDS] says China'."
+         }
+        },
+        "required": [
+         "status",
+         "message"
+        ]
+       },
+       "description": "Issues are RARE — most rows should have NO issues. Only flag when two documents give mutually exclusive values for the same field (e.g., different CAS, different origin country). Missing identifiers (CAS, EINECS), different precision, overlapping ranges, and absent optional data are all NORMAL — use notes instead."
+      },
+      "einecs": {
+       "anyOf": [
+        {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "description": "EINECS/ELINCS number(s) for THIS substance (format: XXX-XXX-X, e.g., '204-589-7'). Include all listed for this specific substance. If absent, leave null."
+      },
+      "function": {
+       "anyOf": [
+        {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "description": "Function(s) in the formulation. Include ALL functions listed (e.g., ['Preservative', 'Solvent'] not 'Preservative, Solvent'). Each function as a separate array element."
+      },
+      "flags": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "enum": [
+         "cmr",
+         "svhc",
+         "nanomaterial"
+        ]
+       },
+       "description": "Set a flag ONLY if a document explicitly states it. Justify each flag you set in notes (for cmr: the category as printed and how the document says it was classified, read against its own legend), and when a document states it, quote that line in a source."
+      }
+     },
+     "required": [
+      "name",
+      "cas",
+      "sources"
+     ]
+    },
+    "description": "List of constituents (intentional ingredients). All percentages in % w/w."
+   },
+   "impurities": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "name": {
+       "type": "string",
+       "description": "Chemical name of the impurity (e.g., '1,4-Dioxane', 'Ethylene Oxide') [REQUIRED]"
+      },
+      "cas": {
+       "anyOf": [
+        {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "description": "List of CAS numbers for THIS substance. If multiple CAS are printed together by the supplier, split them into separate list items (e.g., ['80-56-8', '127-91-3']). Include all CAS listed for this specific substance (stereoisomers, salt forms). Do not invent or split CAS; if absent, leave null."
+      },
+      "typicalPct": {
+       "type": [
+        "number",
+        "null"
+       ],
+       "description": "Typical percentage (% w/w) when an exact value is given. Examples: 'typical 93%' → 93, '500 ppm' → 0.05. Never an average of batches: batch results go in notes."
+      },
+      "minPct": {
+       "type": [
+        "number",
+        "null"
+       ],
+       "description": "Minimum percentage (% w/w). Examples: '<0.3%' → 0, '0.25-1%' → 0.25"
+      },
+      "maxPct": {
+       "type": [
+        "number",
+        "null"
+       ],
+       "description": "Maximum percentage (% w/w). Examples: '<0.3%' → 0.3, '≤ 10 ppm' → 0.001, '0.25-1%' → 1.0"
+      },
+      "notes": {
+       "type": [
+        "string",
+        "null"
+       ],
+       "description": "Free-form notes: rationale for chosen values, conflict explanations and precedence decisions between documents, caveats, original units before conversion. Different precision across docs is expected — explain your choice here, not in issues."
+      },
+      "sources": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "filename": {
+          "type": "string",
+          "description": "The file you READ `raw_text` OUT OF — never the document the fact is merely ABOUT. If a table inside document A gives specifications for raw material B, the filename is A, even when the table is titled with B's name and even when B has its own datasheet in the dossier. A reviewer opens this file expecting to find this exact text in it."
+         },
+         "raw_text": {
+          "type": "string",
+          "description": "Exact text extract from the source document where this information was found"
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ],
+          "description": "Additional notes about data conversion, normalization, or interpretation applied to the raw text. Can also include location information (e.g., 'Section 3.1', 'Page 2', 'Table 1')"
+         }
+        },
+        "required": [
+         "filename",
+         "raw_text"
+        ]
+       },
+       "minItems": 1,
+       "description": "REQUIRED, at least one. One source per document that names this substance as present, including documents whose value you did not use. Quote the supplier's exact wording."
+      },
+      "issues": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "status": {
+          "type": "string",
+          "enum": [
+           "warning",
+           "error"
+          ],
+          "description": "warning = true contradiction between documents (mutually exclusive values), error = clearly incorrect data (e.g., value > 100%). Issues are RARE — most rows should have zero issues."
+         },
+         "message": {
+          "type": "string",
+          "description": "Concise description of the contradiction. Reference the conflicting documents, e.g., 'Conflicting: [TDS] says France vs [SDS] says China'."
+         }
+        },
+        "required": [
+         "status",
+         "message"
+        ]
+       },
+       "description": "Issues are RARE — most rows should have NO issues. Only flag when two documents give mutually exclusive values for the same field (e.g., different CAS, different origin country). Missing identifiers (CAS, EINECS), different precision, overlapping ranges, and absent optional data are all NORMAL — use notes instead."
+      },
+      "origin": {
+       "anyOf": [
+        {
+         "type": "string",
+         "enum": [
+          "residual_solvent",
+          "synthesis_byproduct",
+          "degradation_product",
+          "starting_material",
+          "catalyst_residue",
+          "extraction_residue",
+          "environmental",
+          "unknown",
+          "other"
+         ]
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "description": "Origin of the impurity: residual_solvent, synthesis_byproduct, degradation_product, starting_material, catalyst_residue, extraction_residue, environmental, unknown, other."
+      },
+      "flags": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "enum": [
+         "cmr",
+         "svhc",
+         "nanomaterial"
+        ]
+       },
+       "description": "Set a flag ONLY if a document explicitly states it. Justify each flag you set in notes (for cmr: the category as printed and how the document says it was classified, read against its own legend), and when a document states it, quote that line in a source."
+      }
+     },
+     "required": [
+      "name",
+      "cas",
+      "sources"
+     ]
+    },
+    "description": "List of impurities (unintentional). Convert ppm to %: 100 ppm = 0.01%. A solvent or process substance that an SDS table outside section 3 (section 8 or 15) lists with a % of this material is an impurity row: '<0,1' there is its maxPct 0.1, not a regulation's threshold."
+   }
+  },
+  "required": [
+   "constituents",
+   "impurities"
+  ],
+  "description": "Constituents (intentional, % w/w) and impurities (residues, % w/w). Do NOT duplicate between them. No contaminants.",
+  "$schema": "http://json-schema.org/draft-07/schema#"
+ }
+}
